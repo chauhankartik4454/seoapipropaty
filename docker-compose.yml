@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # 1. PostgreSQL Database Service
+  postgres:
+    image: postgres:15-alpine
+    container_name: seo-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: seo_engine
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d seo_engine"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. Redis Caching Service
+  redis:
+    image: redis:7-alpine
+    container_name: seo-redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 3. Next.js SEO API Service
+  seo-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: seo-next-api
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgrespassword@postgres:5432/seo_engine?schema=public
+      - REDIS_URL=redis://redis:6379
+      - NODE_ENV=production
+      - RATE_LIMIT_WINDOW_MS=60000
+      - RATE_LIMIT_MAX_REQUESTS=200
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  redisdata:
