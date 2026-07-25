@@ -25,9 +25,9 @@ pool.on('connect', () => {
 /**
  * Execute a query with parameters against the database pool.
  */
-export async function query<T = any>(
+export async function query<T = unknown>(
   text: string,
-  params?: any[]
+  params?: unknown[]
 ): Promise<QueryResult<T>> {
   const start = Date.now();
   try {

@@ -1,7 +1,7 @@
 type LogLevel = 'info' | 'warn' | 'error' | 'debug';
 
 class Logger {
-  private formatMessage(level: LogLevel, message: string, context?: Record<string, any>) {
+  private formatMessage(level: LogLevel, message: string, context?: Record<string, unknown>) {
     const logData = {
       timestamp: new Date().toISOString(),
       level,
@@ -29,15 +29,15 @@ class Logger {
     }
   }
 
-  info(message: string, context?: Record<string, any>) {
+  info(message: string, context?: Record<string, unknown>) {
     this.formatMessage('info', message, context);
   }
 
-  warn(message: string, context?: Record<string, any>) {
+  warn(message: string, context?: Record<string, unknown>) {
     this.formatMessage('warn', message, context);
   }
 
-  error(message: string, error?: Error | unknown, context?: Record<string, any>) {
+  error(message: string, error?: Error | unknown, context?: Record<string, unknown>) {
     const errorDetails = error instanceof Error ? {
       name: error.name,
       message: error.message,
@@ -50,7 +50,7 @@ class Logger {
     });
   }
 
-  debug(message: string, context?: Record<string, any>) {
+  debug(message: string, context?: Record<string, unknown>) {
     if (process.env.NODE_ENV !== 'production') {
       this.formatMessage('debug', message, context);
     }
