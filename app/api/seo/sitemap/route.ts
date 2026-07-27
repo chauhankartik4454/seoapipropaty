@@ -9,10 +9,22 @@ export async function GET(req: NextRequest) {
     const { searchParams } = new URL(req.url);
     const type = searchParams.get('type');
 
-    // Dynamic Domain Resolution
+    // Dynamic Domain Resolution for Native Client Integration (propertysdeal.in)
+    const customDomain = searchParams.get('domain') || req.headers.get('x-client-domain');
+    const forwardedHost = req.headers.get('x-forwarded-host');
     const host = req.headers.get('host') || 'propertysdeal.in';
-    const protocol = host.includes('localhost') ? 'http' : 'https';
-    const domain = process.env.NEXT_PUBLIC_SITE_URL || `${protocol}://${host}`;
+
+    let domain = 'https://propertysdeal.in';
+    if (customDomain) {
+      domain = customDomain.replace(/\/$/, '');
+    } else if (process.env.NEXT_PUBLIC_SITE_URL) {
+      domain = process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, '');
+    } else if (forwardedHost) {
+      const proto = forwardedHost.includes('localhost') ? 'http' : 'https';
+      domain = `${proto}://${forwardedHost}`;
+    } else if (host.includes('localhost')) {
+      domain = 'http://localhost:8000'; // Default local Django testing domain
+    }
 
     // 1. If sitemap index is requested, return <sitemapindex> root XML
     if (type === 'index') {
@@ -80,7 +92,7 @@ export async function GET(req: NextRequest) {
     const xmlUrls = urls
       .map(
         (u) => `  <url>
-    <loc>${domain}/${u.slug}</loc>
+    <loc>${domain}/property/${u.slug}/</loc>
     <lastmod>${u.lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>${u.priority}</priority>
