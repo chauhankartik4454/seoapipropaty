@@ -176,7 +176,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v33:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v34:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -3859,7 +3859,7 @@ Buying property in Prahlad Nagar, Ahmedabad is an exceptional investment offerin
     const intelligentRelatedLinks: IntelligentRelatedLink[] = mergedLinksSource.map((item, index) => ({
       anchor: `Explore ${item.title}`,
       slug: item.slug,
-      url: item.url,
+      url: `https://propertysdeal.in/property-seo/${item.slug}/`,
       relevance_score: Math.max(70, 98 - (index * 1)),
     }));
 
