@@ -199,7 +199,21 @@ export class SeoService implements ISeoService {
       meta_description = seoTemplate.meta_description;
       h1 = seoTemplate.h1;
       h2 = seoTemplate.h2;
-      content = `${seoTemplate.introduction}\n\n${seoTemplate.benefits}\n\n${seoTemplate.content}`.trim();
+      content = `${seoTemplate.introduction}\n\n`;
+      if (h2.length > 0) {
+        content += `## ${h2[0]}\n${seoTemplate.benefits}\n\n`;
+        if (h2.length > 1) {
+          content += `## ${h2[1]}\n${seoTemplate.content}\n\n`;
+        } else {
+          content += `${seoTemplate.content}\n\n`;
+        }
+        for (let i = 2; i < h2.length; i++) {
+          content += `## ${h2[i]}\nExplore verified real estate opportunities with complete regulatory compliance, AMC building approvals, and transparent documentation.\n\n`;
+        }
+      } else {
+        content += `${seoTemplate.benefits}\n\n${seoTemplate.content}`;
+      }
+      content = content.trim();
     }
 
     // 5. Fetch context-specific FAQs (merge with blog FAQs)
@@ -226,6 +240,13 @@ export class SeoService implements ISeoService {
         const text = trimmed.substring(4).trim();
         const id = text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
         table_of_contents.push({ id, text, level: 3 });
+      }
+    }
+
+    if (table_of_contents.length === 0 && h2.length > 0) {
+      for (const heading of h2) {
+        const id = heading.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+        table_of_contents.push({ id, text: heading, level: 2 });
       }
     }
 
