@@ -118,7 +118,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v12:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v13:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -195,7 +195,8 @@ export class SeoService implements ISeoService {
         parsedDetails.category,
         parsedDetails
       );
-      if (slug === 'real-estate-gujarat') {
+      const normSlug = slug.toLowerCase().trim();
+      if (normSlug === 'real-estate-gujarat' || normSlug.replace(/[^a-z0-9]/g, '') === 'realestategujarat') {
         title = 'Real Estate Gujarat | Buy Residential & Commercial Properties';
         meta_title = 'Real Estate Gujarat | Buy Flats, Villas, Plots & Commercial Property';
         meta_description = 'Explore verified real estate in Gujarat including flats, apartments, villas, plots, commercial properties, industrial land, and new projects in Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, and across Gujarat.';
