@@ -176,7 +176,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v20:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v21:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -495,6 +495,144 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
 3. Conduct Legal Due Diligence: Hire an independent legal advocate for title search and document verification.
 4. Review Sale Agreement: Check payment schedule, possession date, penalty clauses, and amenity specifications.
 5. Execute Property Registration: Pay applicable Gujarat Stamp Duty and Registration Fees at the Sub-Registrar Office.`;
+    }
+
+    // Explicit Deep Overrides for 'flats-for-sale-in-ahmedabad'
+    if (normSlugCheck === 'flats-for-sale-in-ahmedabad' || normSlugCheck === 'flats-in-ahmedabad') {
+      title = 'Flats for Sale in Ahmedabad | Buy Apartments in Ahmedabad';
+      meta_title = 'Flats for Sale in Ahmedabad | 1, 2, 3, 4 BHK Apartments';
+      meta_description = 'Browse verified flats for sale in Ahmedabad. Find 1 BHK, 2 BHK, 3 BHK & 4 BHK luxury apartments, ready-to-move flats, and RERA approved projects across Gota, Shela, Bopal, SG Highway, Thaltej, and Satellite.';
+      h1 = 'Flats for Sale in Ahmedabad';
+      h2 = [
+        'Overview of Flats for Sale in Ahmedabad',
+        'Top Localities for Residential Apartments in Ahmedabad',
+        'NRI Buyer\'s Guide for Ahmedabad Property Investment',
+        'Luxury Apartments & Premium Amenities in Ahmedabad',
+        'Affordable Housing Projects & Suburbs in Ahmedabad',
+        'Smart Home Technologies & Automation Features',
+        'Sustainable & Green Living Features in Modern Housing',
+        'Legal Checklist & RERA Compliance for Flat Buyers',
+        'Home Loan & Bank Financing Guide in Ahmedabad',
+        'Expert Tips Before Finalizing Your Apartment Purchase'
+      ];
+
+      content = `Searching for verified flats for sale in ahmedabad options? Explore 1 BHK, 2 BHK, 3 BHK, and 4 BHK residential apartments in Ahmedabad. From ready-to-move gated societies along SG Highway to affordable high-rise apartments in Gota, Shela, and South Bopal, Ahmedabad offers dynamic home buying and investment choices across Gujarat.
+
+Buying a flat in Ahmedabad provides direct access to modern rapid metro networks, reputed educational campuses like IIM Ahmedabad and Nirma University, premier healthcare hubs, and booming commercial IT corridors.
+
+Compare square foot prices, builder credentials, RERA registration numbers, floor plans, and maintenance guidelines in Ahmedabad with trusted real estate advisors.
+
+## Overview of Flats for Sale in Ahmedabad
+Ahmedabad's residential housing market has witnessed impressive growth over the last decade. Driven by planned urban expansion by AMC and AUDA, multi-lane expressways, expanding metro rail transit, and thriving commercial hubs, flats in Ahmedabad deliver excellent capital appreciation and steady rental yields.
+
+### Economic Drivers & Employment Hubs
+With bustling textile, pharmaceutical, chemical, IT, and financial sectors, Ahmedabad attracts working professionals, NRI buyers, and business leaders. Major commercial zones along SG Highway, Corporate Road, Prahlad Nagar, and GIFT City proximity fuel continuous housing demand for 2BHK and 3BHK flats.
+
+### Rapid Transit & Urban Connectivity
+Suburban development is supported by robust infrastructure like the 8-lane SP Ring Road and Ahmedabad Metro Rail Phase 1 & 2. Resident families enjoy fast, direct transit connecting suburban townships with central business districts and Sardar Vallabhbhai Patel International Airport.
+
+## Top Localities for Residential Apartments in Ahmedabad
+Selecting the ideal neighborhood depends on commute convenience, budget range, school proximity, and desired lifestyle features.
+
+### SG Highway & Bodakdev Corridor
+The western belt represents Ahmedabad's flagship luxury residential hub. Modern high-rise towers offer 3BHK, 4BHK, and luxury penthouses equipped with private elevators, sky lounges, and 24/7 concierge services.
+
+### Bopal, South Bopal & Shela
+Premier destinations for families seeking spacious 2BHK and 3BHK apartments. Gated township societies feature comprehensive clubhouses, swimming pools, sports courts, and landscaped parks at attractive pricing.
+
+### Gota, Vaishno Devi Circle & Chandkheda
+Located along the northern SG Highway corridor toward Gandhinagar and GIFT City, Gota and Vaishno Devi Circle are top choices for IT professionals seeking ready-to-move 2BHK and 3BHK flats.
+
+## NRI Buyer's Guide for Ahmedabad Property Investment
+Ahmedabad has become a preferred destination for Non-Resident Indians (NRIs) looking to invest in Indian real estate. The city's steady economic growth, transparent property regulations, and expanding infrastructure make it an attractive market for long-term investment.
+
+### Key Due Diligence Steps for NRI Buyers
+- Verify property ownership and clear title deeds.
+- Check valid GUJRERA registration on the official portal.
+- Review all municipal building approvals (AMC, AUDA).
+- Understand applicable tax regulations and RBI/FEMA guidelines.
+- Arrange financing through authorized Indian banks if required.
+- Appoint a certified legal representative when executing purchases remotely.
+
+Luxury apartments and premium gated communities in locations such as SG Highway, Bodakdev, Ambli, Thaltej, Science City, and Satellite remain popular choices among NRI investors.
+
+## Luxury Apartments & Premium Amenities in Ahmedabad
+Luxury residential developments in Ahmedabad now offer world-class amenities comparable to major metropolitan cities.
+
+### Common Luxury Amenities & Features
+- Private Clubhouse & Sky Lounge
+- Infinity Swimming Pool & Rooftop Gardens
+- Premium Fitness Center & Yoga Studio
+- Smart Home Automation & Multi-Level Security
+- Concierge Services & Indoor Sports Facilities
+- Business Lounge & Banquet Hall
+- Landscaped Gardens & EV Charging Stations
+
+Premium residential projects are primarily concentrated in Bodakdev, Ambli, Sindhu Bhavan Road, Thaltej, Satellite, and SG Highway.
+
+## Affordable Housing Projects & Suburbs in Ahmedabad
+Ahmedabad offers numerous affordable housing projects suitable for first-time home buyers and young working families.
+
+### Key Affordable Features & Benefits
+- Functional layouts optimizing carpet area
+- Dedicated parking slots & security systems
+- Excellent public transport & metro access
+- Nearby schools, healthcare centers, and convenience stores
+
+Growing residential areas such as Gota, Chandkheda, Nikol, Vastral, Naroda, South Bopal, and Shela continue to attract buyers seeking affordable homes with strong future appreciation potential.
+
+## Smart Home Technologies & Automation Features
+Modern residential projects in Ahmedabad increasingly incorporate smart technologies that enhance convenience, energy efficiency, and home security.
+
+### Popular Smart Features
+- Digital Door Locks & Video Door Phones
+- Smart Lighting Controls & Mobile App Access
+- CCTV Surveillance & Motion Sensors
+- Smart Parking Systems & Automated Visitor Management
+- Energy Monitoring & Remote Appliance Control
+
+These smart upgrades elevate daily living comfort while increasing long-term property resale value.
+
+## Sustainable & Green Living Features in Modern Housing
+Many new residential flat projects in Ahmedabad incorporate eco-friendly construction practices to promote health and energy savings.
+
+### Eco-Friendly & Sustainability Highlights
+- Rainwater Harvesting Systems & STP Water Recycling
+- Solar Power Generation for Common Area Lighting
+- Waste Management & Energy Efficient LED Lighting
+- Green Landscaped Parks & Natural Air Ventilation
+- EV Charging Infrastructure & Green Building Materials
+
+Green developments significantly reduce monthly society maintenance charges while nurturing a healthier community environment.
+
+## Legal Checklist & RERA Compliance for Flat Buyers
+Before signing purchase agreements, flat buyers in Ahmedabad must conduct complete legal verification:
+- Title Clearance Certificate: Issued by an independent advocate confirming clear ownership.
+- 7/12 & 8-A Revenue Records: Official land extract verification from AnyRoR Gujarat portal.
+- NA Permission & Approved AMC/AUDA Building Plan.
+- Building Use (BU) Permission confirming structural and fire safety compliance.
+- Active GUJRERA Registration confirming 70% escrow funding and 5-year structural defect warranty.
+
+## Home Loan & Bank Financing Guide in Ahmedabad
+Public and private banks (SBI, HDFC, ICICI, Bank of Baroda, Axis) offer attractive home loans for flat buyers in Ahmedabad.
+- Competitive Interest Rates with tenures extending up to 30 years.
+- PMAY Interest Subsidies for eligible first-time home buyers.
+
+## Expert Tips Before Finalizing Your Apartment Purchase
+To ensure a safe and successful flat investment in Ahmedabad:
+1. Compare at least five different residential projects in your target locality.
+2. Visit the construction site multiple times at different hours of the day.
+3. Verify developer track record and review previously delivered projects.
+4. Hire an independent advocate to audit all legal documents.
+5. Confirm monthly maintenance charges and parking slot allocation.
+6. Verify agreed possession timelines and penalty clauses in the sale agreement.
+7. Keep a 10-15% contingency budget for stamp duty, registration fees, and interior woodwork.
+
+### Why Choose PropertysDeal?
+PropertysDeal enables buyers to discover verified residential flats across Ahmedabad through an intuitive search platform featuring verified listings, high-resolution photos, transparent pricing, and direct builder connections.
+
+### Final Conclusion
+Ahmedabad continues to stand out as one of Gujarat's premier residential real estate destinations. From budget starter homes to ultra-luxury penthouses, the city provides high quality of life, fast transit, and strong financial appreciation for home buyers and investors alike.`;
     }
 
     // 5. Fetch context-specific FAQs (merge with blog FAQs)
@@ -821,6 +959,156 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
       };
     }
 
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'flats-for-sale-in-ahmedabad'
+    if (slug.toLowerCase().trim() === 'flats-for-sale-in-ahmedabad' || slug.toLowerCase().trim() === 'flats-in-ahmedabad') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Flats for Sale in Ahmedabad",
+        "url": "https://propertysdeal.in/flats-for-sale-in-ahmedabad",
+        "description": "Browse verified flats for sale in Ahmedabad."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Flats for Sale in Ahmedabad",
+        "description": "Verified residential apartments in Ahmedabad."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ahmedabad",
+            "item": "https://propertysdeal.in/property-in-ahmedabad"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Flats for Sale in Ahmedabad",
+            "item": "https://propertysdeal.in/flats-for-sale-in-ahmedabad"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which area is best to buy a flat in Ahmedabad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gota, Shela, Science City, SG Highway, Satellite and South Bopal are among the most preferred residential locations."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 20
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/flats-ahmedabad.webp",
+        "caption": "Flats for Sale in Ahmedabad"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Flats for Sale in Ahmedabad Guide",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Ahmedabad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0225",
+        "longitude": "72.5714"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Ahmedabad Flats Dataset",
+        "description": "Verified flats and apartments for sale in Ahmedabad."
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        },
+        "areaServed": "Ahmedabad"
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
     // 9. Format canonical & breadcrumbs for response
     const breadcrumbs = [
       { name: 'Home', url: 'https://propertysdeal.in' },
@@ -1093,7 +1381,73 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
       `Gujarat Stamp Duty is 4.9% with a 1% concession for female buyers.`
     ];
 
-    const ai_summary = `Explore verified property in ${variables.city || 'Ahmedabad'} options with comprehensive market rates, 2BHK/3BHK flats, residential plots, and commercial properties. Featuring RERA guidelines, stamp duty calculations, metro connectivity insights, and legal title verification checklists for home buyers across Gujarat.`;
+    let ai_summary = `Explore verified property in ${variables.city || 'Ahmedabad'} options with comprehensive market rates, 2BHK/3BHK flats, residential plots, and commercial properties. Featuring RERA guidelines, stamp duty calculations, metro connectivity insights, and legal title verification checklists for home buyers across Gujarat.`;
+
+    // Explicit Part 3 & 4 metadata override for 'flats-for-sale-in-ahmedabad'
+    if (slug.toLowerCase().trim() === 'flats-for-sale-in-ahmedabad' || slug.toLowerCase().trim() === 'flats-in-ahmedabad') {
+      ai_summary = "Find verified flats for sale in Ahmedabad, including 1 BHK, 2 BHK, 3 BHK, and 4 BHK apartments across top residential areas such as Gota, Shela, South Bopal, Science City, SG Highway, Satellite, Thaltej, Chandkheda, Nikol, and Vastrapur. Compare prices, amenities, builders, legal documents, and home loan options before purchasing your ideal apartment.";
+      
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Verified residential apartments",
+        "Affordable to luxury flats",
+        "Top Ahmedabad localities",
+        "Ready-to-move & new launch projects",
+        "RERA verified projects",
+        "High investment potential",
+        "Excellent metro connectivity",
+        "Growing rental demand"
+      );
+
+      pros_cons.pros = [
+        "Strong infrastructure",
+        "Growing property appreciation",
+        "Metro connectivity",
+        "Good schools and hospitals",
+        "High rental demand",
+        "Modern gated communities",
+        "Multiple budget options",
+        "Large builder ecosystem"
+      ];
+      pros_cons.cons = [
+        "Premium areas have higher prices",
+        "Traffic during peak hours",
+        "Maintenance charges in luxury societies",
+        "Under-construction projects may face delays"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Which are the best flats for sale in Ahmedabad?",
+        "Where can I buy a 2 BHK flat in Ahmedabad?",
+        "Which area is best for buying a flat in Ahmedabad?",
+        "Are ready-to-move flats available in Ahmedabad?",
+        "Which builders are trusted in Ahmedabad?",
+        "What is the average flat price in Ahmedabad?",
+        "How do I verify a flat before buying?",
+        "Which area gives the best investment return?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is Ahmedabad good for buying a flat?", answer: "Yes, Ahmedabad offers steady capital appreciation, rapid metro connectivity, and robust rental demand." },
+        { question: "Which locality is best for families?", answer: "Bopal, South Bopal, Shela, Gota, Thaltej, Satellite, and Science City are preferred family locations." },
+        { question: "Are RERA registered projects safer?", answer: "Yes, RERA registration guarantees structural defect warranty, escrow fund compliance, and fixed possession timelines." },
+        { question: "Should I buy ready possession or under construction?", answer: "Ready possession avoids delay risks, while under-construction flats offer lower entry pricing and high capital gains." },
+        { question: "Which builder is best in Ahmedabad?", answer: "Leading trusted developers include Adani Realty, Goyal & Co, Sun Builders, Shaligram Group, and Savvy Group." },
+        { question: "Is Ahmedabad good for rental income?", answer: "Yes, expanding corporate IT corridors along SG Highway and GIFT City proximity ensure consistent 4-6% rental yields." },
+        { question: "How much down payment is needed?", answer: "Typically 10-20% down payment is required, with the remaining 80-90% financed via home loans." },
+        { question: "Can NRIs buy flats in Ahmedabad?", answer: "Yes, NRIs can buy residential apartments under RBI and FEMA regulations." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/flats-ahmedabad.webp",
+        alt: "Flats for Sale in Ahmedabad",
+        title: "Buy Flats in Ahmedabad",
+        caption: "Verified Apartments in Ahmedabad"
+      });
+    }
 
     // 14. Construct response payload
     const payload: SeoResponsePayload = {
