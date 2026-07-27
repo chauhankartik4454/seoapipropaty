@@ -92,7 +92,7 @@ export async function GET(req: NextRequest) {
     const xmlUrls = urls
       .map(
         (u) => `  <url>
-    <loc>${domain}/property/${u.slug}/</loc>
+    <loc>${domain}/property-seo/${u.slug}/</loc>
     <lastmod>${u.lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>${u.priority}</priority>
