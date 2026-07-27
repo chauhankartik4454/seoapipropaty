@@ -20,11 +20,11 @@ export async function GET(req: NextRequest) {
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>${domain}/api/seo/sitemap?type=properties</loc>
+    <loc>${domain}/sitemap.xml?type=properties</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>${domain}/api/seo/sitemap?type=categories</loc>
+    <loc>${domain}/sitemap.xml?type=categories</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
   </sitemap>
 </sitemapindex>`;

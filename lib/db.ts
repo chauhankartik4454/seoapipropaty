@@ -7,11 +7,14 @@ if (!connectionString) {
   logger.error('DATABASE_URL environment variable is missing!');
 }
 
+const isLocalDb = !connectionString || connectionString.includes('localhost') || connectionString.includes('127.0.0.1');
+
 export const pool = new Pool({
   connectionString,
+  ssl: isLocalDb ? false : { rejectUnauthorized: false },
   max: process.env.NODE_ENV === 'production' ? 20 : 5, // Production size pool
   idleTimeoutMillis: 30000,
-  connectionTimeoutMillis: 2000,
+  connectionTimeoutMillis: 5000,
 });
 
 pool.on('error', (err) => {
