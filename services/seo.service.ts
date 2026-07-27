@@ -176,7 +176,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v16:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v17:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -648,6 +648,12 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
     const review_schema = this.schemaService.generateReviewSchema(title);
     const speakable_schema = this.schemaService.generateSpeakableSchema(canonical);
     const video_schema = this.schemaService.generateVideoSchema(variables);
+    const image_object_schema = this.schemaService.generateImageObjectSchema(variables);
+    const item_list_schema = this.schemaService.generateItemListSchema(variables);
+    const webpage_schema = this.schemaService.generateWebPageSchema(title, canonical, meta_description);
+    const place_schema = this.schemaService.generatePlaceSchema(variables);
+    const geocoordinates_schema = this.schemaService.generateGeoCoordinatesSchema();
+    const dataset_schema = this.schemaService.generateDatasetSchema();
 
     // Attach specialized schemas into master schema payload
     schema.organization = organization_schema;
@@ -658,6 +664,12 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
     schema.review = review_schema;
     schema.speakable = speakable_schema;
     schema.video = video_schema;
+    schema.imageobject = image_object_schema;
+    schema.itemlist = item_list_schema;
+    schema.webpage = webpage_schema;
+    schema.place = place_schema;
+    schema.geocoordinates = geocoordinates_schema;
+    schema.dataset = dataset_schema;
 
     // 9. Format canonical & breadcrumbs for response
     const breadcrumbs = [
@@ -686,32 +698,47 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
       });
     }
 
-    // 10. Fetch Related Internal Links & Format Intelligent Anchors (15-30 items)
+    // 10. Fetch Related Internal Links & Format Intelligent Anchors (30 Part 4 items)
     let rawRelated: { title: string; slug: string; url: string }[] = [];
     if (this.keywordRepo) {
       try {
-        rawRelated = await this.keywordRepo.getRelatedLinks(slug, 20);
+        rawRelated = await this.keywordRepo.getRelatedLinks(slug, 30);
       } catch (e) {
         logger.error('Error fetching related links', e);
       }
     }
 
     const defaultInternalLinks = [
-      { title: '2BHK Flat under 50 Lakh Ahmedabad', slug: '2bhk-flat-under-50-lakh-ahmedabad', url: 'https://propertysdeal.in/2bhk-flat-under-50-lakh-ahmedabad' },
-      { title: '2BHK Bopal Ahmedabad', slug: '2bhk-bopal-ahmedabad', url: 'https://propertysdeal.in/2bhk-bopal-ahmedabad' },
-      { title: 'Flat for sale in SG Highway', slug: 'flat-for-sale-in-sg-highway', url: 'https://propertysdeal.in/flat-for-sale-in-sg-highway' },
-      { title: 'Property in Prahlad Nagar', slug: 'property-in-prahlad-nagar', url: 'https://propertysdeal.in/property-in-prahlad-nagar' },
-      { title: '2BHK Pal Surat', slug: '2bhk-pal-surat', url: 'https://propertysdeal.in/2bhk-pal-surat' },
-      { title: 'Flat for sale in Vesu', slug: 'flat-for-sale-in-vesu', url: 'https://propertysdeal.in/flat-for-sale-in-vesu' },
-      { title: 'Plot for sale Vadodara', slug: 'plot-for-sale-vadodara', url: 'https://propertysdeal.in/plot-for-sale-vadodara' },
-      { title: 'Stamp Duty in Gujarat', slug: 'stamp-duty-in-gujarat', url: 'https://propertysdeal.in/stamp-duty-in-gujarat' },
-      { title: 'RERA Registered Properties Gujarat', slug: 'rera-registered-properties-gujarat', url: 'https://propertysdeal.in/rera-registered-properties-gujarat' },
-      { title: 'How to Verify Property in Gujarat', slug: 'how-to-verify-property-in-gujarat', url: 'https://propertysdeal.in/how-to-verify-property-in-gujarat' },
-      { title: 'Property in Gujarat', slug: 'property-in-gujarat', url: 'https://propertysdeal.in/property-in-gujarat' },
-      { title: 'Real Estate Gujarat', slug: 'real-estate-gujarat', url: 'https://propertysdeal.in/real-estate-gujarat' },
-      { title: 'Property in Surat', slug: 'property-in-surat', url: 'https://propertysdeal.in/property-in-surat' },
-      { title: 'Property in Vadodara', slug: 'property-in-vadodara', url: 'https://propertysdeal.in/property-in-vadodara' },
-      { title: 'Property in Rajkot', slug: 'property-in-rajkot', url: 'https://propertysdeal.in/property-in-rajkot' }
+      { title: 'Property in Ahmedabad', slug: 'property-in-ahmedabad', url: 'https://propertysdeal.in/buy/property-in-ahmedabad' },
+      { title: 'Property in Surat', slug: 'property-in-surat', url: 'https://propertysdeal.in/buy/property-in-surat' },
+      { title: 'Property in Vadodara', slug: 'property-in-vadodara', url: 'https://propertysdeal.in/buy/property-in-vadodara' },
+      { title: 'Property in Rajkot', slug: 'property-in-rajkot', url: 'https://propertysdeal.in/buy/property-in-rajkot' },
+      { title: 'Property in Gandhinagar', slug: 'property-in-gandhinagar', url: 'https://propertysdeal.in/buy/property-in-gandhinagar' },
+      { title: 'Property in Jamnagar', slug: 'property-in-jamnagar', url: 'https://propertysdeal.in/buy/property-in-jamnagar' },
+      { title: 'Property in Bhavnagar', slug: 'property-in-bhavnagar', url: 'https://propertysdeal.in/buy/property-in-bhavnagar' },
+      { title: 'Property in Junagadh', slug: 'property-in-junagadh', url: 'https://propertysdeal.in/buy/property-in-junagadh' },
+      { title: 'Property in Anand', slug: 'property-in-anand', url: 'https://propertysdeal.in/buy/property-in-anand' },
+      { title: 'Property in Mehsana', slug: 'property-in-mehsana', url: 'https://propertysdeal.in/buy/property-in-mehsana' },
+      { title: 'Property in Bharuch', slug: 'property-in-bharuch', url: 'https://propertysdeal.in/buy/property-in-bharuch' },
+      { title: 'Property in Vapi', slug: 'property-in-vapi', url: 'https://propertysdeal.in/buy/property-in-vapi' },
+      { title: 'Residential Property in Gujarat', slug: 'residential-property', url: 'https://propertysdeal.in/buy/residential-property' },
+      { title: 'Commercial Property in Gujarat', slug: 'commercial-property', url: 'https://propertysdeal.in/buy/commercial-property' },
+      { title: 'Industrial Property in Gujarat', slug: 'industrial-property', url: 'https://propertysdeal.in/buy/industrial-property' },
+      { title: 'Villas in Gujarat', slug: 'villas', url: 'https://propertysdeal.in/buy/villas' },
+      { title: 'Flats in Gujarat', slug: 'flats', url: 'https://propertysdeal.in/buy/flats' },
+      { title: 'Plots in Gujarat', slug: 'plots', url: 'https://propertysdeal.in/buy/plots' },
+      { title: 'Farm House in Gujarat', slug: 'farm-house', url: 'https://propertysdeal.in/buy/farm-house' },
+      { title: 'Office Space in Gujarat', slug: 'office-space', url: 'https://propertysdeal.in/buy/office-space' },
+      { title: 'Shop in Gujarat', slug: 'shop', url: 'https://propertysdeal.in/buy/shop' },
+      { title: 'Warehouse in Gujarat', slug: 'warehouse', url: 'https://propertysdeal.in/buy/warehouse' },
+      { title: 'Land in Gujarat', slug: 'land', url: 'https://propertysdeal.in/buy/land' },
+      { title: 'RERA Approved Property in Gujarat', slug: 'rera-approved-property', url: 'https://propertysdeal.in/buy/rera-approved-property' },
+      { title: 'Luxury Property in Gujarat', slug: 'luxury-property', url: 'https://propertysdeal.in/buy/luxury-property' },
+      { title: 'Affordable Property in Gujarat', slug: 'affordable-property', url: 'https://propertysdeal.in/buy/affordable-property' },
+      { title: 'Ready To Move Property in Gujarat', slug: 'ready-to-move-property', url: 'https://propertysdeal.in/buy/ready-to-move-property' },
+      { title: 'New Launch Projects in Gujarat', slug: 'new-launch-projects', url: 'https://propertysdeal.in/buy/new-launch-projects' },
+      { title: 'Property Under 50 Lakhs in Gujarat', slug: 'property-under-50-lakhs', url: 'https://propertysdeal.in/buy/property-under-50-lakhs' },
+      { title: 'Contact Property Advisors', slug: 'contact', url: 'https://propertysdeal.in/contact' }
     ];
 
     const mergedLinksSource = [...rawRelated];
@@ -725,7 +752,7 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
       anchor: `Explore ${item.title}`,
       slug: item.slug,
       url: item.url,
-      relevance_score: Math.max(70, 98 - (index * 2)),
+      relevance_score: Math.max(70, 98 - (index * 1)),
     }));
 
     // 11. Keyword Cannibalization Audit Engine
@@ -823,26 +850,50 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
     ];
 
     const external_links: ExternalLinkItem[] = [
-      { anchor: 'GUJRERA Official Web Portal', url: 'https://gujrera.gujarat.gov.in', authority_score: 99 },
-      { anchor: 'Ahmedabad Municipal Corporation (AMC)', url: 'https://ahmedabadcity.gov.in', authority_score: 96 },
-      { anchor: 'Gujarat Revenue Department (AnyRoR 7/12)', url: 'https://anyror.gujarat.gov.in', authority_score: 98 },
-      { anchor: 'Urban Development & Urban Housing Department', url: 'https://udd.gujarat.gov.in', authority_score: 95 }
+      { anchor: 'GUJRERA (Gujarat Real Estate Regulatory Authority)', url: 'https://gujrera.gujarat.gov.in/', authority_score: 99 },
+      { anchor: 'AnyRoR Gujarat Land Records', url: 'https://anyror.gujarat.gov.in/', authority_score: 98 },
+      { anchor: 'Government of Gujarat Portal', url: 'https://gujaratindia.gov.in/', authority_score: 97 },
+      { anchor: 'Ahmedabad Urban Development Authority (AUDA)', url: 'https://auda.org.in/', authority_score: 96 },
+      { anchor: 'Ahmedabad Municipal Corporation (AMC)', url: 'https://ahmedabadcity.gov.in/', authority_score: 96 },
+      { anchor: 'Surat Municipal Corporation (SMC)', url: 'https://suratmunicipal.gov.in/', authority_score: 95 },
+      { anchor: 'Vadodara Municipal Corporation (VMC)', url: 'https://vmc.gov.in/', authority_score: 95 },
+      { anchor: 'Rajkot Municipal Corporation (RMC)', url: 'https://www.rmc.gov.in/', authority_score: 95 }
     ];
 
     const people_also_ask = [
-      { question: `What is the average price of 2BHK flats in ${variables.city || 'Ahmedabad'}?`, answer: `The average price of a 2BHK flat in ${variables.city || 'Ahmedabad'} ranges between ₹38 Lakhs and ₹65 Lakhs depending on location and amenities.` },
-      { question: `Is buying property along SG Highway Ahmedabad a good investment?`, answer: `Yes, SG Highway is the central commercial and IT corridor of Ahmedabad, commanding steady 8-12% annual capital appreciation.` },
-      { question: `How to check RERA registration of a project in Gujarat?`, answer: `Visit gujrera.gujarat.gov.in and enter the builder name or project registration number to review escrow details and completion timelines.` },
-      { question: `What are the additional costs when buying property in Gujarat?`, answer: `Additional costs include 4.9% Gujarat Stamp Duty, 1% Registration Fee, advocate title search fee, GST on under-construction flats, and maintenance deposit.` }
+      { question: 'Which city is best for property investment in Gujarat?', answer: 'Ahmedabad, Surat, Gandhinagar (GIFT City), and Vadodara offer top rental yields and rapid capital appreciation.' },
+      { question: 'Is Gujarat good for real estate investment?', answer: 'Yes, Gujarat has robust infrastructure, rapid industrial expansion, high quality of life, and strong RERA buyer protections.' },
+      { question: 'How much does property cost in Gujarat?', answer: 'Prices range from ₹3,000 per sq. ft. in Tier-2/suburban areas up to ₹12,000+ per sq. ft. in prime western corridors like SG Highway.' },
+      { question: 'Which city has the highest property appreciation in Gujarat?', answer: 'Ahmedabad (SG Highway, Bopal) and Gandhinagar (GIFT City region) lead with 8-12% annual capital appreciation.' },
+      { question: 'Is Ahmedabad better than Surat for investment?', answer: 'Ahmedabad offers higher commercial and IT hub rental demand, while Surat delivers strong luxury residential and industrial demand.' },
+      { question: 'Can NRIs buy property in Gujarat?', answer: 'Yes, NRIs can buy residential and commercial property under RBI and FEMA guidelines.' },
+      { question: 'How do I verify property ownership in Gujarat?', answer: 'Check Title Clearance, AnyRoR 7/12 & 8-A revenue records, NA permission order, approved building plans, and GUJRERA registration.' },
+      { question: 'Which areas have the highest rental yield?', answer: 'Corporate sectors around SG Highway Ahmedabad, GIFT City Gandhinagar, and Vesu Surat command 4-6% residential rental yields.' },
+      { question: 'What is GUJRERA registration?', answer: 'GUJRERA is the regulatory body that enforces transparent developer funding, 5-year structural warranties, and timely project delivery.' },
+      { question: 'How much stamp duty is charged in Gujarat?', answer: 'Gujarat Stamp Duty is 4.9% with a 1% registration fee (5.9% total). Female buyers receive a 1% stamp duty concession.' }
     ];
 
     const nearby_locations: NearbyLocationItem[] = [
-      { name: 'Bopal', slug: 'property-in-bopal', distance_km: '4.5 km', avg_price_sqft: '₹4,800/sq.ft' },
-      { name: 'South Bopal', slug: 'property-in-south-bopal', distance_km: '6.0 km', avg_price_sqft: '₹5,200/sq.ft' },
-      { name: 'Prahlad Nagar', slug: 'property-in-prahlad-nagar', distance_km: '7.2 km', avg_price_sqft: '₹7,500/sq.ft' },
-      { name: 'Thaltej', slug: 'property-in-thaltej', distance_km: '8.0 km', avg_price_sqft: '₹8,900/sq.ft' },
-      { name: 'Gota', slug: 'property-in-gota', distance_km: '10.5 km', avg_price_sqft: '₹4,200/sq.ft' },
-      { name: 'Vaishno Devi Circle', slug: 'property-in-vaishno-devi-circle', distance_km: '12.0 km', avg_price_sqft: '₹4,600/sq.ft' }
+      { name: 'Ahmedabad', slug: 'property-in-ahmedabad', distance_km: '0 km', avg_price_sqft: '₹5,500/sq.ft' },
+      { name: 'Surat', slug: 'property-in-surat', distance_km: '260 km', avg_price_sqft: '₹5,200/sq.ft' },
+      { name: 'Vadodara', slug: 'property-in-vadodara', distance_km: '110 km', avg_price_sqft: '₹4,100/sq.ft' },
+      { name: 'Rajkot', slug: 'property-in-rajkot', distance_km: '215 km', avg_price_sqft: '₹3,800/sq.ft' },
+      { name: 'Gandhinagar', slug: 'property-in-gandhinagar', distance_km: '25 km', avg_price_sqft: '₹5,800/sq.ft' },
+      { name: 'Bhavnagar', slug: 'property-in-bhavnagar', distance_km: '170 km', avg_price_sqft: '₹3,200/sq.ft' },
+      { name: 'Jamnagar', slug: 'property-in-jamnagar', distance_km: '300 km', avg_price_sqft: '₹3,400/sq.ft' },
+      { name: 'Junagadh', slug: 'property-in-junagadh', distance_km: '315 km', avg_price_sqft: '₹3,100/sq.ft' },
+      { name: 'Anand', slug: 'property-in-anand', distance_km: '75 km', avg_price_sqft: '₹3,600/sq.ft' },
+      { name: 'Bharuch', slug: 'property-in-bharuch', distance_km: '190 km', avg_price_sqft: '₹3,300/sq.ft' },
+      { name: 'Navsari', slug: 'property-in-navsari', distance_km: '290 km', avg_price_sqft: '₹3,500/sq.ft' },
+      { name: 'Mehsana', slug: 'property-in-mehsana', distance_km: '75 km', avg_price_sqft: '₹3,200/sq.ft' },
+      { name: 'Morbi', slug: 'property-in-morbi', distance_km: '200 km', avg_price_sqft: '₹3,400/sq.ft' },
+      { name: 'Vapi', slug: 'property-in-vapi', distance_km: '360 km', avg_price_sqft: '₹3,700/sq.ft' },
+      { name: 'Patan', slug: 'property-in-patan', distance_km: '125 km', avg_price_sqft: '₹3,000/sq.ft' },
+      { name: 'Palanpur', slug: 'property-in-palanpur', distance_km: '145 km', avg_price_sqft: '₹2,900/sq.ft' },
+      { name: 'Porbandar', slug: 'property-in-porbandar', distance_km: '390 km', avg_price_sqft: '₹3,100/sq.ft' },
+      { name: 'Veraval', slug: 'property-in-veraval', distance_km: '400 km', avg_price_sqft: '₹2,800/sq.ft' },
+      { name: 'Amreli', slug: 'property-in-amreli', distance_km: '240 km', avg_price_sqft: '₹2,700/sq.ft' },
+      { name: 'Nadiad', slug: 'property-in-nadiad', distance_km: '60 km', avg_price_sqft: '₹3,500/sq.ft' }
     ];
 
     const city_cluster = [
@@ -862,11 +913,14 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
     ];
 
     const voice_search_questions = [
-      `What is the flat price in ${variables.city || 'Ahmedabad'}?`,
-      `Where to buy cheap flats in ${variables.city || 'Ahmedabad'}?`,
-      `How much is stamp duty in Gujarat?`,
-      `Best residential area in ${variables.city || 'Ahmedabad'} for families?`,
-      `How to verify 7 12 land record in Gujarat?`
+      'Where should I buy property in Gujarat?',
+      'Which city is best for investment in Gujarat?',
+      'Is Gujarat a good place to buy a house?',
+      'How can I check RERA registration in Gujarat?',
+      'Which property gives the highest return in Gujarat?',
+      'What documents are required to buy property in Gujarat?',
+      'Which is the fastest growing city in Gujarat?',
+      'How much home loan can I get in Gujarat?'
     ];
 
     const pros_cons: ProsCons = {

@@ -19,6 +19,12 @@ export interface ISchemaService {
   generateReviewSchema(title: string): Record<string, any>;
   generateSpeakableSchema(canonicalUrl: string): Record<string, any>;
   generateVideoSchema(variables: Record<string, string>): Record<string, any>;
+  generateImageObjectSchema(variables: Record<string, string>): Record<string, any>;
+  generateItemListSchema(variables: Record<string, string>): Record<string, any>;
+  generateWebPageSchema(title: string, canonicalUrl: string, description: string): Record<string, any>;
+  generatePlaceSchema(variables: Record<string, string>): Record<string, any>;
+  generateGeoCoordinatesSchema(): Record<string, any>;
+  generateDatasetSchema(): Record<string, any>;
 }
 
 export class SchemaService implements ISchemaService {
@@ -335,13 +341,79 @@ export class SchemaService implements ISchemaService {
     return {
       '@context': 'https://schema.org',
       '@type': 'VideoObject',
-      name: `Virtual Property Tour & Locality Overview - ${loc}`,
-      description: `Explore prime residential projects, metro connectivity, infrastructure updates, and price trends in ${loc}.`,
+      name: `Property in ${loc} Guide & Virtual Tour`,
+      description: `Complete property buying guide, market rates, and virtual tour for ${loc}.`,
       thumbnailUrl: ['https://propertysdeal.in/assets/images/video-thumbnail.jpg'],
-      uploadDate: '2026-07-01T08:00:00Z',
+      uploadDate: '2026-07-27T08:00:00Z',
       duration: 'PT3M45S',
       contentUrl: 'https://propertysdeal.in/assets/videos/locality-tour.mp4',
       embedUrl: 'https://propertysdeal.in/embed/locality-tour',
+    };
+  }
+
+  generateImageObjectSchema(variables: Record<string, string>): Record<string, any> {
+    const loc = variables.locality || variables.city || 'Gujarat';
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'ImageObject',
+      contentUrl: 'https://propertysdeal.in/assets/images/property-gujarat.jpg',
+      caption: `Property in ${loc} Real Estate Overview`,
+    };
+  }
+
+  generateItemListSchema(variables: Record<string, string>): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      numberOfItems: 20,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Ahmedabad' },
+        { '@type': 'ListItem', position: 2, name: 'Surat' },
+        { '@type': 'ListItem', position: 3, name: 'Vadodara' },
+        { '@type': 'ListItem', position: 4, name: 'Rajkot' },
+        { '@type': 'ListItem', position: 5, name: 'Gandhinagar' }
+      ]
+    };
+  }
+
+  generateWebPageSchema(title: string, canonicalUrl: string, description: string): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: title,
+      url: canonicalUrl,
+      description: description,
+    };
+  }
+
+  generatePlaceSchema(variables: Record<string, string>): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Place',
+      name: variables.city || 'Gujarat',
+      address: {
+        '@type': 'PostalAddress',
+        addressRegion: 'Gujarat',
+        addressCountry: 'IN',
+      },
+    };
+  }
+
+  generateGeoCoordinatesSchema(): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'GeoCoordinates',
+      latitude: '22.2587',
+      longitude: '71.1924',
+    };
+  }
+
+  generateDatasetSchema(): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Dataset',
+      name: 'Property in Gujarat Real Estate & Price Trends Market Data',
+      description: 'Comprehensive historical and current property valuation, stamp duty rates, and market analytics dataset for Gujarat real estate.',
     };
   }
 }
