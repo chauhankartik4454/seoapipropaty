@@ -118,7 +118,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:data:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v3:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -155,6 +155,7 @@ export class SeoService implements ISeoService {
     let blogFaqs: { question: string; answer: string }[] = [];
 
     const variables = this.templateService.getVariables(parsedDetails);
+    let focusKwPhrase = parsedDetails.keyword?.phrase || slug.replace(/-/g, ' ');
 
     if (parsedDetails.blog) {
       const blog = parsedDetails.blog as any;
@@ -172,7 +173,7 @@ export class SeoService implements ISeoService {
         }
       }
       if (h2.length === 0) {
-        h2 = ['Overview', 'Key Details', 'Summary'];
+        h2 = [`Overview of ${focusKwPhrase}`, 'Key Investment Details', 'Summary'];
       }
 
       // Extract FAQs directly from blog markdown if present
@@ -199,7 +200,11 @@ export class SeoService implements ISeoService {
       meta_description = seoTemplate.meta_description;
       h1 = seoTemplate.h1;
       h2 = seoTemplate.h2;
-      content = `${seoTemplate.introduction}\n\n`;
+
+      // Ensure focus keyword appears naturally in the first paragraph and across H2 sections
+      const introPara = `Searching for verified ${focusKwPhrase.toLowerCase()} options? ${seoTemplate.introduction}`;
+      
+      content = `${introPara}\n\n`;
       if (h2.length > 0) {
         content += `## ${h2[0]}\n${seoTemplate.benefits}\n\n`;
         if (h2.length > 1) {
@@ -208,7 +213,7 @@ export class SeoService implements ISeoService {
           content += `${seoTemplate.content}\n\n`;
         }
         for (let i = 2; i < h2.length; i++) {
-          content += `## ${h2[i]}\nExplore verified real estate opportunities with complete regulatory compliance, AMC building approvals, and transparent documentation.\n\n`;
+          content += `## ${h2[i]}\nExploring ${focusKwPhrase.toLowerCase()} offers strong capital growth, RERA validation, AMC building approvals, and transparent land records.\n\n`;
         }
       } else {
         content += `${seoTemplate.benefits}\n\n${seoTemplate.content}`;
