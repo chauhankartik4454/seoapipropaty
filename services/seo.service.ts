@@ -118,7 +118,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v4:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v5:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -201,22 +201,36 @@ export class SeoService implements ISeoService {
       h1 = seoTemplate.h1;
       h2 = seoTemplate.h2;
 
-      // Ensure focus keyword appears naturally in the first paragraph and across H2 sections
-      const introPara = `Searching for verified ${focusKwPhrase.toLowerCase()} options? ${seoTemplate.introduction}`;
+      // Build category-specific deep multi-paragraph content hitting word count targets
+      const locStr = variables.locality ? `${variables.locality}, ${variables.city}` : (variables.city || 'Gujarat');
+      const propStr = variables.propertyTypePlural || 'Properties';
       
-      content = `${introPara}\n\n`;
+      const p1 = `Searching for verified ${focusKwPhrase.toLowerCase()} options? ${seoTemplate.introduction} As one of the premier real estate portals in Gujarat, we curate high-value residential, commercial, and industrial property options. Whether you are looking for ready-to-move flats, gated township plots, commercial showrooms, or industrial sheds, this comprehensive guide explores market trends, connectivity benefits, legal compliance, and buyer checklists across ${locStr}.`;
+      
+      const p2 = `Investing in ${focusKwPhrase.toLowerCase()} provides distinct advantages for both end-users and long-term investors. ${seoTemplate.benefits} Rapid urban infrastructure growth, expanding metro rail networks, and multi-lane expressways connect prime residential pockets with major business hubs. Property developments in this sector are built with modern lifestyle amenities including 24/7 security surveillance, dedicated parking slots, power backup, landscaped gardens, and EV charging stations.`;
+
+      const p3 = `${seoTemplate.content} Before finalizing your purchase, buyers should verify all essential legal clearance documents. Ensure the property possesses a valid Non-Agricultural (NA) land title certificate, approved building plans from local urban planning authorities (AMC, SUDA, VDMA), and a 7/12 land extract record. Confirming builder registration numbers on the official GUJRERA (Gujarat Real Estate Regulatory Authority) web portal ensures structural warranty, transparent funding, and timely possession.`;
+
+      const p4 = `Market value and pricing trends for ${focusKwPhrase.toLowerCase()} vary based on exact location, proximity to transit links, builder reputation, and available project amenities. Emerging suburban hubs offer attractive entry pricing and strong rental yields, whereas established central sectors command high capital appreciation. Buyers are encouraged to consult certified real estate advisors, conduct title searches, and compare stamp duty and registration fee calculations before executing sale agreements.`;
+
+      const p5 = `Whether your objective is securing a primary residence, expanding commercial office operations, or acquiring land for industrial warehousing, ${focusKwPhrase.toLowerCase()} offers an optimal balance of affordability and investment security. Explore verified developer listings, review project floor plans, and connect with experienced property specialists to make an informed investment decision in ${locStr}.`;
+
+      content = `${p1}\n\n`;
       if (h2.length > 0) {
-        content += `## ${h2[0]}\n${seoTemplate.benefits}\n\n`;
+        content += `## ${h2[0]}\n${p2}\n\n`;
         if (h2.length > 1) {
-          content += `## ${h2[1]}\n${seoTemplate.content}\n\n`;
+          content += `## ${h2[1]}\n${p3}\n\n`;
         } else {
-          content += `${seoTemplate.content}\n\n`;
+          content += `${p3}\n\n`;
         }
-        for (let i = 2; i < h2.length; i++) {
-          content += `## ${h2[i]}\nExploring ${focusKwPhrase.toLowerCase()} offers strong capital growth, RERA validation, AMC building approvals, and transparent land records.\n\n`;
+        if (h2.length > 2) {
+          content += `## ${h2[2]}\n${p4}\n\n`;
+        }
+        for (let i = 3; i < h2.length; i++) {
+          content += `## ${h2[i]}\n${p5}\n\n`;
         }
       } else {
-        content += `${seoTemplate.benefits}\n\n${seoTemplate.content}`;
+        content += `${p2}\n\n${p3}\n\n${p4}`;
       }
       content = content.trim();
     }
