@@ -176,7 +176,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v19:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v20:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -1119,14 +1119,14 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
 
       image_alt,
 
-      video_schema,
-      organization_schema,
-      website_schema,
-      search_action_schema,
-      real_estate_schema,
-      collection_schema,
-      review_schema,
-      speakable_schema,
+      video_schema: schema.video,
+      organization_schema: schema.organization,
+      website_schema: schema.website,
+      search_action_schema: schema.searchaction,
+      real_estate_schema: schema.realestatelisting,
+      collection_schema: schema.collectionpage,
+      review_schema: schema.review,
+      speakable_schema: schema.speakable,
 
       internal_links: intelligentRelatedLinks,
       external_links,
