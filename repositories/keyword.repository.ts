@@ -85,6 +85,11 @@ export class KeywordRepository implements IKeywordRepository {
     return res.rowCount > 0 ? res.rows[0] : null;
   }
 
+  async getAllPropertyTypes(): Promise<PropertyType[]> {
+    const res = await query<PropertyType>('SELECT * FROM property_types ORDER BY name ASC');
+    return res.rows;
+  }
+
   async getRelatedLinks(currentSlug: string, limit: number = 6): Promise<{ title: string; slug: string; url: string }[]> {
     const sql = `
       (SELECT phrase as title, slug FROM keywords WHERE slug != $1 AND is_active = TRUE ORDER BY RANDOM() LIMIT $2)
