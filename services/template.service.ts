@@ -30,7 +30,7 @@ export class TemplateService implements ITemplateService {
   getVariables(details: ParsedSlugDetails): Record<string, string> {
     const city = details.city ? formatCapitalize(details.city.name) : '';
     const locality = details.locality ? formatCapitalize(details.locality.name) : '';
-    const state = details.city?.stateId ? 'Gujarat' : 'Gujarat'; // Defaults to Gujarat as background specifies
+    const state = details.city?.state_id ? 'Gujarat' : 'Gujarat'; // Defaults to Gujarat as background specifies
     const propertyType = details.propertyType ? formatCapitalize(details.propertyType.name) : 'Property';
     const bhk = details.bhk || '';
     const budget = formatBudget(details.budgetVal, details.budgetUnit);

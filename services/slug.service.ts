@@ -11,6 +11,8 @@ export interface ParsedSlugDetails extends ParsedSlugResult {
   locality: Locality | null;
   propertyType: PropertyType | null;
   blog: Blog | null;
+  keyword?: any;
+  slug?: string;
 }
 
 export interface ISlugService {

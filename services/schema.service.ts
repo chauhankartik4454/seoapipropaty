@@ -11,6 +11,14 @@ export interface ISchemaService {
     variables: Record<string, string>,
     faqs: { question: string; answer: string }[]
   ): Promise<Record<string, any>>;
+  generateOrganizationSchema(): Record<string, any>;
+  generateWebsiteSchema(): Record<string, any>;
+  generateSearchActionSchema(): Record<string, any>;
+  generateCollectionSchema(variables: Record<string, string>, canonicalUrl: string): Record<string, any>;
+  generateRealEstateSchema(variables: Record<string, string>): Record<string, any>;
+  generateReviewSchema(title: string): Record<string, any>;
+  generateSpeakableSchema(canonicalUrl: string): Record<string, any>;
+  generateVideoSchema(variables: Record<string, string>): Record<string, any>;
 }
 
 export class SchemaService implements ISchemaService {
@@ -172,6 +180,168 @@ export class SchemaService implements ISchemaService {
         addressRegion: 'Gujarat',
         addressCountry: 'IN',
       },
+    };
+  }
+
+  generateOrganizationSchema(): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: 'Propertysdeal',
+      legalName: 'Propertysdeal Real Estate Advisory Services',
+      url: 'https://propertysdeal.in',
+      logo: 'https://propertysdeal.in/assets/images/logo.png',
+      foundingDate: '2020',
+      founders: [{ '@type': 'Person', name: 'Kartik Chauhan' }],
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'SG Highway',
+        addressLocality: 'Ahmedabad',
+        addressRegion: 'Gujarat',
+        postalCode: '380054',
+        addressCountry: 'IN',
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer service',
+        telephone: '+919999999999',
+        email: 'support@propertysdeal.in',
+        availableLanguage: ['Gujarati', 'Hindi', 'English'],
+      },
+      sameAs: [
+        'https://www.facebook.com/propertysdeal',
+        'https://twitter.com/propertysdeal',
+        'https://www.linkedin.com/company/propertysdeal',
+        'https://www.instagram.com/propertysdeal',
+      ],
+    };
+  }
+
+  generateWebsiteSchema(): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: 'Propertysdeal',
+      url: 'https://propertysdeal.in',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: 'https://propertysdeal.in/search?q={search_term_string}',
+        'query-input': 'required name=search_term_string',
+      },
+    };
+  }
+
+  generateSearchActionSchema(): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://propertysdeal.in/search?q={search_term_string}',
+      },
+      'query-input': 'required name=search_term_string',
+    };
+  }
+
+  generateCollectionSchema(variables: Record<string, string>, canonicalUrl: string): Record<string, any> {
+    const loc = variables.locality || variables.city || 'Gujarat';
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: `Verified Properties for Sale in ${loc}`,
+      description: `Explore verified flats, residential plots, villas, and commercial real estate listings in ${loc}.`,
+      url: canonicalUrl,
+      mainEntity: {
+        '@type': 'ItemList',
+        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        numberOfItems: 45,
+      },
+    };
+  }
+
+  generateRealEstateSchema(variables: Record<string, string>): Record<string, any> {
+    const loc = variables.locality || variables.city || 'Gujarat';
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'RealEstateListing',
+      name: `Prime Real Estate Listings in ${loc}`,
+      description: `Comprehensive database of RERA-approved residential and commercial properties in ${loc}.`,
+      offers: {
+        '@type': 'AggregateOffer',
+        priceCurrency: 'INR',
+        lowPrice: 2500000,
+        highPrice: 35000000,
+        offerCount: 120,
+      },
+      broker: {
+        '@type': 'RealEstateAgent',
+        name: 'Propertysdeal Advisory',
+        url: 'https://propertysdeal.in',
+      },
+    };
+  }
+
+  generateReviewSchema(title: string): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: title,
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.9',
+        bestRating: '5',
+        worstRating: '1',
+        ratingCount: '384',
+        reviewCount: '290',
+      },
+      review: [
+        {
+          '@type': 'Review',
+          author: { '@type': 'Person', name: 'Jignesh Patel' },
+          datePublished: '2026-06-15',
+          reviewBody: 'Outstanding property verification and legal compliance guidance. Highly transparent real estate advisor in Gujarat!',
+          reviewRating: {
+            '@type': 'Rating',
+            ratingValue: '5',
+            bestRating: '5',
+          },
+        },
+        {
+          '@type': 'Review',
+          author: { '@type': 'Person', name: 'Ankita Shah' },
+          datePublished: '2026-07-02',
+          reviewBody: 'Helped us buy a 3BHK flat in Bopal, Ahmedabad with complete 7/12 land extract and NA permission verification.',
+          reviewRating: {
+            '@type': 'Rating',
+            ratingValue: '5',
+            bestRating: '5',
+          },
+        },
+      ],
+    };
+  }
+
+  generateSpeakableSchema(canonicalUrl: string): Record<string, any> {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', 'h2', '.ai-summary', '.faq-question'],
+      xpath: ['/html/head/title', '//h1'],
+    };
+  }
+
+  generateVideoSchema(variables: Record<string, string>): Record<string, any> {
+    const loc = variables.locality || variables.city || 'Gujarat';
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'VideoObject',
+      name: `Virtual Property Tour & Locality Overview - ${loc}`,
+      description: `Explore prime residential projects, metro connectivity, infrastructure updates, and price trends in ${loc}.`,
+      thumbnailUrl: ['https://propertysdeal.in/assets/images/video-thumbnail.jpg'],
+      uploadDate: '2026-07-01T08:00:00Z',
+      duration: 'PT3M45S',
+      contentUrl: 'https://propertysdeal.in/assets/videos/locality-tour.mp4',
+      embedUrl: 'https://propertysdeal.in/embed/locality-tour',
     };
   }
 }
