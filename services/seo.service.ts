@@ -118,7 +118,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v10:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v11:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -212,46 +212,88 @@ export class SeoService implements ISeoService {
           'Latest Real Estate Projects in Gujarat',
           'Find the Right Property in Gujarat'
         ];
+
+        content = `Looking for real estate in Gujarat? Real Estate Gujarat offers a wide range of residential, commercial, industrial, and luxury property investment opportunities across major cities and rapidly developing urban corridors. Buyers can explore high-rise apartments, luxury villas, residential plots, commercial office suites, retail shops, industrial sheds, and new project launches tailored to diverse budget ranges and long-term capital goals.
+
+## Explore Real Estate in Gujarat
+The real estate market in Gujarat has grown significantly due to progressive industrial policies, infrastructure expansion, economic resilience, and seamless transportation corridors. From residential high-rises along SG Highway in Ahmedabad to bustling commercial diamond and textile markets in Surat, pharmaceutical industrial zones in Vadodara, and international financial institutions in GIFT City Gandhinagar, real estate in Gujarat offers unmatched investment value.
+
+## Best Cities for Real Estate in Gujarat
+- Ahmedabad: The commercial capital featuring high-density residential development in Bopal, Satellite, Thaltej, Prahlad Nagar, and Gota alongside rapid metro transit links.
+- Surat: Global hub for textiles and diamond manufacturing, driving immense demand for luxury residential apartments in Vesu, Adajan, Pal, and Althan.
+- Vadodara: Cultural and industrial center offering affordable 2BHK/3BHK flats, gated township plots, and commercial properties in Gotri, Alkapuri, and Manjalpur.
+- Gandhinagar & GIFT City: India's premier international financial services center (IFSC), attracting global fintech firms, corporate office parks, and modern high-rise apartments in Raysan and Kudasan.
+- Rajkot & Tier-2 Hubs: Rapidly expanding urban center with rising demand for residential plots along Kalawad Road, Raiya Road, and 150 Feet Ring Road.
+
+## Types of Real Estate Available in Gujarat
+- Residential Apartments & Flats: 2BHK, 3BHK, and 4BHK penthouses equipped with modern clubhouse amenities.
+- Residential Plots & NA Land: Non-Agricultural cleared plots ready for custom villa construction or land holding.
+- Villas & Independent Houses: Luxury gated communities offering private gardens, security, and premium lifestyle facilities.
+- Commercial Offices & Retail Shops: Office floors in IT parks, shopping complex units, and high-street retail showrooms.
+- Industrial Property & GIDC Sheds: Warehousing plots and manufacturing sheds inside official industrial parks.
+
+## Residential Properties in Gujarat
+Residential real estate remains the primary choice for families and investors in Gujarat. Developed cities offer affordable starter homes, ready-to-move apartments, and ultra-luxury penthouses. Modern residential projects emphasize eco-friendly architectural design, EV charging infrastructure, 24/7 security, and community recreational spaces.
+
+## Commercial Properties in Gujarat
+Gujarat's booming trade and commerce sector continues to drive strong demand for commercial real estate. Retail space in prominent shopping corridors and Grade-A office space in business districts yield attractive rental returns for long-term investors.
+
+## Luxury Real Estate in Gujarat
+Luxury properties in Gujarat feature private swimming pools, smart home automation, high-end interior finishes, and panoramic city views. Prime luxury pockets include Satellite and Thaltej in Ahmedabad, Vesu in Surat, and Alkapuri in Vadodara.
+
+## Why Invest in Gujarat Real Estate?
+1. Robust Infrastructure: High-speed rail corridors, metro expansions, and multi-lane expressways.
+2. Industrial Base: Leading manufacturing, chemical, pharmaceutical, and financial hubs.
+3. RERA Transparency: GUJRERA regulations safeguard buyer investments and project delivery timelines.
+
+## Real Estate Buying Guide
+Before purchasing property in Gujarat, buyers must verify Title Clearance certificates, 7/12 land records, Non-Agricultural (NA) permissions, approved municipal building plans (AMC, SUDA, VDMA), and RERA registration numbers.
+
+## Latest Real Estate Projects in Gujarat
+New residential and commercial project launches across Ahmedabad, Surat, Vadodara, and GIFT City offer flexible payment plans, early-bird developer discounts, and modern lifestyle features.
+
+## Find the Right Property in Gujarat
+Partnering with experienced, RERA-registered real estate specialists ensures transparent price negotiations, legal verification, and smooth property registration execution.`;
       } else {
         title = seoTemplate.title;
         meta_title = seoTemplate.meta_title;
         meta_description = seoTemplate.meta_description;
         h1 = seoTemplate.h1;
         h2 = seoTemplate.h2;
-      }
 
-      // Build category-specific deep multi-paragraph content hitting word count targets
-      const locStr = variables.locality ? `${variables.locality}, ${variables.city}` : (variables.city || 'Gujarat');
-      const propStr = variables.propertyTypePlural || 'Properties';
-      
-      const p1 = `Searching for verified ${focusKwPhrase.toLowerCase()} options? ${seoTemplate.introduction} As one of the premier real estate portals in Gujarat, we curate high-value residential, commercial, and industrial property options. Whether you are looking for ready-to-move flats, gated township plots, commercial showrooms, or industrial sheds, this comprehensive guide explores market trends, connectivity benefits, legal compliance, and buyer checklists across ${locStr}.`;
-      
-      const p2 = `Investing in ${focusKwPhrase.toLowerCase()} provides distinct advantages for both end-users and long-term investors. ${seoTemplate.benefits} Rapid urban infrastructure growth, expanding metro rail networks, and multi-lane expressways connect prime residential pockets with major business hubs. Property developments in this sector are built with modern lifestyle amenities including 24/7 security surveillance, dedicated parking slots, power backup, landscaped gardens, and EV charging stations.`;
+        // Build category-specific deep multi-paragraph content hitting word count targets
+        const locStr = variables.locality ? `${variables.locality}, ${variables.city}` : (variables.city || 'Gujarat');
+        const propStr = variables.propertyTypePlural || 'Properties';
+        
+        const p1 = `Searching for verified ${focusKwPhrase.toLowerCase()} options? ${seoTemplate.introduction} As one of the premier real estate portals in Gujarat, we curate high-value residential, commercial, and industrial property options. Whether you are looking for ready-to-move flats, gated township plots, commercial showrooms, or industrial sheds, this comprehensive guide explores market trends, connectivity benefits, legal compliance, and buyer checklists across ${locStr}.`;
+        
+        const p2 = `Investing in ${focusKwPhrase.toLowerCase()} provides distinct advantages for both end-users and long-term investors. ${seoTemplate.benefits} Rapid urban infrastructure growth, expanding metro rail networks, and multi-lane expressways connect prime residential pockets with major business hubs. Property developments in this sector are built with modern lifestyle amenities including 24/7 security surveillance, dedicated parking slots, power backup, landscaped gardens, and EV charging stations.`;
 
-      const p3 = `${seoTemplate.content} Before finalizing your purchase, buyers should verify all essential legal clearance documents. Ensure the property possesses a valid Non-Agricultural (NA) land title certificate, approved building plans from local urban planning authorities (AMC, SUDA, VDMA), and a 7/12 land extract record. Confirming builder registration numbers on the official GUJRERA (Gujarat Real Estate Regulatory Authority) web portal ensures structural warranty, transparent funding, and timely possession.`;
+        const p3 = `${seoTemplate.content} Before finalizing your purchase, buyers should verify all essential legal clearance documents. Ensure the property possesses a valid Non-Agricultural (NA) land title certificate, approved building plans from local urban planning authorities (AMC, SUDA, VDMA), and a 7/12 land extract record. Confirming builder registration numbers on the official GUJRERA (Gujarat Real Estate Regulatory Authority) web portal ensures structural warranty, transparent funding, and timely possession.`;
 
-      const p4 = `Market value and pricing trends for ${focusKwPhrase.toLowerCase()} vary based on exact location, proximity to transit links, builder reputation, and available project amenities. Emerging suburban hubs offer attractive entry pricing and strong rental yields, whereas established central sectors command high capital appreciation. Buyers are encouraged to consult certified real estate advisors, conduct title searches, and compare stamp duty and registration fee calculations before executing sale agreements.`;
+        const p4 = `Market value and pricing trends for ${focusKwPhrase.toLowerCase()} vary based on exact location, proximity to transit links, builder reputation, and available project amenities. Emerging suburban hubs offer attractive entry pricing and strong rental yields, whereas established central sectors command high capital appreciation. Buyers are encouraged to consult certified real estate advisors, conduct title searches, and compare stamp duty and registration fee calculations before executing sale agreements.`;
 
-      const p5 = `Whether your objective is securing a primary residence, expanding commercial office operations, or acquiring land for industrial warehousing, ${focusKwPhrase.toLowerCase()} offers an optimal balance of affordability and investment security. Explore verified developer listings, review project floor plans, and connect with experienced property specialists to make an informed investment decision in ${locStr}.`;
+        const p5 = `Whether your objective is securing a primary residence, expanding commercial office operations, or acquiring land for industrial warehousing, ${focusKwPhrase.toLowerCase()} offers an optimal balance of affordability and investment security. Explore verified developer listings, review project floor plans, and connect with experienced property specialists to make an informed investment decision in ${locStr}.`;
 
-      content = `${p1}\n\n`;
-      if (h2.length > 0) {
-        content += `## ${h2[0]}\n${p2}\n\n`;
-        if (h2.length > 1) {
-          content += `## ${h2[1]}\n${p3}\n\n`;
+        content = `${p1}\n\n`;
+        if (h2.length > 0) {
+          content += `## ${h2[0]}\n${p2}\n\n`;
+          if (h2.length > 1) {
+            content += `## ${h2[1]}\n${p3}\n\n`;
+          } else {
+            content += `${p3}\n\n`;
+          }
+          if (h2.length > 2) {
+            content += `## ${h2[2]}\n${p4}\n\n`;
+          }
+          for (let i = 3; i < h2.length; i++) {
+            content += `## ${h2[i]}\n${p5}\n\n`;
+          }
         } else {
-          content += `${p3}\n\n`;
+          content += `${p2}\n\n${p3}\n\n${p4}`;
         }
-        if (h2.length > 2) {
-          content += `## ${h2[2]}\n${p4}\n\n`;
-        }
-        for (let i = 3; i < h2.length; i++) {
-          content += `## ${h2[i]}\n${p5}\n\n`;
-        }
-      } else {
-        content += `${p2}\n\n${p3}\n\n${p4}`;
+        content = content.trim();
       }
-      content = content.trim();
     }
 
     // 5. Fetch context-specific FAQs (merge with blog FAQs)
