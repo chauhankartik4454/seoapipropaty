@@ -45,18 +45,23 @@ const slugSchema = z
  * Rate Limiter checking IP address using our Cache provider.
  */
 async function isRateLimited(ip: string): Promise<boolean> {
-  const windowMs = parseInt(process.env.RATE_LIMIT_WINDOW_MS || '60000', 10);
-  const maxRequests = parseInt(process.env.RATE_LIMIT_MAX_REQUESTS || '100', 10);
-  const limitKey = `ratelimit:${ip}`;
+  try {
+    const windowMs = parseInt(process.env.RATE_LIMIT_WINDOW_MS || '60000', 10);
+    const maxRequests = parseInt(process.env.RATE_LIMIT_MAX_REQUESTS || '100', 10);
+    const limitKey = `ratelimit:${ip}`;
 
-  const currentCount = await cache.get<number>(limitKey) || 0;
+    const currentCount = await cache.get<number>(limitKey) || 0;
 
-  if (currentCount >= maxRequests) {
-    return true;
+    if (currentCount >= maxRequests) {
+      return true;
+    }
+
+    await cache.set(limitKey, currentCount + 1, Math.ceil(windowMs / 1000));
+    return false;
+  } catch (err) {
+    logger.warn('Rate limiter check error, bypassing rate limit', err);
+    return false;
   }
-
-  await cache.set(limitKey, currentCount + 1, Math.ceil(windowMs / 1000));
-  return false;
 }
 
 export async function GET(

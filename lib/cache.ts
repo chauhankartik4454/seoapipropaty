@@ -91,7 +91,9 @@ class RedisCache implements ICache {
 let cacheInstance: ICache;
 
 const redisUrl = process.env.REDIS_URL;
-if (redisUrl) {
+const isLocalRedis = !redisUrl || redisUrl.includes('localhost') || redisUrl.includes('127.0.0.1');
+
+if (redisUrl && !isLocalRedis) {
   try {
     logger.info('Initializing Redis cache...');
     cacheInstance = new RedisCache(redisUrl);
@@ -100,7 +102,7 @@ if (redisUrl) {
     cacheInstance = new MemoryCache();
   }
 } else {
-  logger.info('No REDIS_URL configured, utilizing In-Memory cache');
+  logger.info('Using In-Memory cache (No remote REDIS_URL configured)');
   cacheInstance = new MemoryCache();
 }
 
