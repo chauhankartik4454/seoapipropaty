@@ -176,7 +176,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v34:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v35:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -1708,23 +1708,23 @@ PropertysDeal simplifies finding verified 2 BHK flats in Bopal with 100% verifie
 Buying a 2 BHK flat in Bopal, Ahmedabad is a smart investment choice providing affordability, modern lifestyle amenities, and strong long-term appreciation. Exploring verified listings on PropertysDeal helps buyers select ideal 2 BHK apartments in Bopal, South Bopal, Shela, or Ghuma with total confidence.`;
     }
 
-    // Explicit Deep Overrides for 'property-in-prahlad-nagar'
-    if (normSlugCheck === 'property-in-prahlad-nagar' || normSlugCheck === 'prahlad-nagar-real-estate' || normSlugCheck === 'properties-in-prahlad-nagar' || normSlugCheck === 'flats-in-prahlad-nagar') {
-      title = 'Property in Prahlad Nagar Ahmedabad | Real Estate in Prahlad Nagar';
-      meta_title = 'Property in Prahlad Nagar Ahmedabad | Buy Flats & Commercial';
-      meta_description = 'Find verified properties for sale in Prahlad Nagar, Ahmedabad. Explore 2BHK, 3BHK, 4BHK luxury flats, penthouses, villas & commercial office spaces with RERA guidelines.';
-      h1 = 'Property in Prahlad Nagar, Ahmedabad';
+    // Explicit Deep Overrides for 'property-in-prahlad-nagar' & 'property-in-prahlad-nagar-ahmedabad'
+    if (normSlugCheck === 'property-in-prahlad-nagar' || normSlugCheck === 'property-in-prahlad-nagar-ahmedabad' || normSlugCheck === 'prahlad-nagar-real-estate' || normSlugCheck === 'properties-in-prahlad-nagar' || normSlugCheck === 'flats-in-prahlad-nagar') {
+      title = 'Property in Prahlad Nagar Ahmedabad | Flats, Apartments & Luxury Homes';
+      meta_title = 'Property in Prahlad Nagar Ahmedabad | Flats, Apartments & Luxury Homes';
+      meta_description = 'Find verified property for sale in Prahlad Nagar, Ahmedabad. Explore 2BHK, 3BHK, 4BHK luxury flats, penthouses, villas & commercial office spaces with RERA guidelines.';
+      h1 = 'Property for Sale in Prahlad Nagar, Ahmedabad';
       h2 = [
-        'Overview of Property in Prahlad Nagar Ahmedabad',
-        'Why Invest in Prahlad Nagar Real Estate?',
-        'Residential Apartments, Penthouses & Villas',
-        'Commercial Properties & Corporate Office Spaces',
-        'Ready-to-Move vs New Residential Projects',
-        'Luxury Living, Smart Homes & Sustainability',
-        'Property Price Trends & Home Loan Guide',
-        'NRI Buyer\'s Guide for Prahlad Nagar Investment',
-        'Legal Verification, RERA & Registration Checklist',
-        'Buyer Checklist & Property Management Services'
+        'Why Buy Property in Prahlad Nagar?',
+        'Residential Property Options in Prahlad Nagar',
+        'Commercial Property & Corporate Business Hubs',
+        'Property Price Trends & Investment Growth',
+        'Home Loan Guide & Legal Verification',
+        'Complete Property Buyer & NRI Guide',
+        'Lifestyle, Amenities & Infrastructure',
+        'Smart Homes & Sustainable Living in Prahlad Nagar',
+        'Frequently Asked Questions (FAQs)',
+        'Why Choose PropertysDeal & Expert Advice'
       ];
 
       content = `Searching for verified property in prahlad nagar, ahmedabad? Prahlad Nagar is one of western Ahmedabad's most prestigious, affluent, and established residential and commercial hubs. Strategically situated adjacent to SG Highway, Corporate Road, Satellite, and Bodakdev, Prahlad Nagar represents the benchmark for urban luxury living, corporate business towers, and premium lifestyle infrastructure.
@@ -4822,8 +4822,8 @@ Buying property in Prahlad Nagar, Ahmedabad is an exceptional investment offerin
       );
     }
 
-    // Explicit Part 3 & 4 metadata override for 'property-in-prahlad-nagar'
-    if (slug.toLowerCase().trim() === 'property-in-prahlad-nagar' || slug.toLowerCase().trim() === 'prahlad-nagar-real-estate' || slug.toLowerCase().trim() === 'properties-in-prahlad-nagar' || slug.toLowerCase().trim() === 'flats-in-prahlad-nagar') {
+    // Explicit Part 3 & 4 metadata override for 'property-in-prahlad-nagar' & 'property-in-prahlad-nagar-ahmedabad'
+    if (slug.toLowerCase().trim() === 'property-in-prahlad-nagar' || slug.toLowerCase().trim() === 'property-in-prahlad-nagar-ahmedabad' || slug.toLowerCase().trim() === 'prahlad-nagar-real-estate' || slug.toLowerCase().trim() === 'properties-in-prahlad-nagar' || slug.toLowerCase().trim() === 'flats-in-prahlad-nagar') {
       ai_summary = "Discover verified residential and commercial properties for sale in Prahlad Nagar, Ahmedabad. Explore luxury 3BHK/4BHK apartments, penthouses, independent villas, and Grade-A corporate office towers near SG Highway and Corporate Road with RERA registration details.";
 
       key_takeaways.length = 0;

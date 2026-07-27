@@ -86,8 +86,8 @@ async function main() {
       { phrase: 'Ahmedabad real estate', slug: 'ahmedabad-real-estate', category: 'CITY_PAGE', citySlug: 'ahmedabad', localitySlug: null, propTypeSlug: null },
 
       // City + Property Type Combos
-      { phrase: '2BHK Bopal Ahmedabad', slug: '2bhk-bopal-ahmedabad', category: 'LONG_TAIL', citySlug: 'ahmedabad', localitySlug: 'bopal', propTypeSlug: 'flat' },
       { phrase: 'Property in Prahlad Nagar', slug: 'property-in-prahlad-nagar', category: 'LOCALITY_PAGE', citySlug: 'ahmedabad', localitySlug: 'prahlad-nagar', propTypeSlug: null },
+      { phrase: 'Property in Prahlad Nagar Ahmedabad', slug: 'property-in-prahlad-nagar-ahmedabad', category: 'LOCALITY_PAGE', citySlug: 'ahmedabad', localitySlug: 'prahlad-nagar', propTypeSlug: null },
       { phrase: 'Flat for sale in Satellite Ahmedabad', slug: 'flat-for-sale-in-satellite-ahmedabad', category: 'LOCALITY_PAGE', citySlug: 'ahmedabad', localitySlug: 'satellite', propTypeSlug: 'flat' },
       { phrase: 'Plot for sale in Thaltej', slug: 'plot-for-sale-in-thaltej', category: 'LOCALITY_PAGE', citySlug: 'ahmedabad', localitySlug: 'thaltej', propTypeSlug: 'plot' },
       { phrase: 'Property in Adajan Surat', slug: 'property-in-adajan-surat', category: 'LOCALITY_PAGE', citySlug: 'surat', localitySlug: 'adajan', propTypeSlug: null },
