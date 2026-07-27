@@ -118,7 +118,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v9:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v10:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -212,6 +212,12 @@ export class SeoService implements ISeoService {
           'Latest Real Estate Projects in Gujarat',
           'Find the Right Property in Gujarat'
         ];
+      } else {
+        title = seoTemplate.title;
+        meta_title = seoTemplate.meta_title;
+        meta_description = seoTemplate.meta_description;
+        h1 = seoTemplate.h1;
+        h2 = seoTemplate.h2;
       }
 
       // Build category-specific deep multi-paragraph content hitting word count targets
