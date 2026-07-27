@@ -118,7 +118,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v8:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v9:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -195,11 +195,24 @@ export class SeoService implements ISeoService {
         parsedDetails.category,
         parsedDetails
       );
-      title = seoTemplate.title;
-      meta_title = seoTemplate.meta_title;
-      meta_description = seoTemplate.meta_description;
-      h1 = seoTemplate.h1;
-      h2 = seoTemplate.h2;
+      if (slug === 'real-estate-gujarat') {
+        title = 'Real Estate Gujarat | Buy Residential & Commercial Properties';
+        meta_title = 'Real Estate Gujarat | Buy Flats, Villas, Plots & Commercial Property';
+        meta_description = 'Explore verified real estate in Gujarat including flats, apartments, villas, plots, commercial properties, industrial land, and new projects in Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, and across Gujarat.';
+        h1 = 'Real Estate Gujarat';
+        h2 = [
+          'Explore Real Estate in Gujarat',
+          'Best Cities for Real Estate in Gujarat',
+          'Types of Real Estate Available in Gujarat',
+          'Residential Properties in Gujarat',
+          'Commercial Properties in Gujarat',
+          'Luxury Real Estate in Gujarat',
+          'Why Invest in Gujarat Real Estate?',
+          'Real Estate Buying Guide',
+          'Latest Real Estate Projects in Gujarat',
+          'Find the Right Property in Gujarat'
+        ];
+      }
 
       // Build category-specific deep multi-paragraph content hitting word count targets
       const locStr = variables.locality ? `${variables.locality}, ${variables.city}` : (variables.city || 'Gujarat');
