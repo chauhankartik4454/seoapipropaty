@@ -176,7 +176,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v18:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v19:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -670,6 +670,156 @@ Follow this structured checklist to ensure a secure property transaction in Ahme
     schema.place = place_schema;
     schema.geocoordinates = geocoordinates_schema;
     schema.dataset = dataset_schema;
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'real-estate-gujarat'
+    if (slug.toLowerCase().trim() === 'real-estate-gujarat' || slug.toLowerCase().trim().replace(/[^a-z0-9]/g, '') === 'realestategujarat') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Real Estate Gujarat",
+        "url": "https://propertysdeal.in/real-estate-gujarat",
+        "description": "Find residential and commercial properties across Gujarat."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Real Estate Gujarat",
+        "description": "Browse real estate listings across Gujarat."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Real Estate Gujarat",
+            "item": "https://propertysdeal.in/real-estate-gujarat"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Gujarat good for real estate investment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Gujarat offers strong long-term real estate investment opportunities."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 20,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Ahmedabad"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Surat"
+          }
+        ]
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/real-estate-gujarat.webp",
+        "caption": "Real Estate Gujarat"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Real Estate Gujarat Guide",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.review = {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.9",
+          "bestRating": "5"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Gujarat",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "22.2587",
+        "longitude": "71.1924"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Real Estate Gujarat Dataset",
+        "description": "SEO dataset for Gujarat real estate listings."
+      };
+    }
 
     // 9. Format canonical & breadcrumbs for response
     const breadcrumbs = [
