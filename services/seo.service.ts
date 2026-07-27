@@ -373,8 +373,7 @@ export class SeoService implements ISeoService {
 
     // 11. Keyword Cannibalization Audit Engine
     const normalizedSlug = slug.toLowerCase();
-    const isCannibalizedVariant = normalizedSlug.includes('2026') || !normalizedSlug.includes('-in-');
-    const primarySlug = normalizedSlug.replace('-2026', '').replace(/-(bopal|ahmedabad|surat|vadodara)$/, '-in-$1');
+    const primarySlug = normalizedSlug.replace('-2026', '').replace(/(?<!-in)-(bopal|ahmedabad|surat|vadodara)$/, '-in-$1');
     const competing_slugs: string[] = [];
     if (normalizedSlug !== primarySlug) {
       competing_slugs.push(primarySlug);
