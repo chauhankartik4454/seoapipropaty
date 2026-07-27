@@ -176,7 +176,7 @@ export class SeoService implements ISeoService {
   ) {}
 
   async getSeoData(slug: string): Promise<SeoResponsePayload | null> {
-    const cacheKey = `seo:v22:${slug.toLowerCase()}`;
+    const cacheKey = `seo:v33:${slug.toLowerCase()}`;
     
     // 1. Try to read from cache first in production
     if (process.env.NODE_ENV === 'production') {
@@ -633,6 +633,1176 @@ PropertysDeal enables buyers to discover verified residential flats across Ahmed
 
 ### Final Conclusion
 Ahmedabad continues to stand out as one of Gujarat's premier residential real estate destinations. From budget starter homes to ultra-luxury penthouses, the city provides high quality of life, fast transit, and strong financial appreciation for home buyers and investors alike.`;
+    }
+
+    // Explicit Deep Overrides for 'property-for-sale-in-ahmedabad'
+    if (normSlugCheck === 'property-for-sale-in-ahmedabad') {
+      title = 'Property for Sale in Ahmedabad | Buy Real Estate in Ahmedabad';
+      meta_title = 'Property for Sale in Ahmedabad | Residential & Commercial';
+      meta_description = 'Browse verified residential and commercial property for sale in Ahmedabad. Find flats, apartments, luxury villas, independent houses, residential plots, and office space across SG Highway, Bodakdev, Ambli, Science City, Gota, Shela, and South Bopal.';
+      h1 = 'Property for Sale in Ahmedabad';
+      h2 = [
+        'Overview of Property for Sale in Ahmedabad',
+        'Top Residential & Commercial Localities in Ahmedabad',
+        'NRI Buyer\'s Guide for Property Investment in Ahmedabad',
+        'Luxury Property & Premium Amenities in Ahmedabad',
+        'Affordable Property Options & Emerging Suburbs',
+        'Smart Home Technologies & Automation Features',
+        'Sustainable & Green Living Features in Modern Housing',
+        'Legal Checklist & RERA Verification for Property Buyers',
+        'Home Loan & Bank Financing Options in Ahmedabad',
+        'Final Expert Advice & Step-by-Step Buying Guide'
+      ];
+
+      content = `Searching for verified property for sale in ahmedabad options? Explore verified residential and commercial properties across Ahmedabad. Whether you are seeking 1 BHK, 2 BHK, 3 BHK, 4 BHK apartments, luxury villas, independent houses, Non-Agricultural (NA) residential plots, Grade-A commercial office space, or industrial warehousing sheds, Ahmedabad presents premier real estate investment choices across Gujarat.
+
+Buying property in Ahmedabad offers direct access to rapid metro rail networks, premier educational institutions like IIM Ahmedabad and Nirma University, modern healthcare centers, and expanding commercial corridors along SG Highway and SP Ring Road.
+
+Compare market rates per sq. ft., developer credentials, RERA registration numbers, title clearance documents, and maintenance guidelines in Ahmedabad with certified real estate advisors.
+
+## Overview of Property for Sale in Ahmedabad
+Ahmedabad, the economic hub of Gujarat, features one of India's most vibrant real estate markets. Driven by progressive industrial policy, smart city infrastructure, expanding metro rail transit, and thriving commercial hubs, property for sale in Ahmedabad offers high capital appreciation and strong rental yields.
+
+### Industrial Drivers & Business Growth
+With thriving textile, pharmaceutical, chemical, IT, and financial sectors, Ahmedabad attracts corporate professionals, NRI investors, and commercial enterprises. Major business hubs along SG Highway, Corporate Road, Prahlad Nagar, GIFT City proximity, and GIDC industrial estates continuously generate housing and commercial property demand.
+
+### Urban Expansion by AMC & AUDA
+Systematic urban planning by Ahmedabad Municipal Corporation (AMC) and Ahmedabad Urban Development Authority (AUDA) ensures structured suburban growth. Key infrastructure projects like the 76-km SP Ring Road expansion and Ahmedabad Metro Rail Phase 1 & 2 seamlessly connect eastern industrial sectors with western residential corridors.
+
+## Top Residential & Commercial Localities in Ahmedabad
+Choosing the right locality depends on commute convenience, workplace proximity, school distance, and long-term budget goals.
+
+### Prime Western Corridor (SG Highway, Bodakdev, Ambli, Satellite, Thaltej)
+The western belt represents Ahmedabad's flagship real estate market. Lined with Grade-A corporate towers, luxury shopping malls, and high-end residential towers, these sectors command top rental yields and steady capital appreciation.
+
+### Suburbs & Gated Townships (Bopal, South Bopal, Shela, Science City)
+Bopal, Shela, and Science City have evolved into top residential choices for families. Gated township projects offer 2BHK and 3BHK flats, villas, and bungalow plots equipped with comprehensive clubhouse facilities at competitive price points.
+
+### Fast-Growing Northern Corridor (Gota, Chandkheda, Motera, Vaishno Devi Circle)
+Strategically located along SG Highway leading toward Gandhinagar and GIFT City, northern hubs are top choices for IT professionals seeking affordable ready-to-move and under-construction flats with excellent highway access.
+
+## NRI Buyer's Guide for Property Investment in Ahmedabad
+Ahmedabad has become one of the most preferred destinations for Non-Resident Indians (NRIs) looking to invest in Indian real estate. The city's stable economy, transparent property regulations, expanding infrastructure, and strong appreciation potential make it an attractive market for long-term investment.
+
+### Key Essential Steps for NRI Buyers
+- Verify property ownership and clear title deeds.
+- Check valid GUJRERA registration on the official portal.
+- Review all municipal building approvals (AMC, AUDA).
+- Understand applicable tax regulations and RBI/FEMA guidelines.
+- Arrange financing through authorized Indian banks if required.
+- Appoint a trusted legal representative for remote transactions.
+
+Premium residential areas such as SG Highway, Bodakdev, Ambli, Science City, Satellite, Thaltej, and Sindhu Bhavan Road continue to attract significant NRI investment.
+
+## Luxury Property & Premium Amenities in Ahmedabad
+Ahmedabad offers a growing selection of luxury residential and commercial developments designed for modern lifestyles.
+
+### Common Luxury Features & Facilities
+- Spacious 3 BHK & 4 BHK Apartments, Luxury Villas & Penthouses
+- Duplex Homes & Private Terraces
+- Private Clubhouse & Infinity Swimming Pool
+- Smart Home Automation & Premium Fitness Center
+- Business Lounge, Banquet Hall & Concierge Services
+- Multi-Level Security & EV Charging Stations
+
+Luxury developments are concentrated in Bodakdev, Ambli, Thaltej, Science City, Satellite, SG Highway, and Shilaj.
+
+## Affordable Property Options & Emerging Suburbs
+Ahmedabad also offers excellent affordable housing opportunities suitable for first-time buyers, young professionals, small families, and long-term investors.
+
+### Affordable Property Types & Locations
+- 1 BHK & 2 BHK Apartments
+- Compact independent houses & residential plots
+- Popular locations: Gota, Chandkheda, Nikol, Naroda, Vastral, South Bopal, and Shela.
+
+These locations continue to experience strong infrastructure development and property appreciation.
+
+## Smart Home Technologies & Automation Features
+Modern residential projects in Ahmedabad increasingly include advanced technology to improve convenience, efficiency, and security.
+
+### Popular Smart Home Technologies
+- Digital Door Locks & Video Door Phone
+- Mobile App Access & Smart Lighting
+- CCTV Surveillance & Motion Sensors
+- Automated Visitor Management & Smart Parking
+- Energy Monitoring & Remote Appliance Control
+
+These technologies enhance the living experience while increasing long-term property resale value.
+
+## Sustainable & Green Living Features in Modern Housing
+Many new residential developments now focus on sustainability and environmentally responsible construction.
+
+### Common Eco-Friendly Features
+- Rainwater Harvesting & Solar Power Systems
+- Sewage Treatment Plants (STP) & Water Recycling
+- Energy-Efficient LED Lighting & Green Landscapes
+- Natural Air Ventilation & Waste Management
+- EV Charging Stations & Eco-Friendly Building Materials
+
+Green buildings help reduce monthly society operating costs while creating healthier living environments.
+
+## Legal Checklist & RERA Verification for Property Buyers
+Before finalizing any property purchase in Ahmedabad, buyers should perform thorough legal verification:
+- Verify Title Clearance Certificate issued by an advocate.
+- Check AnyRoR 7/12 & 8-A revenue land extract records.
+- Confirm Non-Agricultural (NA) land conversion order.
+- Verify approved building plans from AMC or AUDA.
+- Check Building Use (BU) Permission confirming occupancy safety.
+- Confirm valid GUJRERA registration for structural defect protection and escrow compliance.
+
+## Home Loan & Bank Financing Options in Ahmedabad
+Leading nationalized and private banks (SBI, HDFC, ICICI, Bank of Baroda, Axis) offer attractive home loans for property buyers in Ahmedabad:
+- Competitive Interest Rates with flexible repayment tenures up to 30 years.
+- PMAY Interest Subsidies for eligible first-time home buyers.
+
+## Final Expert Advice & Step-by-Step Buying Guide
+Before purchasing any property in Ahmedabad:
+1. Define your long-term budget and investment goals.
+2. Compare at least five different residential or commercial projects.
+3. Verify legal documents independently through a property advocate.
+4. Review builder credibility and past completed project delivery records.
+5. Visit the property site multiple times before booking.
+6. Evaluate upcoming transit and civic infrastructure developments.
+7. Understand total ownership costs including stamp duty and registration fees.
+8. Assess rental income potential and resale demand.
+9. Consult financial and legal professionals when required.
+
+### Why Choose PropertysDeal?
+PropertysDeal helps buyers discover verified residential and commercial properties across Ahmedabad with verified listings, trusted builders, advanced search filters, high-quality images, and transparent pricing.
+
+### Final Conclusion
+Ahmedabad continues to be one of Gujarat's strongest real estate destinations, offering a wide variety of residential and commercial properties for buyers with different budgets and requirements. Modern infrastructure, expanding metro connectivity, quality educational institutions, healthcare facilities, and Smart City initiatives make Ahmedabad an ideal place to buy a home or invest in commercial real estate.`;
+    }
+
+    // Explicit Deep Overrides for '2bhk-flat-in-ahmedabad'
+    if (normSlugCheck === '2bhk-flat-in-ahmedabad' || normSlugCheck === '2bhk-flats-in-ahmedabad' || normSlugCheck === '2bhk-flat-ahmedabad') {
+      title = '2BHK Flat in Ahmedabad | Buy 2 BHK Apartments in Ahmedabad';
+      meta_title = '2BHK Flat in Ahmedabad | 2 BHK Apartments for Sale';
+      meta_description = 'Browse verified 2BHK flats for sale in Ahmedabad. Explore affordable to luxury 2 BHK apartments across Gota, Shela, South Bopal, Science City, SG Highway, Chandkheda, Motera, and Thaltej with RERA approval.';
+      h1 = '2BHK Flat in Ahmedabad';
+      h2 = [
+        'Overview of 2BHK Flats in Ahmedabad',
+        'Why Buy a 2BHK Flat in Ahmedabad?',
+        'Best Localities for 2BHK Flats in Ahmedabad',
+        'Ready-to-Move vs Under-Construction 2BHK Flats',
+        'Luxury 2BHK Apartments & Premium Amenities',
+        'Affordable 2BHK Housing Options in Emerging Suburbs',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Buyer\'s Guide for 2BHK Property Investment',
+        'Smart Home Features & Green Living Sustainability',
+        'Legal Checklist & RERA Compliance for Buyers'
+      ];
+
+      content = `Searching for a verified 2bhk flat in ahmedabad? Ahmedabad is one of Gujarat's fastest-growing real estate destinations, offering a wide range of affordable, mid-range, and premium 2 BHK apartments for families, working professionals, first-time homebuyers, and investors.
+
+Whether you are looking for a ready-to-move apartment, an under-construction project, or a luxury residence, Ahmedabad has options across every budget. Popular residential locations such as Gota, Shela, South Bopal, Science City, SG Highway, Chandkheda, Thaltej, Satellite, Motera, and Shilaj offer excellent connectivity, modern infrastructure, and quality lifestyle amenities.
+
+Most new residential developments include gated security, landscaped gardens, clubhouses, swimming pools, children's play areas, gyms, indoor games, jogging tracks, and smart home features. Buyers can compare carpet area, floor plans, builder reputation, RERA registration, possession timeline, and financing options before making a purchase.
+
+## Overview of 2BHK Flats in Ahmedabad
+A well-planned 2BHK apartment strikes the ideal balance between affordability, functional space, and long-term resale value. It suits a wide spectrum of home buyers—from young professionals and newly married couples to growing families and long-term rental investors.
+
+### Balanced Space & Functional Layouts
+Modern 2BHK floor plans in Ahmedabad optimize carpet area, featuring dual bedrooms, spacious living halls, dedicated kitchen spaces, attached balconies, and dual bathrooms.
+
+### Economic Drivers & High Rental Yields
+With thriving pharmaceutical, IT, chemical, and banking sectors across Ahmedabad, demand for 2BHK rental units remains high. Working professionals moving to Corporate Road, Prahlad Nagar, SG Highway, and GIFT City generate high demand for 2BHK flats.
+
+## Why Buy a 2BHK Flat in Ahmedabad?
+Ahmedabad has emerged as one of India's most attractive residential markets because of its strong economy, planned infrastructure, affordable property prices, and growing employment opportunities.
+
+### Major Advantages & Lifestyle Benefits
+- Rapid Metro Rail Transit connecting eastern and western suburbs
+- Multi-lane 8-lane SP Ring Road & SG Highway express corridors
+- Smart City urban initiatives & high-quality utility infrastructure
+- Premier educational campuses like IIM Ahmedabad and Nirma University
+- Multi-specialty hospitals, shopping malls, and entertainment zones
+- Strong rental demand and steady annual property appreciation
+
+Compared with major metropolitan cities, Ahmedabad provides spacious 2BHK apartments at competitive prices while maintaining high quality of life.
+
+## Best Localities for 2BHK Flats in Ahmedabad
+
+### Gota
+Gota remains one of the fastest-growing residential destinations. Buyers can find affordable as well as premium 2BHK apartments with excellent connectivity to SG Highway, Vaishno Devi Circle, and Gandhinagar.
+- Features: Metro connectivity, schools nearby, shopping malls, hospitals, family-friendly societies.
+
+### Shela
+Shela has become one of Ahmedabad's preferred residential areas due to modern township developments, wide roads, and peaceful surroundings.
+- Features: Premium builder townships, modern clubhouse amenities, strong future appreciation.
+
+### South Bopal
+South Bopal is ideal for families looking for spacious 2BHK apartments with modern amenities, schools, retail markets, and sports clubs nearby.
+
+### Science City
+Science City has transformed into a premier residential destination offering luxury 2BHK and 3BHK apartments with wide roads and green surroundings.
+
+### SG Highway & Corporate Corridor
+SG Highway attracts corporate professionals due to its proximity to IT parks, hotels, and commercial towers. Luxury 2BHK flats here feature smart automation, high-rise views, and rooftop amenities.
+
+### Chandkheda & Motera
+Popular among professionals working in Gandhinagar, GIFT City, and nearby industrial corridors, offering affordable pricing, metro access, and stadium proximity.
+
+## Ready-to-Move vs Under-Construction 2BHK Flats
+
+### Ready-to-Move 2BHK Apartments
+Ready possession apartments eliminate construction delays and allow buyers to shift immediately after registration.
+- Benefits: Immediate possession, actual physical inspection, immediate rental yield, zero project completion risk.
+
+### Under-Construction 2BHK Projects
+Under-construction projects often provide attractive introductory booking prices and flexible installment payment plans.
+- Benefits: Lower entry price, flexible payment milestones, higher capital appreciation during construction, latest modern amenities.
+
+## Luxury 2BHK Apartments & Premium Amenities
+Luxury residential developments in Ahmedabad provide premium lifestyle experiences with world-class facilities:
+- Grand entrance lobby & smart home automation
+- Video door phone & digital door lock
+- Infinity swimming pool, sky lounge & rooftop gardens
+- Gymnasium, yoga deck, indoor sports & mini theatre
+- EV charging stations, multi-level security & high-speed elevators
+
+Luxury 2BHK projects are commonly located in Bodakdev, Ambli, Thaltej, SG Highway, Science City, and Satellite.
+
+## Affordable 2BHK Housing Options in Emerging Suburbs
+Ahmedabad offers numerous affordable housing options suitable for first-time buyers and young families in Gota, Chandkheda, Nikol, Naroda, Vastral, South Bopal, and Shela.
+- Competitive pricing, public transport access, nearby schools, healthcare facilities, and high future appreciation potential.
+
+## Property Price Trends & Home Loan Guide
+
+### Property Price Trends
+Property values in high-demand locations such as SG Highway, Science City, Thaltej, Shela, South Bopal, and Gota continue to appreciate at 8-12% annually.
+
+### Home Loan & Bank Financing Guide
+Major banks (SBI, HDFC, ICICI, Bank of Baroda, Axis) offer home loans up to 80-90% of property cost with tenures up to 30 years and PMAY interest subsidy benefits for eligible buyers.
+
+## NRI Buyer's Guide for 2BHK Property Investment
+Ahmedabad has become a preferred destination for Non-Resident Indians (NRIs) looking to invest in residential real estate.
+- Verify clear title deeds and GUJRERA registration on the official portal.
+- Review approved building plans and understand FEMA/RBI tax regulations.
+- Appoint a trusted legal advocate when executing transactions remotely.
+
+## Smart Home Features & Green Living Sustainability
+
+### Smart Home Technology Integration
+Modern 2BHK projects feature digital door locks, video door phones, smart lighting controls, CCTV surveillance, motion sensors, and remote mobile app access.
+
+### Sustainable & Green Living Features
+Eco-friendly developments incorporate rainwater harvesting, solar power systems, sewage treatment plants (STP), water recycling, green landscapes, and EV charging stations to reduce maintenance costs.
+
+## Legal Checklist & RERA Compliance for Buyers
+Before booking your 2BHK flat in Ahmedabad:
+1. Verify Title Clearance Certificate & AnyRoR 7/12 land extract records.
+2. Confirm approved AMC/AUDA building plan and Building Use (BU) Permission.
+3. Check active GUJRERA registration number confirming 5-year structural defect warranty.
+4. Hire an independent advocate to review sale agreement terms and possession dates.
+
+### Why Choose PropertysDeal?
+PropertysDeal helps buyers discover verified 2BHK apartments across Ahmedabad with verified listings, trusted builders, advanced filters, high-quality images, transparent pricing, and map-based locality search.
+
+### Final Conclusion
+A 2BHK flat in Ahmedabad is one of the most practical residential investments for families, professionals, and investors alike. With expanding metro connectivity, modern townships, and strong rental yields, buying a verified 2BHK apartment in Ahmedabad ensures lasting comfort and financial value.`;
+    }
+
+    // Explicit Deep Overrides for '3bhk-flat-in-surat'
+    if (normSlugCheck === '3bhk-flat-in-surat' || normSlugCheck === '3bhk-flats-in-surat' || normSlugCheck === '3bhk-flat-surat') {
+      title = '3BHK Flat in Surat | Buy 3 BHK Apartments in Surat';
+      meta_title = '3BHK Flat in Surat | 3 BHK Apartments for Sale';
+      meta_description = 'Browse verified 3BHK flats for sale in Surat. Explore affordable to luxury 3 BHK apartments across Vesu, Pal, Adajan, VIP Road, Althan, Piplod, and City Light with RERA approval.';
+      h1 = '3BHK Flat in Surat';
+      h2 = [
+        'Overview of 3BHK Flats in Surat',
+        'Why Buy a 3BHK Flat in Surat?',
+        'Best Localities for 3BHK Flats in Surat',
+        'Ready-to-Move vs Under-Construction 3BHK Flats',
+        'Luxury 3BHK Apartments & Premium Amenities',
+        'Affordable 3BHK Housing Options in Surat',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Buyer\'s Guide for 3BHK Property Investment',
+        'Smart Home Features & Green Living Sustainability',
+        'Legal Checklist & RERA Compliance for Buyers'
+      ];
+
+      content = `Searching for a verified 3bhk flat in surat? Surat has become one of Gujarat's fastest-growing residential real estate markets, offering a wide range of spacious 3 BHK apartments for families, professionals, entrepreneurs, and investors. Whether you are searching for a ready-to-move home, an under-construction project, or a luxury apartment, Surat provides excellent options across different budgets.
+
+Popular residential areas such as Vesu, Pal, Adajan, VIP Road, Althan, Piplod, City Light, Bhimrad, Dumas Road, and Jahangirpura are known for modern infrastructure, premium housing societies, and excellent connectivity.
+
+Most residential developments include gated communities, clubhouses, swimming pools, gymnasium, children's play area, landscaped gardens, jogging tracks, indoor games, multi-level security, and smart home features. Buyers can compare carpet area, floor plans, builder reputation, RERA registration, project amenities, maintenance charges, and possession timelines before making a purchase.
+
+A 3BHK apartment is ideal for growing families seeking additional living space, home offices, and long-term investment value.
+
+## Overview of 3BHK Flats in Surat
+Surat's residential market is expanding rapidly, backed by its world-famous diamond and textile industries, high per capita income, and ongoing infrastructure megaprojects like the Surat Diamond Bourse and Surat Metro Rail.
+
+### Spacious Living & Functional Multi-Room Layouts
+A 3BHK apartment provides superior spatial luxury, featuring three spacious bedrooms, expansive living halls, dedicated dining areas, double balconies, and multiple bathrooms.
+
+### Strong Industrial Growth & Economic Stability
+Surat's commercial ecosystem drives high housing demand. Business leaders, diamond traders, textile entrepreneurs, and corporate executives seek premium 3BHK apartments in western Surat corridors.
+
+## Why Buy a 3BHK Flat in Surat?
+Surat has transformed into one of India's fastest-growing cities due to rapid industrial development, modern infrastructure, and increasing employment opportunities.
+
+### Key Advantages & Infrastructure Highlights
+- Smart City urban initiatives & high-grade civic infrastructure
+- Surat Metro Rail expansion connecting commercial and residential sectors
+- Surat Diamond Bourse (SDB) driving international business demand
+- Rapid airport expansion connecting major national and global cities
+- Top-tier schools, multi-specialty hospitals, and luxury shopping malls
+- Strong rental demand and steady annual capital appreciation
+
+Compared with major metropolitan cities, Surat offers larger apartments at competitive prices while maintaining an excellent standard of living.
+
+## Best Localities for 3BHK Flats in Surat
+
+### Vesu
+Vesu is considered Surat's flagship luxury residential destination.
+- Advantages: Luxury high-rise projects, premier schools, shopping malls, airport proximity, corporate hubs nearby.
+
+### Pal
+Pal has become one of the most preferred residential areas for families seeking affordable luxury and wide roads.
+- Advantages: Peaceful environment, wide road networks, top schools, healthcare centers, retail markets.
+
+### Adajan
+Adajan offers an excellent combination of affordability, established social infrastructure, and riverfront connectivity.
+- Features: Shopping complexes, public transport, educational institutions, parks, healthcare facilities.
+
+### VIP Road & Althan
+VIP Road and Althan are rapidly developing into premium residential hubs with modern high-rise townships and easy airport access.
+
+### Piplod, City Light & Dumas Road
+High-end residential corridors offering luxury apartments, fine dining, corporate connectivity, and premium entertainment zones.
+
+## Ready-to-Move vs Under-Construction 3BHK Flats
+
+### Ready-to-Move 3BHK Apartments
+Ready possession apartments are preferred by buyers who wish to avoid construction delays and shift immediately.
+- Benefits: Immediate possession, finished amenities, physical inspection of actual flat, immediate rental yield.
+
+### Under-Construction 3BHK Projects
+Under-construction projects offer introductory pricing and flexible installment payment structures.
+- Benefits: Lower entry price, flexible payment milestones, custom finish options, higher appreciation during construction.
+
+## Luxury 3BHK Apartments & Premium Amenities
+Luxury projects in Surat offer world-class residential amenities:
+- Grand entrance lobby & smart home automation
+- Video door phone, digital locks & modular kitchen
+- Infinity swimming pool, sky lounge & business center
+- Fitness center, yoga studio, mini theatre & banquet hall
+- EV charging stations, concierge services & multi-level security
+
+Luxury 3BHK developments are concentrated in Vesu, Piplod, City Light, VIP Road, Dumas Road, Pal, and Althan.
+
+## Affordable 3BHK Housing Options in Surat
+Surat offers affordable 3BHK apartments for middle-income families in Adajan, Jahangirpura, Althan, Bhimrad, Udhna, and Pal.
+- Competitive pricing, excellent public transport connectivity, nearby schools, and strong future infrastructure growth.
+
+## Property Price Trends & Home Loan Guide
+
+### Property Price Trends
+Property values in premium localities like Vesu, Piplod, City Light, VIP Road, and Pal continue to appreciate at 8-12% annually, driven by the Surat Diamond Bourse and metro transit.
+
+### Home Loan Guide
+Leading public and private banks offer home loans for RERA-approved 3BHK flats in Surat with flexible repayment terms up to 30 years and PMAY subsidy benefits.
+
+## NRI Buyer's Guide for 3BHK Property Investment
+Surat is a top investment destination for NRIs due to its diamond business links and luxury property market.
+- Verify clear title deeds, GUJRERA registration, and SMC building approvals.
+- Understand FEMA/RBI taxation rules and appoint a Power of Attorney (POA) for remote transactions.
+
+## Smart Home Features & Green Living Sustainability
+
+### Smart Home Technology
+Modern 3BHK apartments incorporate digital door locks, video door phones, smart lighting controls, CCTV surveillance, motion sensors, and remote app management.
+
+### Green Building Features
+Eco-friendly projects feature rainwater harvesting, solar power generation, sewage treatment plants (STP), water recycling, green landscapes, and EV charging stations.
+
+## Legal Checklist & RERA Compliance for Buyers
+Before booking your 3BHK flat in Surat:
+1. Verify Title Certificate & AnyRoR 7/12 land extract records.
+2. Check approved SMC building plan and Building Use (BU) Permission.
+3. Confirm GUJRERA registration on the official portal for 5-year structural warranty safety.
+4. Consult a property advocate to audit sale agreement terms and possession dates.
+
+### Why Choose PropertysDeal?
+PropertysDeal simplifies discovering verified 3BHK flats in Surat with verified listings, trusted builders, HD photos, floor plans, transparent pricing, and map-based search filters.
+
+### Final Conclusion
+A 3BHK flat in Surat is an excellent choice for families seeking spacious living, modern amenities, and strong long-term appreciation. Investing in a RERA-approved project in well-connected areas like Vesu, Pal, or Adajan delivers lifestyle luxury and financial value.`;
+    }
+
+    // Explicit Deep Overrides for 'plot-for-sale-in-vadodara'
+    if (normSlugCheck === 'plot-for-sale-in-vadodara' || normSlugCheck === 'plot-for-sale-vadodara' || normSlugCheck === 'plots-in-vadodara' || normSlugCheck === 'plots-for-sale-in-vadodara') {
+      title = 'Plot for Sale in Vadodara | Residential Land & Plots in Vadodara';
+      meta_title = 'Plot for Sale in Vadodara | NA Residential Plots for Sale';
+      meta_description = 'Browse verified plots for sale in Vadodara. Explore NA residential plots, gated community land, villa plots, and corner plots across Bhayli, Gotri, Sama Savli Road, Waghodia Road, Vasna, and Manjalpur.';
+      h1 = 'Plot for Sale in Vadodara';
+      h2 = [
+        'Overview of Plots for Sale in Vadodara',
+        'Why Buy a Plot in Vadodara?',
+        'Best Areas to Buy Residential Plots in Vadodara',
+        'NA Residential Plots & Legal Verification',
+        'Gated Community Plots & Townships',
+        'Corner Plots & East-Facing Plots Guide',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Buyer\'s Guide for Plot Investment',
+        'Sustainable Township & Infrastructure Features',
+        'Buyer Checklist & Legal Inspection Before Booking'
+      ];
+
+      content = `Searching for a verified plot for sale in vadodara? Vadodara offers excellent opportunities for homebuyers and investors seeking residential land with strong long-term appreciation. As one of Gujarat's fastest-growing cultural and industrial hubs, Vadodara has witnessed significant infrastructure development, making residential plots a premier investment option.
+
+Whether you plan to construct a custom dream villa or invest for long-term land appreciation, residential plots provide freedom, ownership, and capital growth.
+
+Vadodara offers different types of land options, including Non-Agricultural (NA) residential plots, gated township plots, corner plots, east-facing plots, luxury villa land, and strategic highway investment plots.
+
+Popular residential areas such as Bhayli, Gotri, Sama Savli Road, Waghodia Road, Vasna, Ajwa Road, Manjalpur, Akota, Sevasi, and Kalali continue to attract plot buyers due to connectivity, urban infrastructure, and future development potential.
+
+## Overview of Plots for Sale in Vadodara
+Vadodara's land market is supported by progressive industrial growth, reputed educational hubs like Maharaja Sayajirao (MS) University, expanding civic infrastructure by VMC and VUDA, and high demand for independent houses and bungalow plots.
+
+### Custom Home Building & Design Freedom
+Unlike pre-constructed apartments, buying a residential plot gives homeowners total control over floor layouts, room dimensions, architectural aesthetics, open gardens, and future floor additions.
+
+### Superior Capital Appreciation & Low Maintenance
+Land is a finite resource. Residential plots in Vadodara appreciate faster than built structures while requiring minimal ongoing maintenance expenses.
+
+## Why Buy a Plot in Vadodara?
+Buying a residential plot provides greater long-term flexibility than purchasing a ready-built house or apartment.
+
+### Major Advantages & Investment Highlights
+- Complete freedom to design and construct a custom home according to family needs
+- Superior long-term land value appreciation across developing urban corridors
+- Minimal ongoing maintenance costs compared to apartment societies
+- Flexible construction timelines allowing buyers to build when ready
+- Higher resale liquidity and demand for independent house plots
+- Rapid industrial expansion and Smart City infrastructure improvements
+
+Vadodara's expanding corporate base, educational institutions, and healthcare centers continue to drive consistent demand for residential land.
+
+## Best Areas to Buy Residential Plots in Vadodara
+
+### Bhayli
+Bhayli is one of Vadodara's premier fast-growing residential locations.
+- Highlights: Luxury gated township plots, villa communities, top schools nearby, excellent road connectivity to Vasna and Old Padra Road.
+
+### Gotri
+Gotri is a well-established residential locality with modern infrastructure, hospitals, commercial centers, and high plot demand.
+
+### Sama Savli Road
+Sama Savli Road continues to grow as a preferred high-end residential corridor with direct airport connectivity and wide 6-lane roads.
+
+### Waghodia Road & Ajwa Road
+Affordable growth corridors offering NA residential plots with excellent road connectivity to industrial zones and educational institutes.
+
+### Vasna, Sevasi & Kalali
+Prime western expansion belts known for luxury bungalow plots, peaceful green surroundings, and high capital appreciation.
+
+### Manjalpur & Akota
+Prime central neighborhoods featuring established social infrastructure, retail markets, top schools, and high plot resale demand.
+
+## NA Residential Plots & Legal Verification
+NA (Non-Agricultural) plots are the safest choice for residential home construction in Vadodara.
+
+### Key Benefits of NA Approved Plots
+- Certified legal permission for residential building construction from VMC/VUDA
+- Hassle-free home loan processing and bank mortgage approvals
+- Faster municipal building plan approvals and electricity/water connection issuance
+- Higher resale value and minimal legal risk of land use disputes
+
+Always verify the official NA Order and collectorate stamp before finalizing property transactions.
+
+## Gated Community Plots & Townships
+Developers in Vadodara offer organized residential plot townships equipped with modern infrastructure:
+- 24×7 Security & CCTV Surveillance
+- Underground Utility Cabling & Drainage Systems
+- Wide Internal Asphalt/Paver Block Roads & Street Lighting
+- Gated Clubhouse, Landscaped Parks, Children's Play Zones & Water Supply
+
+Gated townships provide safety, organized development, and superior resale value.
+
+## Corner Plots & East-Facing Plots Guide
+
+### Advantages of Corner Plots
+Corner plots offer dual-side road frontage, superior natural light, enhanced cross-ventilation, flexible garage/gate entries, and higher resale premiums.
+
+### Advantages of East-Facing Plots
+East-facing plots receive abundant morning sunlight and are highly preferred by buyers planning custom Vastu-compliant homes.
+
+## Property Price Trends & Home Loan Guide
+
+### Land Appreciation Trends
+Plot prices in prime localities such as Bhayli, Gotri, Sama Savli Road, and Vasna appreciate at 10-15% annually due to expanding city boundaries.
+
+### Bank Financing & Plot Loans
+Major nationalized and private banks (SBI, HDFC, ICICI, Bank of Baroda) offer plot purchase and plot-plus-construction loans up to 75-80% of land value.
+
+## NRI Buyer's Guide for Plot Investment
+Vadodara is a preferred land investment destination for NRIs seeking high-yield real estate in Gujarat.
+- Verify clear title deeds, AnyRoR 7/12 records, and official NA Collector permission.
+- Understand FEMA/RBI guidelines and appoint a Power of Attorney (POA) for seamless remote registration.
+
+## Sustainable Township & Infrastructure Features
+Modern plotting projects feature rainwater harvesting pits, solar street lamps, underground sewage treatment, tree-lined avenues, and EV charging points.
+
+## Buyer Checklist & Legal Inspection Before Booking
+1. Inspect Registered Title Deed & Encumbrance Certificate (EC) for 30-year clear title.
+2. Confirm NA Order & Approved VUDA/VMC Layout Plan with exact plot boundaries.
+3. Verify 7/12 & 8-A revenue extracts, property card entries, and tax receipts.
+4. Hire a property lawyer to conduct title search before paying token deposits.
+
+### Why Choose PropertysDeal?
+PropertysDeal helps buyers discover verified residential plots in Vadodara with clear title tags, verified owner/agent listings, map views, HD site photos, and transparent pricing.
+
+### Final Conclusion
+A plot for sale in Vadodara offers an outstanding combination of investment growth, ownership security, and design freedom. Selecting a legally verified NA plot in well-connected corridors like Bhayli, Gotri, or Sama Savli Road guarantees long-term value for home buyers and investors.`;
+    }
+
+    // Explicit Deep Overrides for 'property-dealer-in-gujarat'
+    if (normSlugCheck === 'property-dealer-in-gujarat' || normSlugCheck === 'property-dealer-gujarat' || normSlugCheck === 'real-estate-agents-in-gujarat' || normSlugCheck === 'property-dealers-in-gujarat') {
+      title = 'Property Dealer in Gujarat | Real Estate Agents & Consultants in Gujarat';
+      meta_title = 'Property Dealer in Gujarat | Real Estate Agents & Brokers';
+      meta_description = 'Find verified property dealers and real estate agents in Gujarat. Connect with trusted consultants across Ahmedabad, Surat, Vadodara, Rajkot, and Gandhinagar for buying, selling, renting, and investing in residential and commercial properties.';
+      h1 = 'Property Dealer in Gujarat';
+      h2 = [
+        'Overview of Property Dealers in Gujarat',
+        'Why Work with a Professional Property Dealer?',
+        'Property Buying & Selling Services',
+        'Rental & Property Management Services',
+        'Commercial Real Estate Services',
+        'Top Cities for Real Estate Investment in Gujarat',
+        'Property Price Trends & Home Loan Assistance',
+        'NRI Property Services & Investment Guide',
+        'Legal Verification & RERA Documentation Checklist',
+        'Buyer & Seller Checklist for Property Transactions'
+      ];
+
+      content = `Searching for a trusted property dealer in gujarat? Finding the right real estate agent or consultant is one of the most critical steps when buying, selling, renting, or investing in property across Gujarat. An experienced property dealer understands local market dynamics, conducts rigorous legal due diligence, negotiates competitive prices, and ensures transparent property registrations.
+
+Whether you are looking for a residential flat, luxury villa, commercial office space, industrial land, agricultural plot, or warehousing unit, professional property dealers provide end-to-end assistance throughout the transaction lifecycle.
+
+With Gujarat's rapidly expanding economies across Ahmedabad, Surat, Vadodara, Rajkot, Gandhinagar, Bhavnagar, Jamnagar, Anand, Bharuch, Mehsana, and Vapi, the demand for certified real estate brokers and RERA-registered consultants continues to rise.
+
+Professional property dealers assist clients with verified property listings, comparative market analysis, price negotiation, legal title verification, site visit coordination, developer liaison, loan processing, and registration support.
+
+## Overview of Property Dealers in Gujarat
+Gujarat's real estate ecosystem is highly dynamic. Backed by mega projects like GIFT City, Gujarat International Finance Tec-City, Surat Diamond Bourse (SDB), Dholera Special Investment Region (SIR), and the Delhi–Mumbai Industrial Corridor (DMIC), navigating local property laws and revenue records requires expert guidance.
+
+### Local Market Intelligence & Price Expertise
+Experienced property dealers maintain real-time pricing data across urban micro-markets, enabling buyers and sellers to negotiate optimal rates per square foot based on actual recent transactions rather than speculative listing prices.
+
+### Comprehensive Document Due Diligence
+Real estate consultants verify revenue records, Non-Agricultural (NA) land conversion orders, Title Clearance Certificates, Approved Building Plans from municipal bodies (AMC, SMC, VMC, RMC), and GUJRERA registration details to protect clients from legal disputes.
+
+## Why Work with a Professional Property Dealer?
+Buying or selling real estate involves complex legal, financial, and regulatory procedures.
+
+### Key Advantages & Value Addition
+- Access to exclusive off-market residential and commercial properties
+- Professional negotiation saving buyers and sellers time and money
+- Verified property titles, 7/12 extracts, and clear ownership records
+- Direct builder connections securing early-bird pricing and flexible payment terms
+- End-to-end coordination from initial site visits to final sub-registrar deed execution
+- Specialized assistance with bank home loan approvals and property valuation
+
+Working with a trusted RERA-registered broker mitigates investment risk and ensures total peace of mind.
+
+## Property Buying & Selling Services
+
+### Property Buying Assistance
+Consultants simplify the buying journey by analyzing client budget, preferred location, layout needs, and financial goals:
+- Apartment & Villa Discovery in prime gated townships
+- Residential Land & NA Plot Selection in high-growth corridors
+- Commercial Office Space & Retail Showroom Procurement
+- Site visit arrangement, legal title audit, bank loan coordination, and registration execution.
+
+### Property Selling & Marketing Services
+Property dealers assist sellers through accurate property valuation, high-definition photography, online portal marketing, targeted buyer matching, site visit management, price negotiation, and legal transfer documentation.
+
+## Rental & Property Management Services
+Real estate consultants provide complete leasing assistance for landlords and corporate tenants:
+- Tenant Sourcing & Background Verification
+- Registered Lease Agreement & Police Verification Assistance
+- Property Inspection, Security Deposit Management & Rent Collection
+- Commercial Lease Drafting for IT Offices, Showrooms, Warehouses & Factories.
+
+## Commercial Real Estate Services
+Commercial real estate requires specialized market analysis. Property dealers assist investors and corporate enterprises with Grade-A office spaces, retail shops, industrial plots, warehousing sheds, and manufacturing units.
+- Commercial Rental Yield Analysis (6-8% annual returns in prime belts like SG Highway and Vesu)
+- Strategic Location Selection along high-footfall transit corridors.
+
+## Top Cities for Real Estate Investment in Gujarat
+
+### Ahmedabad
+Gujarat's primary commercial real estate engine. Flagship investment corridors include SG Highway, Science City, Gota, South Bopal, Shela, Chandkheda, and Motera.
+
+### Surat
+World-famous diamond and textile capital experiencing rapid luxury housing expansion in Vesu, Pal, Adajan, VIP Road, Althan, and Dumas Road.
+
+### Vadodara
+Cultural and educational center offering high demand for residential land and luxury gated villas in Bhayli, Gotri, Sama Savli Road, and Vasna.
+
+### Rajkot & Gandhinagar
+Fast-growing markets driven by industrial corridors (Kalawad Road, Raiya Road) and GIFT City financial hub (Raysan, Kudasan, Sargasan).
+
+## Property Price Trends & Home Loan Assistance
+
+### Price Trends
+Property values across Gujarat's tier-1 and tier-2 cities have shown steady 8-12% annual appreciation, supported by metro rail transit, smart city expansion, and industrial parks.
+
+### Home Loan & Mortgage Facilitation
+Property dealers coordinate with leading nationalized and private banks (SBI, HDFC, ICICI, Bank of Baroda, Axis) to arrange home loans up to 80-90% of property value with competitive interest rates and PMAY subsidies.
+
+## NRI Property Services & Investment Guide
+Gujarat is a top investment destination for Non-Resident Indians (NRIs). Professional consultants provide specialized NRI services:
+- Virtual Property Walkthroughs & HD Video Inspections
+- Legal Power of Attorney (POA) Drafting & Execution Guidance
+- RBI / FEMA Compliance, NRE/NRO Bank Account Coordination, and Tax Guidance
+- Complete Property Management, Tenant Care & Resale Execution.
+
+## Legal Verification & RERA Documentation Checklist
+Before entering property contracts in Gujarat, verify the following mandatory legal documents:
+1. Registered Sale Deed & 30-Year Title Search Report
+2. AnyRoR 7/12 & 8-A Revenue Land Extract Records
+3. Official Non-Agricultural (NA) Land Permission & Zoning Clearances
+4. Approved Municipal Building Plan & Building Use (BU) Permission
+5. Active GUJRERA Registration Number & Agent License Verification.
+
+## Buyer & Seller Checklist for Property Transactions
+- For Buyers: Define overall budget, compare loan interest rates, conduct independent legal title search, verify RERA registration, inspect physical property condition, and calculate Gujarat Stamp Duty (4.9% + 1% registration).
+- For Sellers: Gather ownership deeds, clear municipal tax receipts, resolve pending society dues, set competitive valuation, and prepare valid registry documents.
+
+### Why Choose PropertysDeal?
+PropertysDeal connects buyers, sellers, builders, and verified property dealers across Gujarat on a single transparent platform featuring verified agent badges, HD property media, direct contact options, and smart search filters.
+
+### Final Conclusion
+Working with a trusted Property Dealer in Gujarat transforms real estate transactions into secure, transparent, and profitable investments. Whether buying your dream home in Ahmedabad, leasing commercial space in Surat, or acquiring investment plots in Vadodara, professional real estate consultation guarantees legal safety and optimal financial returns.`;
+    }
+
+    // Explicit Deep Overrides for 'buy-property-in-gujarat'
+    if (normSlugCheck === 'buy-property-in-gujarat' || normSlugCheck === 'buy-property-gujarat' || normSlugCheck === 'property-in-gujarat' || normSlugCheck === 'properties-in-gujarat' || normSlugCheck === 'property-for-sale-in-gujarat') {
+      title = 'Buy Property in Gujarat | Properties for Sale in Gujarat';
+      meta_title = 'Buy Property in Gujarat | Buy Flats, Villas, Plots & Commercials';
+      meta_description = 'Explore verified property for sale in Gujarat across Ahmedabad, Surat, Vadodara, Rajkot, and Gandhinagar. Buy flats, apartments, luxury villas, residential plots, commercial offices, and industrial land with RERA guidance.';
+      h1 = 'Buy Property in Gujarat';
+      h2 = [
+        'Overview of Property for Sale in Gujarat',
+        'Why Buy Property in Gujarat?',
+        'Types of Properties Available in Gujarat',
+        'Best Cities to Buy Property in Gujarat',
+        'Residential vs Commercial Property Buying Guide',
+        'Luxury Properties & Sustainable Smart Homes',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Property Buyer\'s Guide',
+        'Legal Verification, RERA & Registration Checklist',
+        'Buyer Checklist & Property Management Services'
+      ];
+
+      content = `Searching to buy property in gujarat? Gujarat has emerged as one of India's premier real estate investment destinations. With rapid urbanization, world-class infrastructure, strong economic growth, mega industrial corridors, and expanding employment hubs, the state offers unmatched opportunities for homebuyers, NRI investors, commercial enterprises, and land developers.
+
+Whether you are seeking a 1BHK/2BHK/3BHK residential flat, luxury bungalow, independent villa, NA residential plot, Grade-A commercial office space, retail showroom, or industrial warehousing land, Gujarat provides an extensive range of options across all budgets.
+
+Buying real estate in Gujarat delivers high long-term capital appreciation driven by continuous infrastructure expansion, including Metro rail networks, 6-lane expressways, GIFT City financial zone, Dholera SIR smart city, and expanding international airports.
+
+### Key Highlights of Buying Property in Gujarat
+- Strong economic development & industrial investment climate
+- Diversified property choices: Affordable flats to ultra-luxury villas & NA plots
+- High capital appreciation & strong rental yields in major cities
+- GUJRERA regulatory protection for transparent builder transactions
+- Seamless bank financing options with up to 80-90% home loan funding
+- Dedicated NRI property management & remote execution services.
+
+## Overview of Property for Sale in Gujarat
+Gujarat's property market is supported by rapid industrialization, robust state governance, excellent power and road connectivity, and progressive urban planning by authorities like AMC, AUDA, SMC, VMC, and RMC.
+
+### High Capital Growth & Rental Yields
+Major commercial and IT hubs such as SG Highway (Ahmedabad), Vesu (Surat), Bhayli (Vadodara), and GIFT City (Gandhinagar) deliver 8-12% annual capital appreciation alongside attractive 4-7% commercial rental yields.
+
+### GUJRERA Transparency & Buyer Safety
+The Gujarat Real Estate Regulatory Authority (GUJRERA) mandates project registration, escrow account management, fixed possession schedules, and 5-year structural defect warranties, making property purchases safe and secure.
+
+## Why Buy Property in Gujarat?
+Investing in Gujarat real estate offers unmatched financial stability and lifestyle benefits.
+
+### Major Driving Factors & Economic Engines
+- Rapid Industrialization: Home to major automobile, pharmaceutical, textile, chemical, and renewable energy clusters.
+- GIFT City & Financial Hubs: International financial services center creating thousands of high-skilled corporate jobs.
+- World-Class Connectivity: Seamless connectivity via National Highways, Delhi-Mumbai Industrial Corridor (DMIC), High-Speed Bullet Train, and modern Metro Rail networks.
+- Safe Cities & High Quality of Life: Excellent law and order, top-ranked educational institutions, multi-specialty hospitals, and vibrant cultural community living.
+
+## Types of Properties Available in Gujarat
+
+### Residential Apartments & Flats
+From compact budget 1BHKs to spacious 2BHK, 3BHK, and 4BHK apartments in gated townships featuring swimming pools, clubhouses, gymnasiums, and 24×7 security.
+
+### Luxury Villas & Independent Bungalows
+Exclusive low-density gated communities offering private gardens, personal plunge pools, duplex layouts, and luxury Vastu-compliant architecture.
+
+### Non-Agricultural (NA) Residential Plots
+High-appreciation NA plots in emerging suburban growth corridors, offering complete design freedom to construct custom family homes.
+
+### Commercial & Industrial Properties
+Grade-A office towers, retail showrooms, warehousing parks, industrial sheds, and manufacturing land suitable for enterprise expansion.
+
+## Best Cities to Buy Property in Gujarat
+
+### Ahmedabad
+Gujarat's primary real estate engine. Flagship investment localities include SG Highway, Science City, Gota, South Bopal, Shela, Thaltej, Satellite, and Chandkheda.
+
+### Surat
+Textile and diamond capital offering rapid residential growth in Vesu, Pal, Adajan, VIP Road, Althan, Piplod, and Dumas Road.
+
+### Vadodara
+Cultural and educational hub featuring premium residential plot townships and luxury villas in Bhayli, Gotri, Sama Savli Road, Vasna, and Manjalpur.
+
+### Rajkot & Gandhinagar
+Fast-growing markets driven by industrial corridors (Kalawad Road, Raiya Road) and GIFT City financial district (Raysan, Kudasan, Sargasan).
+
+## Residential vs Commercial Property Buying Guide
+- Residential Property: Ideal for end-use living or steady capital appreciation with lower entry budgets and tax benefits under Section 24 and 80C.
+- Commercial Property: Offers higher rental yields (6-8%), longer corporate lease lock-ins (3-9 years), and strong inflation-hedged income for investors.
+
+## Luxury Properties & Sustainable Smart Homes
+Modern residential developments in Gujarat feature smart home automation (video door phones, remote lighting control, digital locks) alongside eco-friendly green features (rainwater harvesting, solar power panels, EV charging stations, and water recycling plants).
+
+## Property Price Trends & Home Loan Guide
+
+### Appreciation Trends
+Property prices across Gujarat's tier-1 and tier-2 cities appreciate at 8-12% annually. Developing corridors along new ring roads offer high multi-fold growth potential.
+
+### Bank Financing & Home Loans
+Leading nationalized and private banks (SBI, HDFC, ICICI, Bank of Baroda) fund up to 80-90% of property cost with competitive interest rates and hassle-free documentation.
+
+## NRI Property Buyer's Guide
+Gujarat is a preferred real estate destination for NRIs worldwide. Experienced consultants assist NRIs with virtual video tours, legal Power of Attorney (POA) drafting, NRE/NRO account compliance, FEMA regulations, and full property management.
+
+## Legal Verification, RERA & Registration Checklist
+Before finalizing property purchases in Gujarat, verify these mandatory legal documents:
+1. Registered Title Deed & 30-Year Title Search Certificate
+2. AnyRoR 7/12 & 8-A Revenue Land Extract Records
+3. Official Non-Agricultural (NA) Land Permission & Zoning Clearances
+4. Approved Building Plan & Building Use (BU) Permission from local municipal authority
+5. GUJRERA Registration Number & Escrow Account Details.
+
+## Buyer Checklist & Property Management Services
+- Conduct physical site inspections, verify carpet area calculations, check builder track records, evaluate nearby schools and hospitals, calculate Gujarat Stamp Duty (4.9% + 1% registration fee), and opt for professional property management for tenant handling.
+
+### Why Choose PropertysDeal?
+PropertysDeal simplifies buying property in Gujarat by offering 100% verified listings, direct seller contact options, HD photos and video walkthroughs, transparent pricing, interactive map search, and expert legal and loan guidance.
+
+### Final Conclusion
+Buying property in Gujarat is a highly rewarding investment that guarantees financial growth, lifestyle quality, and long-term security. Exploring verified listings on PropertysDeal helps buyers select ideal residential, commercial, or plot investments across Ahmedabad, Surat, Vadodara, Rajkot, and Gandhinagar with total confidence.`;
+    }
+
+    // Explicit Deep Overrides for 'ahmedabad-real-estate'
+    if (normSlugCheck === 'ahmedabad-real-estate' || normSlugCheck === 'real-estate-ahmedabad' || normSlugCheck === 'property-in-ahmedabad' || normSlugCheck === 'properties-in-ahmedabad') {
+      title = 'Ahmedabad Real Estate | Property in Ahmedabad';
+      meta_title = 'Ahmedabad Real Estate | Buy Residential & Commercial Property';
+      meta_description = 'Explore real estate in Ahmedabad including flats, apartments, luxury villas, NA plots, commercial offices, and industrial land across SG Highway, Science City, Gota, Bopal, Shela, Thaltej, and Bodakdev.';
+      h1 = 'Ahmedabad Real Estate';
+      h2 = [
+        'Overview of Ahmedabad Real Estate Market',
+        'Why Invest in Ahmedabad Real Estate?',
+        'Best Localities to Buy Property in Ahmedabad',
+        'Residential vs Commercial Property Market in Ahmedabad',
+        'Luxury Housing & Gated Communities in Ahmedabad',
+        'Affordable Housing & Government Initiatives',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Property Investment Guide',
+        'Legal Verification, RERA & Registration Checklist',
+        'Buyer Checklist & Property Management Services'
+      ];
+
+      content = `Searching for ahmedabad real estate or property for sale in ahmedabad? Ahmedabad is Gujarat's primary real estate engine and one of India's fastest-growing property markets. With rapid economic expansion, world-class civic infrastructure, expanding metro connectivity, and thriving industrial and commercial zones, Ahmedabad offers unmatched real estate opportunities for homebuyers, NRI investors, commercial businesses, and land buyers.
+
+Whether you are looking for a 1BHK, 2BHK, 3BHK, or 4BHK flat, luxury bungalow, independent villa, NA residential plot, Grade-A commercial office space, or industrial land, Ahmedabad provides options across every budget and micro-market.
+
+Real estate in Ahmedabad offers strong capital appreciation and consistent rental yields, supported by infrastructure projects such as the Ahmedabad Metro, SP Ring Road expansion, Sabarmati Riverfront, GIFT City connectivity, and the upcoming High-Speed Bullet Train network.
+
+## Overview of Ahmedabad Real Estate Market
+Ahmedabad's real estate sector is powered by robust urban planning under the Ahmedabad Municipal Corporation (AMC) and AUDA (Ahmedabad Urban Development Authority). The city's property market balances affordable residential townships in suburban corridors with high-end luxury developments in prime western sectors.
+
+### High Capital Growth & Rental Yields
+Prime commercial and residential belts such as SG Highway, Science City, Thaltej, Bodakdev, Ambli, and Sindhu Bhavan Road deliver 8-12% annual property price appreciation alongside attractive 4-6% residential and 6-8% commercial rental yields.
+
+### GUJRERA Transparency & Buyer Security
+The Gujarat Real Estate Regulatory Authority (GUJRERA) enforces project registration, builder accountability, escrow account management, fixed delivery schedules, and 5-year structural warranty protection for property buyers.
+
+## Why Invest in Ahmedabad Real Estate?
+Investing in Ahmedabad property offers exceptional stability and financial upside.
+
+### Major Growth Engines & Connectivity Highlights
+- Gujarat's Economic Capital: Premier hub for pharmaceutical, IT, textile, automotive, and financial enterprises.
+- World-Class Metro & BRTS Transit: Modern elevated and underground metro rail network connecting north, south, east, and west Ahmedabad.
+- GIFT City Proximity: Direct 15-minute access to India's first operational smart city and international financial hub.
+- Top Educational & Healthcare Infrastructure: Home to IIM Ahmedabad, NID, Nirma University, and multi-specialty healthcare networks.
+
+## Best Localities to Buy Property in Ahmedabad
+
+### SG Highway & Sindhu Bhavan Road
+Ahmedabad's flagship luxury corridor offering Grade-A commercial office towers, luxury 3BHK/4BHK apartments, and fine-dining retail hubs.
+
+### Science City
+A rapidly expanding residential destination featuring modern gated townships, top schools, multi-specialty hospitals, and high long-term appreciation.
+
+### Gota & Chandkheda
+Popular affordable-to-mid-segment housing corridors with direct metro access, excellent SG Highway connectivity, and vibrant family communities.
+
+### South Bopal & Shela
+Fastest-growing residential belts offering modern gated societies, green parks, international schools, and easy access to SP Ring Road.
+
+### Thaltej, Bodakdev & Ambli
+Established ultra-luxury neighborhoods known for high-end residential apartments, independent bungalows, and high resale liquidity.
+
+### Motera & Vaishnodevi Circle
+High-growth northern corridors benefiting from Narendra Modi Stadium development, SP Ring Road access, and GIFT City proximity.
+
+## Residential vs Commercial Property Market in Ahmedabad
+- Residential Property: Broad choice of ready-to-move and under-construction 1-4 BHK apartments, villas, and NA plots offering tax savings and long-term land growth.
+- Commercial Property: High-yield investment choice featuring corporate office spaces, retail showrooms, and warehousing units yielding 6-8% annual rental returns along SG Highway and Prahlad Nagar.
+
+## Luxury Housing & Gated Communities in Ahmedabad
+Luxury developments in Bodakdev, Ambli, and Science City feature grand clubhouses, infinity pools, smart home automation, video door phones, multi-level security, private gardens, and concierge services.
+
+## Affordable Housing & Government Initiatives
+Affordable housing projects in Gota, Vatva, Narol, and Nikol make homeownership accessible for first-time buyers through budget pricing, flexible payment schedules, and PMAY home loan subsidies.
+
+## Property Price Trends & Home Loan Guide
+
+### Market Trends
+Property prices in premier western sectors average ₹6,500 – ₹10,000/sq.ft, while developing suburbs like Gota and South Bopal range from ₹4,000 – ₹5,500/sq.ft with strong annual growth.
+
+### Bank Home Loan Facilitation
+Leading banks (SBI, HDFC, ICICI, Bank of Baroda, Axis) offer home loans up to 80-90% of property cost with competitive interest rates and minimal documentation.
+
+## NRI Property Investment Guide
+Ahmedabad is a preferred real estate destination for NRIs in the USA, UK, UAE, and Canada. Property consultants provide virtual property tours, legal Power of Attorney (POA) execution, NRE/NRO banking support, FEMA compliance, and end-to-end rental management.
+
+## Legal Verification, RERA & Registration Checklist
+Before finalizing property transactions in Ahmedabad:
+1. Obtain Title Clearance Certificate & 30-Year Search Report from a property advocate.
+2. Inspect AnyRoR 7/12 & 8-A revenue land extract records.
+3. Confirm NA (Non-Agricultural) Order & approved AMC/AUDA Building Plan.
+4. Verify Building Use (BU) Permission & active GUJRERA registration number.
+
+## Buyer Checklist & Property Management Services
+- Conduct site visits, check carpet area measurements, evaluate builder delivery track records, verify Gujarat Stamp Duty (4.9% + 1% registration), and utilize professional property management for tenant vetting and rent collection.
+
+### Why Choose PropertysDeal?
+PropertysDeal provides verified property listings in Ahmedabad with HD photos, video tours, transparent pricing, interactive map search, direct developer contact options, and complete home loan assistance.
+
+### Final Conclusion
+Ahmedabad real estate is a highly secure and lucrative investment choice. Exploring verified properties on PropertysDeal ensures home buyers and investors find ideal residential, commercial, or plot investments across SG Highway, Science City, Gota, Bopal, Shela, and Thaltej with total confidence.`;
+    }
+
+    // Explicit Deep Overrides for 'flat-for-sale-in-sg-highway'
+    if (normSlugCheck === 'flat-for-sale-in-sg-highway' || normSlugCheck === 'flats-in-sg-highway' || normSlugCheck === 'flats-for-sale-in-sg-highway' || normSlugCheck === 'property-in-sg-highway') {
+      title = 'Flat for Sale in SG Highway | Apartments for Sale in SG Highway Ahmedabad';
+      meta_title = 'Flat for Sale in SG Highway | 2, 3, 4 BHK Apartments Ahmedabad';
+      meta_description = 'Browse verified flats for sale in SG Highway, Ahmedabad. Explore 1BHK, 2BHK, 3BHK, 4BHK apartments, ready-to-move flats, and luxury penthouses with RERA guidelines.';
+      h1 = 'Flat for Sale in SG Highway';
+      h2 = [
+        'Overview of Flats for Sale in SG Highway',
+        'Why Buy a Flat on SG Highway Ahmedabad?',
+        'Types of Flats Available on SG Highway',
+        'Best Micro-Markets Near SG Highway Corridor',
+        'Ready-to-Move vs Under-Construction Flats',
+        'Luxury Apartments & Sustainable Smart Homes',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Buyer\'s Guide for SG Highway Investment',
+        'Legal Verification, RERA & Registration Checklist',
+        'Buyer Checklist & Property Management Services'
+      ];
+
+      content = `Searching for a verified flat for sale in sg highway, ahmedabad? SG Highway (Sarkhej–Gandhinagar Highway) is Ahmedabad's most prestigious residential and commercial arterial corridor. Over the past decade, SG Highway has transformed into western Ahmedabad's prime real estate belt, attracting homebuyers, corporate professionals, NRI investors, and luxury seekers.
+
+Homebuyers can choose from thousands of verified residential options, including compact 1BHK/2BHK flats, spacious family 3BHK apartments, ultra-luxury 4BHK/5BHK penthouses, sky villas, ready-to-move resale units, and new gated township developments.
+
+The SG Highway corridor offers seamless connectivity to Gandhinagar, GIFT City, Gujarat High Court, major corporate office towers, top international schools, multi-specialty hospitals, fine-dining restaurants, and luxury shopping centers.
+
+### Key Highlights of SG Highway Apartments
+- Ahmedabad's flagship high-growth residential & commercial corridor
+- Diverse choices: Budget 2BHKs to ultra-luxury 4BHK penthouses & sky villas
+- Proximity to top business parks, IT hubs, and corporate headquarters
+- Direct Metro Rail transit and SP Ring Road connectivity
+- GUJRERA registered builder safety and transparent pricing
+- High resale liquidity and corporate rental yields.
+
+## Overview of Flats for Sale in SG Highway
+SG Highway's residential market is defined by planned urban infrastructure managed by AMC and AUDA. The corridor seamlessly connects key western Ahmedabad micro-markets including Bodakdev, Ambli, Thaltej, Science City, Sindhu Bhavan Road, Gota, South Bopal, Shela, and Vaishnodevi Circle.
+
+### Premium Lifestyle & World-Class Amenities
+Modern residential high-rises on SG Highway feature grand clubhouses, infinity rooftop swimming pools, fully equipped fitness centers, mini theatres, squash courts, landscaped gardens, 3-tier CCTV security, and dedicated EV charging stations.
+
+### Strong Capital Appreciation & Corporate Rental Yields
+SG Highway leads Ahmedabad's property value growth, delivering 8-12% annual capital appreciation alongside high 4-6% residential rental yields driven by corporate executives, IT professionals, and expatriates.
+
+## Why Buy a Flat on SG Highway Ahmedabad?
+Investing in an apartment on SG Highway offers superior lifestyle convenience and robust asset appreciation.
+
+### Major Advantages & Lifestyle Highlights
+- Prime Connectivity: Direct 6-lane highway access connecting SG Highway to Gandhinagar, GIFT City, SP Ring Road, and Ahmedabad Airport.
+- Employment Hub Proximity: Minutes away from major corporate office hubs along Prahlad Nagar, Sindhu Bhavan Road, and Corporate Road.
+- Top Social Infrastructure: Surrounded by reputed institutions (Nirma University, SGVP International School), multi-specialty hospitals (Zydus, CIMS, Apollo), and luxury shopping malls (Acropolis, Palladium).
+
+## Types of Flats Available on SG Highway
+
+### 1 BHK & 2 BHK Apartments
+Ideal for working professionals, young couples, and rental investors seeking high occupancy rates and steady monthly rental cash flow.
+
+### 3 BHK Apartments (Most Preferred Choice)
+The most popular residential configuration on SG Highway. Offers spacious carpet areas, family-friendly room layouts, modular kitchens, large balconies, and high resale liquidity.
+
+### 4 BHK Luxury Flats & Penthouses
+Designed for ultra-luxury living, featuring double-height living spaces, private terrace decks, Italian marble flooring, smart home automation, and private elevator lobbies.
+
+## Best Micro-Markets Near SG Highway Corridor
+
+### Thaltej & Bodakdev
+Established luxury residential neighborhoods offering high-rise apartments, independent bungalows, fine-dining hubs, and high resale value.
+
+### Science City Road
+A fast-expanding residential destination featuring modern gated townships, wide tree-lined avenues, top schools, and high capital growth.
+
+### Ambli & Sindhu Bhavan Road
+Ahmedabad's premier luxury corridor known for high-end residential skyscrapers, exclusive penthouses, and corporate office headquarters.
+
+### Gota, South Bopal & Shela
+Popular affordable-to-mid-segment residential belts providing modern gated societies, green parks, and easy access to SP Ring Road.
+
+### Vaishnodevi Circle
+High-growth northern corridor offering rapid access to Gandhinagar, GIFT City, and SG Highway business hubs.
+
+## Ready-to-Move vs Under-Construction Flats
+- Ready-to-Move Flats: Eliminates construction delay risks, permits immediate family occupancy, and provides instant rental income.
+- Under-Construction Projects: Offers lower entry prices, flexible slab-wise payment structures, modern architectural designs, and high capital appreciation upon completion.
+
+## Luxury Apartments & Sustainable Smart Homes
+Modern residential projects on SG Highway integrate smart home technology (digital door locks, voice-controlled lighting, remote security surveillance) and sustainable green infrastructure (rainwater harvesting, solar common lighting, sewage treatment, EV chargers).
+
+## Property Price Trends & Home Loan Guide
+
+### Property Appreciation Trends
+Apartment rates in premium micro-markets like Bodakdev and Ambli average ₹7,500 – ₹11,000/sq.ft, while developing sectors like Gota and Vaishnodevi Circle range from ₹4,200 – ₹5,800/sq.ft.
+
+### Home Loan Facilitation
+Major nationalized and private banks (SBI, HDFC, ICICI, Bank of Baroda) offer flat purchase loans up to 80-90% of property cost with competitive interest rates.
+
+## NRI Buyer's Guide for SG Highway Investment
+SG Highway is the preferred choice for Non-Resident Indians (NRIs) seeking luxury housing in Gujarat. Real estate consultants assist NRIs with virtual property tours, legal Power of Attorney (POA) execution, NRE/NRO banking compliance, and end-to-end rental management.
+
+## Legal Verification, RERA & Registration Checklist
+Before purchasing an apartment on SG Highway:
+1. Verify Registered Title Deed & 30-Year Search Certificate.
+2. Confirm Building Use (BU) Permission & Approved Municipal Building Plan.
+3. Check GUJRERA Registration Number on the official portal for project escrow safety.
+4. Verify Society NOC, maintenance charges, and parking allotment deed.
+
+## Buyer Checklist & Property Management Services
+- Inspect physical carpet area, evaluate builder track records, check Gujarat Stamp Duty (4.9% + 1% registration fee), and utilize professional property management for hassle-free tenant handling and rent collection.
+
+### Why Choose PropertysDeal?
+PropertysDeal simplifies discovering verified flats on SG Highway with 100% verified listings, direct builder contact details, HD photos, interactive map search, and expert legal and loan guidance.
+
+### Final Conclusion
+Buying a flat on SG Highway, Ahmedabad is an outstanding decision offering luxury living, modern amenities, and long-term asset growth. Exploring verified listings on PropertysDeal helps buyers select ideal 2BHK, 3BHK, or 4BHK apartments on SG Highway with complete confidence.`;
+    }
+
+    // Explicit Deep Overrides for '2bhk-flat-in-bopal'
+    if (normSlugCheck === '2bhk-flat-in-bopal' || normSlugCheck === '2bhk-flat-bopal' || normSlugCheck === '2bhk-flats-in-bopal' || normSlugCheck === '2-bhk-flat-in-bopal') {
+      title = '2 BHK Flat in Bopal Ahmedabad | 2 BHK Apartments for Sale in Bopal';
+      meta_title = '2 BHK Flat in Bopal Ahmedabad | Buy 2 BHK Apartments in Bopal';
+      meta_description = 'Explore verified 2 BHK flats for sale in Bopal, Ahmedabad. Find affordable to luxury 2 BHK apartments across Bopal, South Bopal, Shela, Ghuma, and Shilaj with RERA guidelines.';
+      h1 = '2 BHK Flat in Bopal, Ahmedabad';
+      h2 = [
+        'Overview of 2 BHK Flats in Bopal Ahmedabad',
+        'Why Buy a 2 BHK Flat in Bopal?',
+        'Ready-to-Move vs Under-Construction 2 BHK Flats',
+        'Best Societies & Nearby Areas (South Bopal, Shela, Ghuma, Shilaj)',
+        'Affordable vs Luxury 2 BHK Apartments in Bopal',
+        'Smart Home Features & Sustainable Township Living',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Buyer\'s Guide for Bopal Real Estate',
+        'Legal Verification, RERA & Registration Checklist',
+        'Buyer Checklist & Property Management Services'
+      ];
+
+      content = `Searching for a verified 2 bhk flat in bopal, ahmedabad? Bopal has evolved into one of western Ahmedabad's most popular mid-segment residential destinations. Situated near Ambli-Bopal Road and SP Ring Road, Bopal provides a perfect blend of affordable pricing, modern gated society amenities, excellent social infrastructure, and rapid connectivity to SG Highway, Prahlad Nagar, and Science City.
+
+A 2 BHK apartment in Bopal is the ideal choice for first-time homebuyers, young couples, growing families, IT professionals working along SG Highway, business owners, and long-term rental investors.
+
+Buyers can explore a diverse portfolio of 2 BHK flats, including ready-to-move resale homes, affordable housing projects, premium gated townships, and new under-construction developments.
+
+### Key Highlights of 2 BHK Apartments in Bopal
+- Ahmedabad's flagship mid-segment residential hub
+- Strategic connectivity via Ambli-Bopal Road, SP Ring Road, and SG Highway
+- Diverse price range: Budget homes (₹40-55 Lakhs) to luxury townships (₹60-85 Lakhs)
+- Top international schools, multi-specialty hospitals, and retail markets nearby
+- GUJRERA registered developer safety and transparent escrow compliance
+- High corporate rental yield from working professionals.
+
+## Overview of 2 BHK Flats in Bopal Ahmedabad
+Bopal's residential market is planned under AUDA (Ahmedabad Urban Development Authority) and AMC. The micro-market encompasses Bopal Main Town, South Bopal (SoBo), Ghuma, Shela, and Shilaj, creating a vast residential ecosystem equipped with modern civic infrastructure.
+
+### Gated Community Amenities & Lifestyle
+Modern 2 BHK residential societies in Bopal feature multi-purpose clubhouses, swimming pools, fully equipped gymnasiums, landscaped gardens, jogging tracks, indoor games, 24×7 CCTV security, high-speed elevators, and reserved car parking spaces.
+
+### Capital Appreciation & Rental Yield
+Property prices in Bopal average ₹5,200 – ₹6,600/sq.ft, reflecting consistent 8-12% annual capital appreciation alongside high 4-5% residential rental yields driven by corporate employees and young families.
+
+## Why Buy a 2 BHK Flat in Bopal?
+Investing in a 2 BHK apartment in Bopal offers superior value for money and lifestyle convenience.
+
+### Major Advantages & Connectivity
+- Unmatched Connectivity: Direct access to SP Ring Road, SG Highway, Science City Road, and Prahlad Nagar corporate hubs.
+- Top Educational Institutions: Near DPS Bopal, Shivashish World School, Tulip International, and Ahmedabad University.
+- Healthcare & Retail Convenience: Minutes away from Krishna Heart Institute, Shalby Hospital, TRP Mall, and vibrant local high-street markets.
+
+## Ready-to-Move vs Under-Construction 2 BHK Flats
+- Ready-to-Move Flats: Offers immediate shifting, eliminates possession delay risks, allows actual physical inspection of carpet areas, and provides instant rental returns.
+- Under-Construction Projects: Provides attractive booking discounts, flexible slab-wise payment plans, updated architectural layouts, and higher capital appreciation upon completion.
+
+## Best Societies & Nearby Areas (South Bopal, Shela, Ghuma, Shilaj)
+
+### South Bopal (SoBo)
+Ahmedabad's fastest-growing residential neighborhood offering modern high-rise townships, wide internal roads, new shopping malls, and family-friendly environments.
+
+### Shela & Shilaj
+Emerging premium residential belts known for luxury gated townships, green open spaces, and close proximity to Ambli Road.
+
+### Ghuma
+An affordable residential pocket adjacent to Bopal offering budget-friendly 2 BHK flats with peaceful green surroundings.
+
+## Affordable vs Luxury 2 BHK Apartments in Bopal
+- Affordable 2 BHK Flats: Budget-friendly apartments (₹40 – ₹55 Lakhs) offering essential gated amenities (lift, security, parking, play area) ideal for salaried professionals.
+- Luxury 2 BHK Apartments: Premium residences (₹60 – ₹85 Lakhs) featuring branded fittings, smart home automation, modular kitchens, clubhouses, and infinity pools.
+
+## Smart Home Features & Sustainable Township Living
+Modern 2 BHK societies in Bopal feature smart home automation (video door phones, digital locks, app-controlled lighting) alongside green building features (solar power for common areas, rainwater harvesting, sewage recycling plants, and EV charging points).
+
+## Property Price Trends & Home Loan Guide
+
+### Property Appreciation Trends
+Apartment prices in Bopal and South Bopal average ₹5,200 – ₹6,600/sq.ft, driven by continuous commercial expansion along Ambli-Bopal Road and SP Ring Road.
+
+### Home Loan & Mortgage Facilitation
+Leading banks (SBI, HDFC, ICICI, Bank of Baroda) fund up to 80-90% of flat cost with competitive interest rates and hassle-free documentation.
+
+## NRI Buyer's Guide for Bopal Real Estate
+Bopal is a favored location for Non-Resident Indians (NRIs) seeking reliable residential investments in Gujarat. Real estate consultants assist NRIs with virtual property tours, legal Power of Attorney (POA) drafting, NRE/NRO banking support, and complete tenant management.
+
+## Legal Verification, RERA & Registration Checklist
+Before finalizing a 2 BHK flat purchase in Bopal:
+1. Verify Registered Sale Deed & 30-Year Title Search Certificate.
+2. Inspect AnyRoR 7/12 & 8-A land extract records and AUDA/AMC approved building plans.
+3. Confirm Building Use (BU) Permission & active GUJRERA registration number.
+4. Verify Society NOC, maintenance rules, and parking allotment deed.
+
+## Buyer Checklist & Property Management Services
+- Inspect physical carpet area, evaluate builder track record, check Gujarat Stamp Duty (4.9% + 1% registration fee), and opt for professional property management for tenant screening and rent collection.
+
+### Why Choose PropertysDeal?
+PropertysDeal simplifies finding verified 2 BHK flats in Bopal with 100% verified listings, direct builder contact details, HD photos, interactive map search, and expert legal and loan guidance.
+
+### Final Conclusion
+Buying a 2 BHK flat in Bopal, Ahmedabad is a smart investment choice providing affordability, modern lifestyle amenities, and strong long-term appreciation. Exploring verified listings on PropertysDeal helps buyers select ideal 2 BHK apartments in Bopal, South Bopal, Shela, or Ghuma with total confidence.`;
+    }
+
+    // Explicit Deep Overrides for 'property-in-prahlad-nagar'
+    if (normSlugCheck === 'property-in-prahlad-nagar' || normSlugCheck === 'prahlad-nagar-real-estate' || normSlugCheck === 'properties-in-prahlad-nagar' || normSlugCheck === 'flats-in-prahlad-nagar') {
+      title = 'Property in Prahlad Nagar Ahmedabad | Real Estate in Prahlad Nagar';
+      meta_title = 'Property in Prahlad Nagar Ahmedabad | Buy Flats & Commercial';
+      meta_description = 'Find verified properties for sale in Prahlad Nagar, Ahmedabad. Explore 2BHK, 3BHK, 4BHK luxury flats, penthouses, villas & commercial office spaces with RERA guidelines.';
+      h1 = 'Property in Prahlad Nagar, Ahmedabad';
+      h2 = [
+        'Overview of Property in Prahlad Nagar Ahmedabad',
+        'Why Invest in Prahlad Nagar Real Estate?',
+        'Residential Apartments, Penthouses & Villas',
+        'Commercial Properties & Corporate Office Spaces',
+        'Ready-to-Move vs New Residential Projects',
+        'Luxury Living, Smart Homes & Sustainability',
+        'Property Price Trends & Home Loan Guide',
+        'NRI Buyer\'s Guide for Prahlad Nagar Investment',
+        'Legal Verification, RERA & Registration Checklist',
+        'Buyer Checklist & Property Management Services'
+      ];
+
+      content = `Searching for verified property in prahlad nagar, ahmedabad? Prahlad Nagar is one of western Ahmedabad's most prestigious, affluent, and established residential and commercial hubs. Strategically situated adjacent to SG Highway, Corporate Road, Satellite, and Bodakdev, Prahlad Nagar represents the benchmark for urban luxury living, corporate business towers, and premium lifestyle infrastructure.
+
+Whether you are looking for a luxury 3BHK/4BHK apartment, a duplex sky penthouse, an independent villa, or Grade-A commercial office space, Prahlad Nagar provides high-value real estate opportunities across multiple segments.
+
+Prahlad Nagar seamlessly combines lush residential avenues with high-street commercial plazas, fine-dining restaurants, multi-specialty hospitals, and top educational institutions.
+
+### Key Highlights of Prahlad Nagar Real Estate
+- Western Ahmedabad's flagship prime residential & commercial corridor
+- Direct access to SG Highway, Corporate Road, and Satellite main roads
+- Diverse property spectrum: Luxury 3BHK/4BHK flats, penthouses, villas & IT parks
+- Proximity to major corporate headquarters and international business parks
+- GUJRERA registered developer safety and transparent title history
+- High corporate rental yields and exceptional resale liquidity.
+
+## Overview of Property in Prahlad Nagar Ahmedabad
+Prahlad Nagar's urban layout is developed under AMC (Ahmedabad Municipal Corporation) and AUDA. The locality encompasses Prahlad Nagar Garden, Corporate Road, Anandnagar, Makarba, and Vejalpur borders, forming a vibrant real estate district.
+
+### World-Class Gated Community Amenities
+Modern residential high-rises and commercial towers in Prahlad Nagar offer grand designer lobbies, infinity rooftop pools, state-of-the-art gymnasiums, multi-tier security, high-speed elevators, 100% power backup, and dedicated EV charging stations.
+
+### Capital Appreciation & Rental Market Strength
+Property values in Prahlad Nagar average ₹7,500 – ₹11,000/sq.ft for premium apartments, with luxury penthouses and prime commercial office spaces commanding even higher valuations. The area consistently delivers 8-12% annual capital growth and 4-6% rental yields driven by C-suite executives and corporate tenants.
+
+## Why Invest in Prahlad Nagar Real Estate?
+Investing in Prahlad Nagar provides long-term financial security, strong asset appreciation, and an un-matched urban lifestyle.
+
+### Strategic Location & Connectivity
+- Prime Connectivity: Minutes from SG Highway, ISKCON Cross Road, SP Ring Road, and Ahmedabad Metro stations.
+- Corporate Hub: Direct frontage onto Corporate Road, home to multinational IT companies, financial firms, and corporate headquarters.
+- Lifestyle Infrastructure: Near Prahlad Nagar AUDA Garden, Palladium Mall, Zydus Hospital, Shalby Hospital, and top international schools.
+
+## Residential Apartments, Penthouses & Villas
+Homebuyers can choose from:
+- 2 BHK & 3 BHK Apartments: Spacious, family-friendly floor plans featuring modular kitchens, master suites, and wide balconies.
+- 4 BHK Luxury Flats & Penthouses: Premium high-rise residences with double-height living areas, private terrace decks, Italian marble flooring, and smart home automation.
+- Independent Villas & Bungalows: High-end gated villas offering private garden plots, personal parking spaces, and exclusive privacy.
+
+## Commercial Properties & Corporate Office Spaces
+Prahlad Nagar is a premier business center in Ahmedabad. Investors and companies can acquire:
+- Grade-A Office Spaces & IT Towers
+- Ground Floor Retail Shops & Showrooms
+- Commercial Complexes & Business Centers on Corporate Road.
+
+## Ready-to-Move vs New Residential Projects
+- Ready-to-Move Properties: Eliminates construction delays, allows physical carpet area evaluation, and generates immediate corporate rental returns.
+- New Developer Projects: Offers modern architectural designs, flexible payment plans, contemporary clubhouses, and high capital growth upon possession.
+
+## Luxury Living, Smart Homes & Sustainability
+Luxury properties in Prahlad Nagar integrate smart home automation (digital lock systems, app-based lighting control, video door security) and sustainable features (solar power for common areas, rainwater harvesting systems, organic waste management, and EV charging points).
+
+## Property Price Trends & Home Loan Guide
+
+### Market Price Valuation
+Residential flat prices in Prahlad Nagar range from ₹7,500 – ₹11,000/sq.ft, while commercial office space rates range from ₹8,500 – ₹14,000/sq.ft depending on location and project age.
+
+### Home Loan & Commercial Financing
+Leading nationalized and private banks (SBI, HDFC, ICICI, Axis Bank) provide home and commercial property loans up to 80-90% of valuation with competitive interest rates.
+
+## NRI Buyer's Guide for Prahlad Nagar Investment
+Prahlad Nagar is a top destination for Non-Resident Indians (NRIs) seeking premium property assets in Gujarat. Real estate professionals assist NRIs with virtual video tours, legal Power of Attorney (POA) drafting, NRE/NRO banking compliance, and complete property management.
+
+## Legal Verification, RERA & Registration Checklist
+Before purchasing property in Prahlad Nagar:
+1. Verify Registered Sale Deed & 30-Year Search Title Clearance Certificate.
+2. Inspect AnyRoR 7/12 & 8-A land extracts and AMC approved building plans.
+3. Confirm Building Use (BU) Permission & active GUJRERA registration details.
+4. Check Society NOC, maintenance agreements, and allotment letters.
+
+## Buyer Checklist & Property Management Services
+- Inspect physical carpet area, verify builder track records, check Gujarat Stamp Duty (4.9% + 1% registration fee), and utilize professional property management for tenant screening and rental handling.
+
+### Why Choose PropertysDeal?
+PropertysDeal simplifies discovering verified property in Prahlad Nagar with 100% verified listings, direct seller contact details, HD photos, interactive map search, and expert legal and loan assistance.
+
+### Final Conclusion
+Buying property in Prahlad Nagar, Ahmedabad is an exceptional investment offering luxury living, corporate office convenience, and sustained asset growth. Exploring verified listings on PropertysDeal ensures buyers and investors secure ideal apartments, penthouses, villas, or office spaces with total confidence.`;
     }
 
     // 5. Fetch context-specific FAQs (merge with blog FAQs)
@@ -1109,6 +2279,1506 @@ Ahmedabad continues to stand out as one of Gujarat's premier residential real es
       };
     }
 
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'property-for-sale-in-ahmedabad'
+    if (slug.toLowerCase().trim() === 'property-for-sale-in-ahmedabad') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Property for Sale in Ahmedabad",
+        "url": "https://propertysdeal.in/property-for-sale-in-ahmedabad",
+        "description": "Browse verified residential and commercial properties for sale in Ahmedabad."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Property for Sale in Ahmedabad",
+        "description": "Explore verified properties including flats, villas, plots, houses, and commercial spaces in Ahmedabad."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ahmedabad",
+            "item": "https://propertysdeal.in/property-in-ahmedabad"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Property for Sale in Ahmedabad",
+            "item": "https://propertysdeal.in/property-for-sale-in-ahmedabad"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best area to buy property in Ahmedabad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SG Highway, Science City, Gota, Shela, South Bopal, Satellite, and Thaltej are among the most popular areas for buying property in Ahmedabad."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 100,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/property-sale-ahmedabad.webp",
+        "caption": "Property for Sale in Ahmedabad"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Property Buying Guide Ahmedabad",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Ahmedabad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Ahmedabad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0225",
+        "longitude": "72.5714"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Property for Sale in Ahmedabad Dataset",
+        "description": "Verified residential and commercial property dataset for Ahmedabad."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for '2bhk-flat-in-ahmedabad'
+    if (slug.toLowerCase().trim() === '2bhk-flat-in-ahmedabad' || slug.toLowerCase().trim() === '2bhk-flats-in-ahmedabad' || slug.toLowerCase().trim() === '2bhk-flat-ahmedabad') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "2BHK Flat in Ahmedabad",
+        "url": "https://propertysdeal.in/2bhk-flat-in-ahmedabad",
+        "description": "Browse verified 2BHK flats for sale in Ahmedabad."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "2BHK Flat in Ahmedabad",
+        "description": "Explore verified 2 BHK residential apartments for sale in Ahmedabad."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ahmedabad",
+            "item": "https://propertysdeal.in/property-in-ahmedabad"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "2BHK Flat in Ahmedabad",
+            "item": "https://propertysdeal.in/2bhk-flat-in-ahmedabad"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best area to buy a 2BHK flat in Ahmedabad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gota, Shela, South Bopal, Chandkheda, Motera, Science City, and SG Highway are among the most popular localities for 2BHK flats in Ahmedabad."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 50,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/2bhk-flat-ahmedabad.webp",
+        "caption": "2BHK Flat in Ahmedabad"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "2BHK Flat Buying Guide Ahmedabad",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Ahmedabad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Ahmedabad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0225",
+        "longitude": "72.5714"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Ahmedabad 2BHK Flats Dataset",
+        "description": "Verified 2BHK residential apartments dataset for Ahmedabad."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for '3bhk-flat-in-surat'
+    if (slug.toLowerCase().trim() === '3bhk-flat-in-surat' || slug.toLowerCase().trim() === '3bhk-flats-in-surat' || slug.toLowerCase().trim() === '3bhk-flat-surat') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "3BHK Flat in Surat",
+        "url": "https://propertysdeal.in/3bhk-flat-in-surat",
+        "description": "Browse verified 3BHK flats for sale in Surat."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "3BHK Flat in Surat",
+        "description": "Explore verified 3 BHK residential apartments for sale in Surat."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Surat",
+            "item": "https://propertysdeal.in/property-in-surat"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "3BHK Flat in Surat",
+            "item": "https://propertysdeal.in/3bhk-flat-in-surat"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best area to buy a 3BHK flat in Surat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vesu, Pal, Adajan, VIP Road, Althan, Piplod, and City Light are among the most popular localities for 3BHK flats in Surat."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 50,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/3bhk-flat-surat.webp",
+        "caption": "3BHK Flat in Surat"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "3BHK Flat Buying Guide Surat",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Surat",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Surat",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Surat",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Surat",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "21.1702",
+        "longitude": "72.8311"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Surat 3BHK Flats Dataset",
+        "description": "Verified 3BHK residential apartments dataset for Surat."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'plot-for-sale-in-vadodara'
+    if (slug.toLowerCase().trim() === 'plot-for-sale-in-vadodara' || slug.toLowerCase().trim() === 'plot-for-sale-vadodara' || slug.toLowerCase().trim() === 'plots-in-vadodara' || slug.toLowerCase().trim() === 'plots-for-sale-in-vadodara') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Plot for Sale in Vadodara",
+        "url": "https://propertysdeal.in/plot-for-sale-in-vadodara",
+        "description": "Browse verified plots for sale in Vadodara."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Plot for Sale in Vadodara",
+        "description": "Explore verified NA residential plots and land for sale in Vadodara."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Vadodara",
+            "item": "https://propertysdeal.in/property-in-vadodara"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Plot for Sale in Vadodara",
+            "item": "https://propertysdeal.in/plot-for-sale-in-vadodara"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best area to buy a plot in Vadodara?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bhayli, Gotri, Sama Savli Road, Vasna, Manjalpur, Sevasi, and Waghodia Road are among the most popular localities for plots in Vadodara."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 50,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/plot-sale-vadodara.webp",
+        "caption": "Plot for Sale in Vadodara"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Plot Buying Guide Vadodara",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Vadodara",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Vadodara",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Vadodara",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Vadodara",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "22.3072",
+        "longitude": "73.1812"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Vadodara Residential Plots Dataset",
+        "description": "Verified residential plot dataset for Vadodara."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'property-dealer-in-gujarat'
+    if (slug.toLowerCase().trim() === 'property-dealer-in-gujarat' || slug.toLowerCase().trim() === 'property-dealer-gujarat' || slug.toLowerCase().trim() === 'real-estate-agents-in-gujarat' || slug.toLowerCase().trim() === 'property-dealers-in-gujarat') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Property Dealer in Gujarat",
+        "url": "https://propertysdeal.in/property-dealer-in-gujarat",
+        "description": "Find verified property dealers and real estate agents in Gujarat."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Property Dealer in Gujarat",
+        "description": "Browse top-rated real estate consultants and property brokers across Gujarat."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Gujarat",
+            "item": "https://propertysdeal.in/property-in-gujarat"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Property Dealer in Gujarat",
+            "item": "https://propertysdeal.in/property-dealer-in-gujarat"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why should I hire a property dealer in Gujarat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A professional property dealer provides local price expertise, verified listings, legal due diligence, price negotiation, and smooth registration assistance."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 100,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/property-dealer-gujarat.webp",
+        "caption": "Property Dealer in Gujarat"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Real Estate Dealer Guide Gujarat",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Gujarat",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Gujarat",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Gujarat",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "22.2587",
+        "longitude": "71.1924"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Gujarat Property Dealers Dataset",
+        "description": "Verified property dealers and agents dataset across Gujarat."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'buy-property-in-gujarat'
+    if (slug.toLowerCase().trim() === 'buy-property-in-gujarat' || slug.toLowerCase().trim() === 'buy-property-gujarat' || slug.toLowerCase().trim() === 'property-in-gujarat' || slug.toLowerCase().trim() === 'properties-in-gujarat' || slug.toLowerCase().trim() === 'property-for-sale-in-gujarat') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Buy Property in Gujarat",
+        "url": "https://propertysdeal.in/buy-property-in-gujarat",
+        "description": "Browse verified properties for sale in Gujarat."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Buy Property in Gujarat",
+        "description": "Explore verified flats, villas, plots, and commercial properties across Gujarat."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Gujarat",
+            "item": "https://propertysdeal.in/property-in-gujarat"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Buy Property in Gujarat",
+            "item": "https://propertysdeal.in/buy-property-in-gujarat"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which city is best for buying property in Gujarat?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ahmedabad, Surat, Vadodara, Gandhinagar, and Rajkot are the top cities for residential and commercial property investments."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 100,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/buy-property-gujarat.webp",
+        "caption": "Buy Property in Gujarat"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Property Buying Guide Gujarat",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Gujarat",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Gujarat",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Gujarat",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0225",
+        "longitude": "72.5714"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Gujarat Real Estate Dataset",
+        "description": "Verified residential and commercial property dataset across Gujarat."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'ahmedabad-real-estate'
+    if (slug.toLowerCase().trim() === 'ahmedabad-real-estate' || slug.toLowerCase().trim() === 'real-estate-ahmedabad' || slug.toLowerCase().trim() === 'property-in-ahmedabad' || slug.toLowerCase().trim() === 'properties-in-ahmedabad') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Ahmedabad Real Estate",
+        "url": "https://propertysdeal.in/ahmedabad-real-estate",
+        "description": "Explore real estate in Ahmedabad."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Ahmedabad Real Estate",
+        "description": "Explore verified residential and commercial properties in Ahmedabad."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ahmedabad",
+            "item": "https://propertysdeal.in/property-in-ahmedabad"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ahmedabad Real Estate",
+            "item": "https://propertysdeal.in/ahmedabad-real-estate"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best locality to buy property in Ahmedabad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SG Highway, Science City, Gota, South Bopal, Shela, Thaltej, Bodakdev, and Chandkheda are top localities in Ahmedabad."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 100,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/ahmedabad-real-estate.webp",
+        "caption": "Ahmedabad Real Estate"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Ahmedabad Real Estate Buying Guide",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Ahmedabad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Ahmedabad",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0225",
+        "longitude": "72.5714"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Ahmedabad Real Estate Dataset",
+        "description": "Verified residential and commercial property dataset for Ahmedabad."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'flat-for-sale-in-sg-highway'
+    if (slug.toLowerCase().trim() === 'flat-for-sale-in-sg-highway' || slug.toLowerCase().trim() === 'flats-in-sg-highway' || slug.toLowerCase().trim() === 'flats-for-sale-in-sg-highway' || slug.toLowerCase().trim() === 'property-in-sg-highway') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Flat for Sale in SG Highway",
+        "url": "https://propertysdeal.in/flat-for-sale-in-sg-highway",
+        "description": "Browse verified flats for sale in SG Highway."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Flat for Sale in SG Highway",
+        "description": "Explore verified 1BHK, 2BHK, 3BHK, and 4BHK apartments for sale in SG Highway Ahmedabad."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ahmedabad",
+            "item": "https://propertysdeal.in/property-in-ahmedabad"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Flat for Sale in SG Highway",
+            "item": "https://propertysdeal.in/flat-for-sale-in-sg-highway"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best location for flats near SG Highway?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bodakdev, Thaltej, Science City, Ambli, Sindhu Bhavan Road, Gota, and Vaishnodevi Circle are the top residential locations."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 100,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/flat-sale-sg-highway.webp",
+        "caption": "Flat for Sale in SG Highway"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "SG Highway Flat Buying Guide",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "SG Highway",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "SG Highway",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0480",
+        "longitude": "72.5186"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "SG Highway Apartments Dataset",
+        "description": "Verified residential apartment dataset for SG Highway Ahmedabad."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for '2bhk-flat-in-bopal'
+    if (slug.toLowerCase().trim() === '2bhk-flat-in-bopal' || slug.toLowerCase().trim() === '2bhk-flat-bopal' || slug.toLowerCase().trim() === '2bhk-flats-in-bopal' || slug.toLowerCase().trim() === '2-bhk-flat-in-bopal') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "2 BHK Flat in Bopal, Ahmedabad",
+        "url": "https://propertysdeal.in/2bhk-flat-in-bopal",
+        "description": "Browse verified 2 BHK flats for sale in Bopal, Ahmedabad."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "2 BHK Flat in Bopal, Ahmedabad",
+        "description": "Explore verified 2 BHK residential apartments for sale in Bopal Ahmedabad."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Bopal",
+            "item": "https://propertysdeal.in/property-in-bopal"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "2 BHK Flat in Bopal",
+            "item": "https://propertysdeal.in/2bhk-flat-in-bopal"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which is the best society for 2 BHK flats in Bopal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "South Bopal, Shela, Ghuma, and Ambli-Bopal Road feature top-rated gated township societies."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 50,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/2bhk-flat-bopal.webp",
+        "caption": "2 BHK Flat in Bopal Ahmedabad"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "2 BHK Flat Buying Guide Bopal",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Bopal",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Bopal",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0336",
+        "longitude": "72.4634"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Bopal 2 BHK Apartments Dataset",
+        "description": "Verified 2 BHK residential apartments dataset for Bopal Ahmedabad."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
+    // Explicit Part 4 15 Advanced JSON-LD Schemas Override for 'property-in-prahlad-nagar'
+    if (slug.toLowerCase().trim() === 'property-in-prahlad-nagar' || slug.toLowerCase().trim() === 'prahlad-nagar-real-estate' || slug.toLowerCase().trim() === 'properties-in-prahlad-nagar' || slug.toLowerCase().trim() === 'flats-in-prahlad-nagar') {
+      schema.organization = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "logo": "https://propertysdeal.in/logo.png",
+        "sameAs": [
+          "https://facebook.com/propertysdeal",
+          "https://instagram.com/propertysdeal",
+          "https://linkedin.com/company/propertysdeal"
+        ]
+      };
+      schema.website = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://propertysdeal.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      };
+      schema.webpage = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Property in Prahlad Nagar, Ahmedabad",
+        "url": "https://propertysdeal.in/property-in-prahlad-nagar",
+        "description": "Browse verified properties for sale in Prahlad Nagar, Ahmedabad."
+      };
+      schema.collectionpage = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Property in Prahlad Nagar, Ahmedabad",
+        "description": "Explore verified residential and commercial properties for sale in Prahlad Nagar Ahmedabad."
+      };
+      schema.breadcrumbs = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://propertysdeal.in"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Prahlad Nagar",
+            "item": "https://propertysdeal.in/property-in-prahlad-nagar"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Property in Prahlad Nagar",
+            "item": "https://propertysdeal.in/property-in-prahlad-nagar"
+          }
+        ]
+      };
+      schema.faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is buying property in Prahlad Nagar Ahmedabad a good investment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Prahlad Nagar is one of Ahmedabad's most valuable real estate markets offering steady capital appreciation and high rental yields."
+            }
+          }
+        ]
+      };
+      schema.itemlist = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "numberOfItems": 50,
+        "itemListOrder": "https://schema.org/ItemListOrderAscending"
+      };
+      schema.imageobject = {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "contentUrl": "https://propertysdeal.in/images/property-prahlad-nagar.webp",
+        "caption": "Property in Prahlad Nagar Ahmedabad"
+      };
+      schema.video = {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Prahlad Nagar Property Buying Guide",
+        "thumbnailUrl": "https://propertysdeal.in/images/video-thumbnail.webp",
+        "uploadDate": "2026-07-27"
+      };
+      schema.realestateagent = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "PropertysDeal",
+        "url": "https://propertysdeal.in",
+        "areaServed": "Prahlad Nagar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.place = {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Prahlad Nagar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmedabad",
+          "addressRegion": "Gujarat",
+          "addressCountry": "IN"
+        }
+      };
+      schema.geocoordinates = {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "latitude": "23.0122",
+        "longitude": "72.5107"
+      };
+      schema.speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".ai-summary",
+            ".featured-snippet"
+          ]
+        }
+      };
+      schema.dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Prahlad Nagar Real Estate Dataset",
+        "description": "Verified residential and commercial property dataset for Prahlad Nagar Ahmedabad."
+      };
+      schema.searchaction = {
+        "@context": "https://schema.org",
+        "@type": "SearchAction",
+        "target": "https://propertysdeal.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      };
+    }
+
     // 9. Format canonical & breadcrumbs for response
     const breadcrumbs = [
       { name: 'Home', url: 'https://propertysdeal.in' },
@@ -1447,6 +4117,786 @@ Ahmedabad continues to stand out as one of Gujarat's premier residential real es
         title: "Buy Flats in Ahmedabad",
         caption: "Verified Apartments in Ahmedabad"
       });
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'property-for-sale-in-ahmedabad'
+    if (slug.toLowerCase().trim() === 'property-for-sale-in-ahmedabad') {
+      ai_summary = "Discover verified properties for sale in Ahmedabad, including apartments, flats, villas, independent houses, residential plots, commercial offices, shops, warehouses, and industrial properties. Compare prices, amenities, locations, builders, legal documents, and financing options to find the ideal property.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Verified property listings",
+        "Residential and commercial properties",
+        "Premium and affordable options",
+        "Top Ahmedabad localities",
+        "RERA registered projects",
+        "Strong investment potential",
+        "Growing rental demand",
+        "Metro and Smart City connectivity"
+      );
+
+      pros_cons.pros = [
+        "Excellent infrastructure",
+        "Growing property appreciation",
+        "Metro connectivity",
+        "Strong employment market",
+        "High rental demand",
+        "Modern residential projects",
+        "Commercial investment opportunities",
+        "Wide property choices"
+      ];
+      pros_cons.cons = [
+        "Premium locations are expensive",
+        "Peak-hour traffic in busy areas",
+        "Luxury projects have higher maintenance",
+        "Construction delays may occur in new projects"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Which is the best property for sale in Ahmedabad?",
+        "Where should I buy property in Ahmedabad?",
+        "Which area is best for investment?",
+        "Are RERA approved properties available?",
+        "How can I verify property documents?",
+        "Which property type gives the best returns?",
+        "What is the average property price in Ahmedabad?",
+        "Can NRIs buy property in Ahmedabad?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is Ahmedabad a good city for property investment?", answer: "Yes, Ahmedabad provides strong infrastructure, steady 8-12% capital appreciation, and rapid metro connectivity." },
+        { question: "Which area has the highest appreciation?", answer: "Science City, SG Highway, Shela, South Bopal, Ambli, Gota, Thaltej, and GIFT City corridors lead appreciation." },
+        { question: "Should I buy a flat or villa?", answer: "Flats offer lower maintenance and high rental yields, while villas provide privacy and superior long-term land appreciation." },
+        { question: "How much down payment is required?", answer: "Typically 10-20% down payment is required, with 80-90% funded via bank home loans." },
+        { question: "Is commercial property a good investment?", answer: "Yes, commercial office spaces along SG Highway yield attractive 6-8% annual rental returns." },
+        { question: "How do I verify legal documents?", answer: "Verify Title Clearance, AnyRoR 7/12 records, NA permission order, approved building plans, and GUJRERA registration." },
+        { question: "Which builders are trusted in Ahmedabad?", answer: "Top builders include Adani Realty, Goyal & Co, Sun Builders, Shaligram Group, and Savvy Group." },
+        { question: "Is Ahmedabad good for rental income?", answer: "Yes, corporate expansion along SG Highway and GIFT City drives steady rental demand." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/property-for-sale-ahmedabad.webp",
+        alt: "Property for Sale in Ahmedabad",
+        title: "Buy Property in Ahmedabad",
+        caption: "Verified Residential & Commercial Property in Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Gota", slug: "property-in-gota", distance_km: "10.5 km", avg_price_sqft: "₹4,200/sq.ft" },
+        { name: "Shela", slug: "property-in-shela", distance_km: "5.0 km", avg_price_sqft: "₹4,600/sq.ft" },
+        { name: "South Bopal", slug: "property-in-south-bopal", distance_km: "6.0 km", avg_price_sqft: "₹5,200/sq.ft" },
+        { name: "Science City", slug: "property-in-science-city", distance_km: "9.0 km", avg_price_sqft: "₹7,200/sq.ft" },
+        { name: "SG Highway", slug: "flat-for-sale-in-sg-highway", distance_km: "3.0 km", avg_price_sqft: "₹8,500/sq.ft" },
+        { name: "Satellite", slug: "property-in-satellite", distance_km: "6.5 km", avg_price_sqft: "₹7,800/sq.ft" },
+        { name: "Bodakdev", slug: "property-in-bodakdev", distance_km: "7.0 km", avg_price_sqft: "₹9,500/sq.ft" },
+        { name: "Ambli", slug: "property-in-ambli", distance_km: "8.0 km", avg_price_sqft: "₹10,500/sq.ft" },
+        { name: "Thaltej", slug: "property-in-thaltej", distance_km: "8.0 km", avg_price_sqft: "₹8,900/sq.ft" },
+        { name: "Shilaj", slug: "property-in-shilaj", distance_km: "9.5 km", avg_price_sqft: "₹5,500/sq.ft" },
+        { name: "Chandkheda", slug: "property-in-chandkheda", distance_km: "14.0 km", avg_price_sqft: "₹3,800/sq.ft" },
+        { name: "Motera", slug: "property-in-motera", distance_km: "15.0 km", avg_price_sqft: "₹4,100/sq.ft" },
+        { name: "Nikol", slug: "property-in-nikol", distance_km: "16.0 km", avg_price_sqft: "₹3,200/sq.ft" },
+        { name: "Vastrapur", slug: "property-in-vastrapur", distance_km: "5.5 km", avg_price_sqft: "₹7,500/sq.ft" },
+        { name: "Navrangpura", slug: "property-in-navrangpura", distance_km: "4.0 km", avg_price_sqft: "₹8,200/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for '2bhk-flat-in-ahmedabad'
+    if (slug.toLowerCase().trim() === '2bhk-flat-in-ahmedabad' || slug.toLowerCase().trim() === '2bhk-flats-in-ahmedabad' || slug.toLowerCase().trim() === '2bhk-flat-ahmedabad') {
+      ai_summary = "Find verified 2BHK flats for sale in Ahmedabad across top residential areas such as Gota, Shela, South Bopal, Science City, SG Highway, Chandkheda, Motera, Satellite, and Thaltej. Compare 2 BHK apartment prices, amenities, floor plans, RERA approvals, and home loan options.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Verified 2BHK apartment listings",
+        "Affordable to luxury 2 BHK flats",
+        "Top Ahmedabad localities",
+        "Ready-to-move & under-construction projects",
+        "RERA registered projects",
+        "High rental demand & ROI",
+        "Rapid metro connectivity",
+        "Smart home & green living amenities"
+      );
+
+      pros_cons.pros = [
+        "Ideal balance of space and affordability",
+        "High rental yield and tenant demand",
+        "Rapid metro and SP Ring Road connectivity",
+        "Strong builder ecosystem and RERA safety",
+        "Lower maintenance than 3BHK/4BHK units",
+        "Modern gated community amenities",
+        "Excellent resale liquidity",
+        "Wide choice across top localities"
+      ];
+      pros_cons.cons = [
+        "Higher price per sq.ft in prime western sectors",
+        "Peak-hour traffic on central arterial roads",
+        "Society maintenance charges in luxury projects",
+        "Possession delay risk in unverified projects"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy a 2BHK flat in Ahmedabad?",
+        "Which is the best area for a 2BHK flat in Ahmedabad?",
+        "What is the average price of a 2BHK flat in Ahmedabad?",
+        "Are ready-to-move 2BHK flats available in Ahmedabad?",
+        "Which builder is best for 2BHK apartments in Ahmedabad?",
+        "Can I get a home loan for a 2BHK flat in Ahmedabad?",
+        "Which area gives the best rental income for 2BHK flats?",
+        "Is Gota good for buying a 2BHK flat?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is a 2BHK flat suitable for investment in Ahmedabad?", answer: "Yes, 2BHK flats offer high liquidity, strong tenant demand from working professionals, and steady capital appreciation." },
+        { question: "Which locality is best for 2BHK flats in Ahmedabad?", answer: "Gota, Shela, South Bopal, Chandkheda, Science City, and SG Highway are top choices for 2BHK buyers." },
+        { question: "What is the average cost of a 2BHK flat in Ahmedabad?", answer: "Prices range from ₹35 Lakhs - ₹55 Lakhs in suburban areas like Gota/Chandkheda, up to ₹70 Lakhs - ₹1.2 Crore in prime sectors like SG Highway/Bodakdev." },
+        { question: "Should I buy ready possession or under-construction 2BHK?", answer: "Ready possession eliminates delay risk and provides immediate rental income, while under-construction offers lower booking prices." },
+        { question: "Are RERA registered 2BHK projects safer?", answer: "Yes, RERA registration guarantees project escrow transparency, fixed possession timelines, and structural defect warranties." },
+        { question: "How much home loan can I get for a 2BHK flat?", answer: "Banks typically fund 80% to 90% of the property cost based on buyer income and credit score." },
+        { question: "Can NRIs buy 2BHK flats in Ahmedabad?", answer: "Yes, NRIs can freely purchase residential property under RBI and FEMA guidelines." },
+        { question: "What documents should I check before buying a 2BHK flat?", answer: "Verify Title Deed, AnyRoR 7/12 land extract, Approved AMC/AUDA Building Plan, BU Permission, and RERA registration." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/2bhk-flat-ahmedabad.webp",
+        alt: "2BHK Flat for Sale in Ahmedabad",
+        title: "Buy 2 BHK Apartment in Ahmedabad",
+        caption: "Verified 2 BHK Flats for Sale in Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Gota", slug: "property-in-gota", distance_km: "10.5 km", avg_price_sqft: "₹4,200/sq.ft" },
+        { name: "Shela", slug: "property-in-shela", distance_km: "5.0 km", avg_price_sqft: "₹4,600/sq.ft" },
+        { name: "South Bopal", slug: "property-in-south-bopal", distance_km: "6.0 km", avg_price_sqft: "₹5,200/sq.ft" },
+        { name: "Science City", slug: "property-in-science-city", distance_km: "9.0 km", avg_price_sqft: "₹7,200/sq.ft" },
+        { name: "SG Highway", slug: "flat-for-sale-in-sg-highway", distance_km: "3.0 km", avg_price_sqft: "₹8,500/sq.ft" },
+        { name: "Chandkheda", slug: "property-in-chandkheda", distance_km: "14.0 km", avg_price_sqft: "₹3,800/sq.ft" },
+        { name: "Motera", slug: "property-in-motera", distance_km: "15.0 km", avg_price_sqft: "₹4,100/sq.ft" },
+        { name: "Thaltej", slug: "property-in-thaltej", distance_km: "8.0 km", avg_price_sqft: "₹8,900/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for '3bhk-flat-in-surat'
+    if (slug.toLowerCase().trim() === '3bhk-flat-in-surat' || slug.toLowerCase().trim() === '3bhk-flats-in-surat' || slug.toLowerCase().trim() === '3bhk-flat-surat') {
+      ai_summary = "Find verified 3BHK flats for sale in Surat across top residential areas such as Vesu, Pal, Adajan, VIP Road, Althan, Piplod, City Light, Bhimrad, and Dumas Road. Compare 3 BHK apartment prices, amenities, floor plans, RERA approvals, and home loan options.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Verified 3BHK apartment listings",
+        "Affordable to luxury 3 BHK flats",
+        "Top Surat localities",
+        "Ready-to-move & under-construction projects",
+        "RERA registered projects",
+        "Surat Diamond Bourse & industrial ROI",
+        "Rapid metro and airport connectivity",
+        "Smart home & green living amenities"
+      );
+
+      pros_cons.pros = [
+        "Spacious luxury layouts for growing families",
+        "Surat Diamond Bourse & textile hub economic growth",
+        "Rapid metro transit and international airport expansion",
+        "Strong builder ecosystem and GUJRERA buyer safety",
+        "High rental yield from corporate professionals",
+        "Modern gated community amenities and clubhouses",
+        "Excellent long-term capital appreciation",
+        "Wide choice across top Surat localities"
+      ];
+      pros_cons.cons = [
+        "Higher price per sq.ft in prime western sectors like Vesu",
+        "Peak-hour traffic on central arterial roads",
+        "Higher society maintenance charges in luxury projects",
+        "Possession delay risk in unverified projects"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy a 3BHK flat in Surat?",
+        "Which is the best area for a 3BHK flat in Surat?",
+        "What is the average price of a 3BHK flat in Surat?",
+        "Are ready-to-move 3BHK flats available in Surat?",
+        "Which builder is best for 3BHK apartments in Surat?",
+        "Can I get a home loan for a 3BHK flat in Surat?",
+        "Which area gives the best rental income for 3BHK flats in Surat?",
+        "Is Vesu good for buying a 3BHK flat?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is a 3BHK flat suitable for investment in Surat?", answer: "Yes, 3BHK flats in Surat offer strong capital appreciation, high resale liquidity, and steady rental income from corporate executives." },
+        { question: "Which locality is best for 3BHK flats in Surat?", answer: "Vesu, Pal, Adajan, VIP Road, City Light, Piplod, Althan, and Dumas Road are top choices for 3BHK buyers." },
+        { question: "What is the average cost of a 3BHK flat in Surat?", answer: "Prices range from ₹45 Lakhs - ₹75 Lakhs in suburban areas like Adajan/Althan, up to ₹85 Lakhs - ₹2.5 Crore in prime luxury sectors like Vesu/VIP Road." },
+        { question: "Should I buy ready possession or under-construction 3BHK in Surat?", answer: "Ready possession eliminates delay risk and provides immediate rental income, while under-construction offers lower booking prices." },
+        { question: "Are GUJRERA registered 3BHK projects safer in Surat?", answer: "Yes, GUJRERA registration guarantees project escrow transparency, fixed possession timelines, and 5-year structural defect warranties." },
+        { question: "How much home loan can I get for a 3BHK flat in Surat?", answer: "Banks typically fund 80% to 90% of the property cost based on buyer income and credit score." },
+        { question: "Can NRIs buy 3BHK flats in Surat?", answer: "Yes, NRIs can freely purchase residential property in Surat under RBI and FEMA guidelines." },
+        { question: "What documents should I check before buying a 3BHK flat in Surat?", answer: "Verify Title Deed, AnyRoR 7/12 land extract, Approved SMC Building Plan, BU Permission, and GUJRERA registration." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/3bhk-flat-surat.webp",
+        alt: "3BHK Flat for Sale in Surat",
+        title: "Buy 3 BHK Apartment in Surat",
+        caption: "Verified 3 BHK Flats for Sale in Surat"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Vesu", slug: "property-in-vesu", distance_km: "0 km", avg_price_sqft: "₹6,500/sq.ft" },
+        { name: "Pal", slug: "property-in-pal", distance_km: "4.5 km", avg_price_sqft: "₹5,200/sq.ft" },
+        { name: "Adajan", slug: "property-in-adajan", distance_km: "6.0 km", avg_price_sqft: "₹4,800/sq.ft" },
+        { name: "VIP Road", slug: "property-in-vip-road", distance_km: "3.0 km", avg_price_sqft: "₹6,200/sq.ft" },
+        { name: "Althan", slug: "property-in-althan", distance_km: "5.0 km", avg_price_sqft: "₹4,500/sq.ft" },
+        { name: "Piplod", slug: "property-in-piplod", distance_km: "3.5 km", avg_price_sqft: "₹7,000/sq.ft" },
+        { name: "City Light", slug: "property-in-city-light", distance_km: "4.0 km", avg_price_sqft: "₹6,800/sq.ft" },
+        { name: "Dumas Road", slug: "property-in-dumas-road", distance_km: "5.5 km", avg_price_sqft: "₹6,400/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'plot-for-sale-in-vadodara'
+    if (slug.toLowerCase().trim() === 'plot-for-sale-in-vadodara' || slug.toLowerCase().trim() === 'plot-for-sale-vadodara' || slug.toLowerCase().trim() === 'plots-in-vadodara' || slug.toLowerCase().trim() === 'plots-for-sale-in-vadodara') {
+      ai_summary = "Discover verified plots for sale in Vadodara, including NA residential plots, gated community land, villa plots, and investment plots across Bhayli, Gotri, Sama Savli Road, Waghodia Road, Vasna, Manjalpur, Akota, Sevasi, and Kalali. Compare plot prices, layout approvals, legal documents, and home loan options.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Verified residential plot listings",
+        "NA approved land & gated layouts",
+        "Top Vadodara localities",
+        "Bhayli, Gotri & Sama Savli growth corridors",
+        "Flexibility to construct custom homes",
+        "High capital appreciation",
+        "Low land maintenance expenses",
+        "Bank loan assistance for approved plots"
+      );
+
+      pros_cons.pros = [
+        "Complete freedom to design and construct custom villas",
+        "Superior long-term capital appreciation over built apartments",
+        "Low ongoing maintenance expenses compared to high-rises",
+        "Strong infrastructure growth along Sama Savli and Bhayli belts",
+        "Gated township security and underground utility infrastructure",
+        "Clear NA permission land title records",
+        "High resale demand and liquidity",
+        "Wide price choices from budget Waghodia to luxury Bhayli"
+      ];
+      pros_cons.cons = [
+        "Higher upfront down payment required for plot purchases",
+        "Legal due diligence required for title clearance and NA order",
+        "Construction coordination needed if building self-use home",
+        "Possession or boundary encroachment risks on un-fenced land"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy a residential plot in Vadodara?",
+        "Which is the best area for buying a plot in Vadodara?",
+        "What is the average plot price in Vadodara?",
+        "Are NA approved plots available in Bhayli Vadodara?",
+        "Which bank gives home loans for plot purchase in Vadodara?",
+        "Is Waghodia Road good for plot investment in Vadodara?",
+        "Can NRIs buy plots in Vadodara?",
+        "What documents are needed to verify a plot in Vadodara?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is buying a residential plot in Vadodara a good investment?", answer: "Yes, residential plots in Vadodara offer high capital appreciation, low maintenance costs, and high resale liquidity." },
+        { question: "Which area is best for buying a plot in Vadodara?", answer: "Bhayli, Gotri, Sama Savli Road, Vasna, Sevasi, Kalali, Manjalpur, and Waghodia Road are top choices for plot buyers." },
+        { question: "What is an NA Plot in Vadodara?", answer: "An NA (Non-Agricultural) plot has legal revenue permission for residential construction, ensuring easy bank loans and municipal approvals." },
+        { question: "What is the average cost of a plot in Vadodara?", answer: "Prices range from ₹2,000 - ₹3,500/sq.ft in developing areas like Waghodia/Ajwa Road, up to ₹5,500 - ₹10,000/sq.ft in prime corridors like Bhayli/Gotri/Sama Savli." },
+        { question: "Can I get a bank loan to buy a plot in Vadodara?", answer: "Yes, major banks finance up to 75-80% of the plot value for legally approved NA plots." },
+        { question: "Why are corner plots more expensive in Vadodara?", answer: "Corner plots offer dual-side road access, better natural ventilation, superior architectural freedom, and higher resale demand." },
+        { question: "Can NRIs purchase residential plots in Vadodara?", answer: "Yes, NRIs can buy residential land under RBI and FEMA regulations." },
+        { question: "What legal documents should I check before buying a plot in Vadodara?", answer: "Verify Registered Title Deed, Encumbrance Certificate, NA Order, Approved Layout Plan from VMC/VUDA, 7/12 & 8-A records, and Property Tax receipts." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/plot-for-sale-vadodara.webp",
+        alt: "Plot for Sale in Vadodara",
+        title: "Buy Residential Plot in Vadodara",
+        caption: "Verified NA Residential Plots for Sale in Vadodara"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Bhayli", slug: "property-in-bhayli", distance_km: "0 km", avg_price_sqft: "₹6,800/sq.ft" },
+        { name: "Gotri", slug: "property-in-gotri", distance_km: "4.0 km", avg_price_sqft: "₹5,800/sq.ft" },
+        { name: "Sama Savli Road", slug: "property-in-sama-savli", distance_km: "8.0 km", avg_price_sqft: "₹6,200/sq.ft" },
+        { name: "Waghodia Road", slug: "property-in-waghodia-road", distance_km: "10.0 km", avg_price_sqft: "₹3,200/sq.ft" },
+        { name: "Vasna", slug: "property-in-vasna", distance_km: "5.0 km", avg_price_sqft: "₹7,200/sq.ft" },
+        { name: "Manjalpur", slug: "property-in-manjalpur", distance_km: "7.5 km", avg_price_sqft: "₹5,500/sq.ft" },
+        { name: "Sevasi", slug: "property-in-sevasi", distance_km: "3.0 km", avg_price_sqft: "₹6,500/sq.ft" },
+        { name: "Kalali", slug: "property-in-kalali", distance_km: "6.0 km", avg_price_sqft: "₹4,800/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'property-dealer-in-gujarat'
+    if (slug.toLowerCase().trim() === 'property-dealer-in-gujarat' || slug.toLowerCase().trim() === 'property-dealer-gujarat' || slug.toLowerCase().trim() === 'real-estate-agents-in-gujarat' || slug.toLowerCase().trim() === 'property-dealers-in-gujarat') {
+      ai_summary = "Find verified property dealers, real estate agents, and property consultants in Gujarat across Ahmedabad, Surat, Vadodara, Rajkot, and Gandhinagar. Get expert assistance for buying, selling, renting, legal title verification, and RERA property documentation.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Verified property dealers and agents",
+        "Coverage across Ahmedabad, Surat & Vadodara",
+        "Residential and commercial real estate services",
+        "NRI property & legal management services",
+        "RERA project verification & title checks",
+        "Home loan assistance & bank coordination",
+        "Rental property management & tenant search",
+        "Transparent pricing & direct seller inquiries"
+      );
+
+      pros_cons.pros = [
+        "Expert local market knowledge and price negotiation",
+        "Access to verified residential and commercial listings",
+        "Hassle-free legal verification and RERA due diligence",
+        "End-to-end support from site visits to registration",
+        "Specialized NRI property management and virtual tours",
+        "Faster property sales through active buyer matching",
+        "Strong connections with top Gujarat builders",
+        "Comprehensive assistance with bank home loans"
+      ];
+      pros_cons.cons = [
+        "Brokerage charges apply for professional services",
+        "Market variance across different city micro-markets",
+        "Unregistered brokers require careful background checks"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Who is the best property dealer in Gujarat?",
+        "How can I find a trusted real estate agent in Ahmedabad?",
+        "Where can I hire a property dealer for NRI property in Surat?",
+        "What are the brokerage charges of property dealers in Gujarat?",
+        "How do property dealers help verify legal documents in Vadodara?",
+        "Can a real estate agent assist with home loan approval?",
+        "Which property dealer is best for commercial space in Gandhinagar?",
+        "How to sell property fast in Rajkot?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Why should I hire a property dealer in Gujarat?", answer: "A professional property dealer provides local price expertise, verified listings, legal due diligence, price negotiation, and smooth registration assistance." },
+        { question: "What is the standard brokerage fee for property dealers in Gujarat?", answer: "Standard brokerage in Gujarat is typically 1% to 2% of the property value for sale transactions and 1 month's rent for leasing deals." },
+        { question: "Can property dealers help NRIs buy property in Gujarat?", answer: "Yes, specialized property dealers assist NRIs with virtual tours, legal POA execution, bank accounts, and complete property management." },
+        { question: "How do I check if a real estate agent is RERA registered in Gujarat?", answer: "You can verify the agent's registration status on the official GUJRERA website (gujrera.gujarat.gov.in)." },
+        { question: "Do property dealers assist with legal document verification?", answer: "Yes, established property dealers work with experienced advocates to verify Title Clearance, AnyRoR 7/12 records, NA orders, and BU permissions." },
+        { question: "Which cities in Gujarat have the highest property demand?", answer: "Ahmedabad (SG Highway, Science City), Surat (Vesu, Pal), Vadodara (Bhayli, Gotri), Gandhinagar (GIFT City), and Rajkot lead demand." },
+        { question: "Can property dealers help with commercial property leasing?", answer: "Yes, commercial property dealers assist businesses with office space, retail shops, industrial sheds, and warehousing leases." },
+        { question: "How does PropertysDeal help connect with verified property dealers?", answer: "PropertysDeal aggregates RERA-registered agents and verified property listings across Gujarat with direct contact details and transparent pricing." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/property-dealer-gujarat.webp",
+        alt: "Property Dealer in Gujarat",
+        title: "Real Estate Agents in Gujarat",
+        caption: "Verified Property Dealers & Real Estate Consultants in Gujarat"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Ahmedabad", slug: "property-in-ahmedabad", distance_km: "0 km", avg_price_sqft: "₹5,500/sq.ft" },
+        { name: "Surat", slug: "property-in-surat", distance_km: "260 km", avg_price_sqft: "₹5,200/sq.ft" },
+        { name: "Vadodara", slug: "property-in-vadodara", distance_km: "110 km", avg_price_sqft: "₹4,100/sq.ft" },
+        { name: "Rajkot", slug: "property-in-rajkot", distance_km: "215 km", avg_price_sqft: "₹3,800/sq.ft" },
+        { name: "Gandhinagar", slug: "property-in-gandhinagar", distance_km: "25 km", avg_price_sqft: "₹5,800/sq.ft" },
+        { name: "Anand", slug: "property-in-anand", distance_km: "75 km", avg_price_sqft: "₹3,600/sq.ft" },
+        { name: "Bhavnagar", slug: "property-in-bhavnagar", distance_km: "170 km", avg_price_sqft: "₹3,200/sq.ft" },
+        { name: "Jamnagar", slug: "property-in-jamnagar", distance_km: "300 km", avg_price_sqft: "₹3,400/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'buy-property-in-gujarat'
+    if (slug.toLowerCase().trim() === 'buy-property-in-gujarat' || slug.toLowerCase().trim() === 'buy-property-gujarat' || slug.toLowerCase().trim() === 'property-in-gujarat' || slug.toLowerCase().trim() === 'properties-in-gujarat' || slug.toLowerCase().trim() === 'property-for-sale-in-gujarat') {
+      ai_summary = "Explore verified properties for sale in Gujarat across Ahmedabad, Surat, Vadodara, Rajkot, and Gandhinagar. Compare 1BHK, 2BHK, 3BHK flats, luxury villas, NA plots, commercial offices, and industrial land with RERA registration and home loan options.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Verified real estate listings across Gujarat",
+        "Residential flats, luxury villas & NA plots",
+        "Commercial office & industrial land options",
+        "Coverage across Ahmedabad, Surat, Vadodara, Rajkot & Gandhinagar",
+        "GUJRERA project verification & title legal checks",
+        "Bank home loan assistance up to 80-90%",
+        "Smart home & sustainable township features",
+        "Full NRI property management & remote registration"
+      );
+
+      pros_cons.pros = [
+        "Strong economic growth and capital appreciation across Gujarat",
+        "World-class metro transit, expressways, and GIFT City infrastructure",
+        "Wide property choices from affordable flats to ultra-luxury villas",
+        "Transparent GUJRERA regulatory framework protecting home buyers",
+        "High rental yields from corporate and industrial expansion",
+        "Excellent bank financing options with leading nationalized banks",
+        "Emerging smart cities and sustainable green housing townships",
+        "Dedicated NRI assistance and power of attorney execution"
+      ];
+      pros_cons.cons = [
+        "Higher property rates in prime city corridors like SG Highway and Vesu",
+        "Due diligence required for title clearance and NA revenue orders",
+        "Possession delay risk in non-RERA registered projects"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy property in Gujarat?",
+        "Which is the best city to buy property in Gujarat?",
+        "What is the average property price in Gujarat?",
+        "How can I verify property documents before buying in Gujarat?",
+        "Which bank offers the best home loan rates in Gujarat?",
+        "Can NRIs buy residential property in Gujarat?",
+        "Is buying property near GIFT City Gandhinagar good for investment?",
+        "What is GUJRERA approval?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is Gujarat a good state for real estate property investment?", answer: "Yes, Gujarat offers world-class infrastructure, industrial growth, smart city expansion, and steady 8-12% annual capital appreciation." },
+        { question: "Which city is best for buying property in Gujarat?", answer: "Ahmedabad, Surat, Vadodara, Gandhinagar, and Rajkot are the top cities for residential and commercial property investments." },
+        { question: "What types of properties are available for purchase in Gujarat?", answer: "You can buy 1-4 BHK flats, luxury villas, independent houses, NA residential plots, commercial offices, retail shops, and industrial sheds." },
+        { question: "How do I verify legal documents before buying property in Gujarat?", answer: "Verify Title Deed clearance, AnyRoR 7/12 extract records, NA Order, approved municipal building plans, and GUJRERA registration." },
+        { question: "Can NRIs purchase property in Gujarat?", answer: "Yes, NRIs can freely purchase residential and commercial property in Gujarat under RBI and FEMA regulations." },
+        { question: "What is GUJRERA and why is it important?", answer: "GUJRERA is the Gujarat Real Estate Regulatory Authority that enforces builder accountability, escrow account management, and 5-year structural warranties." },
+        { question: "How much home loan can I get for buying property in Gujarat?", answer: "Banks typically fund 80% to 90% of property cost based on buyer income, credit score, and clear property documentation." },
+        { question: "Why buy property through PropertysDeal?", answer: "PropertysDeal provides 100% verified property listings, transparent developer pricing, HD photos, interactive map search, and zero-brokerage direct seller inquiries." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/buy-property-gujarat.webp",
+        alt: "Buy Property in Gujarat",
+        title: "Properties for Sale in Gujarat",
+        caption: "Verified Residential & Commercial Properties for Sale in Gujarat"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Ahmedabad", slug: "property-in-ahmedabad", distance_km: "0 km", avg_price_sqft: "₹5,500/sq.ft" },
+        { name: "Surat", slug: "property-in-surat", distance_km: "260 km", avg_price_sqft: "₹5,200/sq.ft" },
+        { name: "Vadodara", slug: "property-in-vadodara", distance_km: "110 km", avg_price_sqft: "₹4,100/sq.ft" },
+        { name: "Gandhinagar", slug: "property-in-gandhinagar", distance_km: "25 km", avg_price_sqft: "₹5,800/sq.ft" },
+        { name: "Rajkot", slug: "property-in-rajkot", distance_km: "215 km", avg_price_sqft: "₹3,800/sq.ft" },
+        { name: "Anand", slug: "property-in-anand", distance_km: "75 km", avg_price_sqft: "₹3,600/sq.ft" },
+        { name: "Bhavnagar", slug: "property-in-bhavnagar", distance_km: "170 km", avg_price_sqft: "₹3,200/sq.ft" },
+        { name: "Bharuch", slug: "property-in-bharuch", distance_km: "190 km", avg_price_sqft: "₹3,500/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'ahmedabad-real-estate'
+    if (slug.toLowerCase().trim() === 'ahmedabad-real-estate' || slug.toLowerCase().trim() === 'real-estate-ahmedabad' || slug.toLowerCase().trim() === 'property-in-ahmedabad' || slug.toLowerCase().trim() === 'properties-in-ahmedabad') {
+      ai_summary = "Explore real estate opportunities in Ahmedabad across top residential and commercial hubs including SG Highway, Science City, Gota, South Bopal, Shela, Thaltej, Bodakdev, and Chandkheda. Find 1BHK-4BHK flats, luxury villas, NA plots, and commercial office spaces with RERA guidelines.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Gujarat's premier real estate market",
+        "High capital appreciation along SG Highway & Science City",
+        "Wide choice of 1BHK to 4BHK flats, villas & NA plots",
+        "Expanding Metro Rail, Bullet Train & SP Ring Road infrastructure",
+        "Transparent GUJRERA registered project safety",
+        "Low maintenance budget housing to ultra-luxury penthouses",
+        "Bank home loan assistance up to 80-90%",
+        "Full NRI property management & remote registration services"
+      );
+
+      pros_cons.pros = [
+        "Strong economic growth driven by GIFT City and industrial clusters",
+        "World-class metro transit, SP Ring Road, and BRTS infrastructure",
+        "Diverse property options for first-time buyers and luxury investors",
+        "High rental yields from corporate executives and students",
+        "GUJRERA regulated transparent developer transactions",
+        "Superior long-term land appreciation compared to other metros",
+        "High quality of life with top schools and multi-specialty hospitals",
+        "Dedicated NRI assistance and power of attorney support"
+      ];
+      pros_cons.cons = [
+        "Higher property rates in prime western sectors like Bodakdev and Ambli",
+        "Peak-hour traffic along major arterial corridors",
+        "Possession delay risk in non-RERA registered projects"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Which is the best locality to buy property in Ahmedabad?",
+        "What is the average flat price in Ahmedabad?",
+        "Are RERA approved flats available in Science City Ahmedabad?",
+        "Where can I buy affordable 2BHK flats in Gota Ahmedabad?",
+        "Which bank offers the best home loan for property in Ahmedabad?",
+        "Can NRIs buy luxury villas in SG Highway Ahmedabad?",
+        "What is the rental yield for commercial offices in Ahmedabad?",
+        "How to verify property documents in Ahmedabad?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is Ahmedabad a good city for real estate investment?", answer: "Yes, Ahmedabad offers world-class infrastructure, steady 8-12% annual capital appreciation, GIFT City expansion, and rapid metro connectivity." },
+        { question: "Which area has the highest property appreciation in Ahmedabad?", answer: "Science City, SG Highway, Shela, South Bopal, Ambli, Gota, Thaltej, and GIFT City corridors lead capital appreciation." },
+        { question: "What is the average cost of a 2BHK or 3BHK flat in Ahmedabad?", answer: "2BHK flats range from ₹35 Lakhs - ₹65 Lakhs, while 3BHK flats range from ₹65 Lakhs - ₹1.5 Crore depending on location and luxury amenities." },
+        { question: "How do I verify property documents before buying in Ahmedabad?", answer: "Verify Title Clearance Certificate, AnyRoR 7/12 land extract records, NA Order, approved AMC/AUDA building plans, BU permission, and GUJRERA registration." },
+        { question: "Can NRIs purchase residential property in Ahmedabad?", answer: "Yes, NRIs can freely purchase residential and commercial properties under RBI and FEMA regulations." },
+        { question: "What is the benefit of buying a GUJRERA registered project in Ahmedabad?", answer: "GUJRERA ensures transparent escrow account management, fixed possession schedules, approved layout plans, and 5-year structural defect protection." },
+        { question: "How much home loan can I get for a flat in Ahmedabad?", answer: "Banks typically finance 80% to 90% of the property value based on applicant income, credit score, and clear title documentation." },
+        { question: "Why buy property through PropertysDeal in Ahmedabad?", answer: "PropertysDeal provides 100% verified listings, direct seller contact details, HD photos, interactive map search, and zero-brokerage search filters." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/ahmedabad-real-estate.webp",
+        alt: "Ahmedabad Real Estate",
+        title: "Property in Ahmedabad",
+        caption: "Verified Residential & Commercial Properties in Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "SG Highway", slug: "flat-for-sale-in-sg-highway", distance_km: "3.0 km", avg_price_sqft: "₹8,500/sq.ft" },
+        { name: "Science City", slug: "property-in-science-city", distance_km: "9.0 km", avg_price_sqft: "₹7,200/sq.ft" },
+        { name: "Gota", slug: "property-in-gota", distance_km: "10.5 km", avg_price_sqft: "₹4,200/sq.ft" },
+        { name: "South Bopal", slug: "property-in-south-bopal", distance_km: "6.0 km", avg_price_sqft: "₹5,200/sq.ft" },
+        { name: "Shela", slug: "property-in-shela", distance_km: "5.0 km", avg_price_sqft: "₹4,600/sq.ft" },
+        { name: "Thaltej", slug: "property-in-thaltej", distance_km: "8.0 km", avg_price_sqft: "₹8,900/sq.ft" },
+        { name: "Bodakdev", slug: "property-in-bodakdev", distance_km: "6.5 km", avg_price_sqft: "₹9,500/sq.ft" },
+        { name: "Chandkheda", slug: "property-in-chandkheda", distance_km: "14.0 km", avg_price_sqft: "₹3,800/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'flat-for-sale-in-sg-highway'
+    if (slug.toLowerCase().trim() === 'flat-for-sale-in-sg-highway' || slug.toLowerCase().trim() === 'flats-in-sg-highway' || slug.toLowerCase().trim() === 'flats-for-sale-in-sg-highway' || slug.toLowerCase().trim() === 'property-in-sg-highway') {
+      ai_summary = "Browse verified flats for sale in SG Highway, Ahmedabad. Explore 1BHK, 2BHK, 3BHK, and 4BHK apartments, ready-to-move units, luxury penthouses, and under-construction projects across Thaltej, Science City, Bodakdev, Ambli, and Vaishnodevi Circle with RERA guidelines.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Ahmedabad's premier real estate corridor",
+        "Verified 1BHK to 4BHK residential flats",
+        "Top micro-markets: Bodakdev, Thaltej & Science City",
+        "Direct metro access and SP Ring Road connectivity",
+        "GUJRERA registered project assurance",
+        "High corporate rental yield & resale demand",
+        "Bank home loan assistance up to 80-90%",
+        "Full NRI property management & virtual site tours"
+      );
+
+      pros_cons.pros = [
+        "Unmatched connectivity to corporate hubs, Gandhinagar, and GIFT City",
+        "High rental demand from corporate executives, IT professionals, and students",
+        "Premium lifestyle amenities, international schools, and multi-specialty hospitals",
+        "GUJRERA regulatory framework for safe developer transactions",
+        "Exceptional long-term capital appreciation along SG Highway belt",
+        "Wide range of configurations from budget 2BHKs to ultra-luxury penthouses",
+        "Smart home automation and green building sustainable features",
+        "Dedicated NRI property management services"
+      ];
+      pros_cons.cons = [
+        "Higher price per sq.ft in prime western sectors like Bodakdev and Ambli",
+        "Peak-hour traffic along major junction flyovers",
+        "Higher society maintenance charges in luxury high-rise projects"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy a flat on SG Highway Ahmedabad?",
+        "Which is the best area to buy an apartment on SG Highway?",
+        "What is the average price of a 3BHK flat on SG Highway?",
+        "Are ready-to-move flats available on SG Highway?",
+        "Which bank offers the best home loan for SG Highway flats?",
+        "Can NRIs buy luxury flats on SG Highway?",
+        "Is SG Highway good for rental investment?",
+        "How to verify property documents on SG Highway?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is buying a flat on SG Highway Ahmedabad a good investment?", answer: "Yes, SG Highway is Ahmedabad's premier residential corridor offering high capital appreciation, excellent corporate rental yields, and world-class infrastructure." },
+        { question: "Which is the best location for flats near SG Highway?", answer: "Bodakdev, Thaltej, Science City, Ambli, Sindhu Bhavan Road, Gota, and Vaishnodevi Circle are the top residential locations." },
+        { question: "What is the average price of a 2BHK or 3BHK flat on SG Highway?", answer: "2BHK flats range from ₹45 Lakhs - ₹75 Lakhs, while 3BHK flats range from ₹75 Lakhs - ₹1.8 Crore depending on builder reputation and luxury amenities." },
+        { question: "Should I buy a ready-to-move or under-construction flat on SG Highway?", answer: "Ready possession eliminates delivery delays and generates immediate rental returns, whereas under-construction flats offer lower entry prices and flexible payment plans." },
+        { question: "Are GUJRERA registered flats safer on SG Highway?", answer: "Yes, GUJRERA guarantees builder escrow compliance, fixed delivery schedules, approved building plans, and 5-year structural warranty protection." },
+        { question: "How much home loan can I get for an SG Highway apartment?", answer: "Leading banks finance 80% to 90% of the flat value based on applicant income, credit score, and clear property documentation." },
+        { question: "Can NRIs purchase luxury flats on SG Highway?", answer: "Yes, NRIs can freely buy residential property on SG Highway under RBI and FEMA regulations." },
+        { question: "Why buy flats on SG Highway through PropertysDeal?", answer: "PropertysDeal provides 100% verified flat listings, direct builder pricing, HD photos, interactive map search, and zero-brokerage search filters." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/flat-for-sale-in-sg-highway.webp",
+        alt: "Flat for Sale in SG Highway",
+        title: "Buy Flat in SG Highway Ahmedabad",
+        caption: "Verified 2 BHK & 3 BHK Apartments for Sale in SG Highway Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Thaltej", slug: "property-in-thaltej", distance_km: "2.0 km", avg_price_sqft: "₹8,900/sq.ft" },
+        { name: "Bodakdev", slug: "property-in-bodakdev", distance_km: "3.0 km", avg_price_sqft: "₹9,500/sq.ft" },
+        { name: "Science City", slug: "property-in-science-city", distance_km: "6.0 km", avg_price_sqft: "₹7,200/sq.ft" },
+        { name: "Gota", slug: "property-in-gota", distance_km: "8.0 km", avg_price_sqft: "₹4,200/sq.ft" },
+        { name: "South Bopal", slug: "property-in-south-bopal", distance_km: "5.0 km", avg_price_sqft: "₹5,200/sq.ft" },
+        { name: "Shela", slug: "property-in-shela", distance_km: "6.0 km", avg_price_sqft: "₹4,600/sq.ft" },
+        { name: "Vaishnodevi Circle", slug: "property-in-vaishnodevi-circle", distance_km: "7.0 km", avg_price_sqft: "₹4,800/sq.ft" },
+        { name: "Chandkheda", slug: "property-in-chandkheda", distance_km: "11.0 km", avg_price_sqft: "₹3,800/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for '2bhk-flat-in-bopal'
+    if (slug.toLowerCase().trim() === '2bhk-flat-in-bopal' || slug.toLowerCase().trim() === '2bhk-flat-bopal' || slug.toLowerCase().trim() === '2bhk-flats-in-bopal' || slug.toLowerCase().trim() === '2-bhk-flat-in-bopal') {
+      ai_summary = "Browse verified 2 BHK flats for sale in Bopal, Ahmedabad. Compare ready-to-move and under-construction 2 BHK apartments across Bopal, South Bopal, Shela, Ghuma, and Shilaj. Check property prices, carpet area, RERA registration, and bank home loan options.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Ahmedabad's premier mid-segment residential hub",
+        "Verified 2 BHK apartment listings in Bopal & South Bopal",
+        "Affordable to luxury gated township societies",
+        "Direct SP Ring Road & Ambli-Bopal Road connectivity",
+        "GUJRERA registered project safety assurance",
+        "High rental yield from corporate professionals",
+        "Bank home loan assistance up to 80-90%",
+        "Full NRI property management & remote registration"
+      );
+
+      pros_cons.pros = [
+        "Seamless connectivity to SG Highway, SP Ring Road, and Prahlad Nagar",
+        "High rental demand from IT professionals, corporate employees, and young families",
+        "Vibrant social infrastructure with top schools, hospitals, and shopping centers",
+        "GUJRERA regulated transparent builder transactions",
+        "Excellent balance of affordable pricing (₹5,200 - ₹6,600/sq.ft) and high appreciation",
+        "Spacious 2BHK carpet areas compared to central city high-rises",
+        "Gated township amenities with swimming pools, gyms, and 24x7 security",
+        "Dedicated NRI assistance and power of attorney support"
+      ];
+      pros_cons.cons = [
+        "Peak-hour traffic along Ambli-Bopal main arterial road",
+        "Civic drainage and rainwater management considerations during peak monsoon in select low-lying pockets"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy a 2 BHK flat in Bopal Ahmedabad?",
+        "Which is the best society for 2 BHK flats in Bopal?",
+        "What is the average price of a 2 BHK flat in Bopal?",
+        "Are ready-to-move 2 BHK flats available in South Bopal?",
+        "Which bank offers the best home loan for Bopal flats?",
+        "Can NRIs buy 2 BHK apartments in Bopal?",
+        "Is Bopal good for rental investment?",
+        "How to verify RERA details of Bopal projects?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is buying a 2 BHK flat in Bopal Ahmedabad a good investment?", answer: "Yes, Bopal is one of Ahmedabad's most popular residential localities offering steady 8-12% annual capital appreciation and strong rental demand." },
+        { question: "What is the average cost of a 2 BHK flat in Bopal Ahmedabad?", answer: "Prices range from ₹40 Lakhs - ₹60 Lakhs for standard mid-segment units, up to ₹65 Lakhs - ₹85 Lakhs for luxury gated township apartments." },
+        { question: "Which area is better: Bopal or South Bopal?", answer: "South Bopal features newer gated township projects with wide internal roads and modern clubhouses, while Bopal offers established social infrastructure and retail markets." },
+        { question: "Should I buy a ready-to-move or under-construction 2 BHK flat in Bopal?", answer: "Ready-to-move units eliminate possession delay risk and generate immediate rental income, while under-construction projects offer lower booking prices and flexible payment plans." },
+        { question: "Are GUJRERA registered 2 BHK projects safer in Bopal?", answer: "Yes, GUJRERA guarantees escrow account compliance, fixed possession timelines, approved building plans, and 5-year structural warranty protection." },
+        { question: "How much home loan can I get for a 2 BHK flat in Bopal?", answer: "Leading banks finance 80% to 90% of the flat cost based on applicant income, credit score, and clear title documentation." },
+        { question: "Can NRIs purchase 2 BHK flats in Bopal?", answer: "Yes, NRIs can freely buy residential apartments in Bopal under RBI and FEMA guidelines." },
+        { question: "Why buy 2 BHK flats in Bopal through PropertysDeal?", answer: "PropertysDeal provides 100% verified flat listings, direct builder pricing, HD photos, interactive map search, and zero-brokerage search filters." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/2bhk-flat-in-bopal.webp",
+        alt: "2 BHK Flat in Bopal Ahmedabad",
+        title: "Buy 2 BHK Apartment in Bopal",
+        caption: "Verified 2 BHK Flats for Sale in Bopal Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "South Bopal", slug: "property-in-south-bopal", distance_km: "1.5 km", avg_price_sqft: "₹5,600/sq.ft" },
+        { name: "Shela", slug: "property-in-shela", distance_km: "3.0 km", avg_price_sqft: "₹4,600/sq.ft" },
+        { name: "Ghuma", slug: "property-in-ghuma", distance_km: "2.0 km", avg_price_sqft: "₹4,200/sq.ft" },
+        { name: "Shilaj", slug: "property-in-shilaj", distance_km: "4.0 km", avg_price_sqft: "₹5,800/sq.ft" },
+        { name: "Science City", slug: "property-in-science-city", distance_km: "7.0 km", avg_price_sqft: "₹7,200/sq.ft" },
+        { name: "Ambli", slug: "property-in-ambli", distance_km: "4.5 km", avg_price_sqft: "₹9,800/sq.ft" },
+        { name: "Thaltej", slug: "property-in-thaltej", distance_km: "6.5 km", avg_price_sqft: "₹8,900/sq.ft" },
+        { name: "SG Highway", slug: "flat-for-sale-in-sg-highway", distance_km: "5.0 km", avg_price_sqft: "₹8,500/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'property-in-prahlad-nagar'
+    if (slug.toLowerCase().trim() === 'property-in-prahlad-nagar' || slug.toLowerCase().trim() === 'prahlad-nagar-real-estate' || slug.toLowerCase().trim() === 'properties-in-prahlad-nagar' || slug.toLowerCase().trim() === 'flats-in-prahlad-nagar') {
+      ai_summary = "Discover verified residential and commercial properties for sale in Prahlad Nagar, Ahmedabad. Explore luxury 3BHK/4BHK apartments, penthouses, independent villas, and Grade-A corporate office towers near SG Highway and Corporate Road with RERA registration details.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Ahmedabad's premier prime residential & corporate hub",
+        "Verified 2BHK, 3BHK, 4BHK flats, penthouses & office spaces",
+        "Direct SG Highway, Corporate Road & Satellite connectivity",
+        "Top international schools, corporate business parks & hospitals",
+        "GUJRERA registered developer compliance",
+        "High corporate rental yield & high resale liquidity",
+        "Bank home loan facilitation up to 80-90%",
+        "Full NRI property management & remote registration support"
+      );
+
+      pros_cons.pros = [
+        "Prime western location connected directly to SG Highway and Corporate Road",
+        "Exceptional corporate rental demand from C-suite executives and IT firms",
+        "Vibrant cosmopolitan lifestyle with fine-dining restaurants, parks, and luxury retail malls",
+        "GUJRERA regulated developer compliance and transparent title history",
+        "High long-term capital appreciation and premium resale liquidity",
+        "Spacious luxury apartment layouts with smart home automation",
+        "Established social infrastructure with top schools and multi-specialty hospitals",
+        "Dedicated NRI assistance and power of attorney support"
+      ];
+      pros_cons.cons = [
+        "Premium price point (₹7,500 – ₹11,000/sq.ft) compared to developing outskirts",
+        "Limited availability of un-built residential plots in prime central sectors",
+        "High demand for parking in older commercial complexes"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy a flat in Prahlad Nagar Ahmedabad?",
+        "Which is the best society for 3 BHK flats in Prahlad Nagar?",
+        "What is the average property price in Prahlad Nagar?",
+        "Are ready-to-move luxury flats available in Prahlad Nagar?",
+        "Which bank offers the best home loan for Prahlad Nagar properties?",
+        "Can NRIs buy commercial office space in Prahlad Nagar?",
+        "Is Prahlad Nagar good for rental income?",
+        "How to check RERA registration for Prahlad Nagar projects?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is buying property in Prahlad Nagar Ahmedabad a good investment?", answer: "Yes, Prahlad Nagar is one of Ahmedabad's most valuable real estate markets offering steady capital appreciation, high rental yields, and strong corporate demand." },
+        { question: "What is the average property price in Prahlad Nagar Ahmedabad?", answer: "Residential flat prices range from ₹7,500 - ₹11,000/sq.ft for premium apartments, with ultra-luxury penthouses and commercial spaces commanding higher rates." },
+        { question: "Which commercial areas are popular near Prahlad Nagar?", answer: "Corporate Road, SG Highway, Anandnagar Road, and Satellite are top commercial hubs for IT offices and corporate towers." },
+        { question: "Should I buy a ready-to-move or under-construction flat in Prahlad Nagar?", answer: "Ready-to-move properties eliminate possession delay risks and yield immediate high rental income, while under-construction projects offer lower initial prices and flexible payment plans." },
+        { question: "Are GUJRERA registered properties safer in Prahlad Nagar?", answer: "Yes, GUJRERA guarantees escrow compliance, transparent delivery timelines, approved building plans, and 5-year structural warranty protection." },
+        { question: "How much home loan can I get for a Prahlad Nagar property?", answer: "Leading banks finance 80% to 90% of property cost based on applicant income, credit score, and clear title documentation." },
+        { question: "Can NRIs purchase property in Prahlad Nagar?", answer: "Yes, NRIs can freely buy residential and commercial properties in Prahlad Nagar under RBI and FEMA guidelines." },
+        { question: "Why buy Prahlad Nagar properties through PropertysDeal?", answer: "PropertysDeal provides 100% verified property listings, direct builder pricing, HD photos, interactive map search, and zero-brokerage search filters." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/property-in-prahlad-nagar.webp",
+        alt: "Property in Prahlad Nagar Ahmedabad",
+        title: "Buy Property in Prahlad Nagar",
+        caption: "Verified Residential & Commercial Properties in Prahlad Nagar Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Satellite", slug: "property-in-satellite", distance_km: "2.0 km", avg_price_sqft: "₹8,200/sq.ft" },
+        { name: "Bodakdev", slug: "property-in-bodakdev", distance_km: "3.0 km", avg_price_sqft: "₹9,500/sq.ft" },
+        { name: "Ambli", slug: "property-in-ambli", distance_km: "3.5 km", avg_price_sqft: "₹9,800/sq.ft" },
+        { name: "SG Highway", slug: "flat-for-sale-in-sg-highway", distance_km: "1.5 km", avg_price_sqft: "₹8,500/sq.ft" },
+        { name: "South Bopal", slug: "property-in-south-bopal", distance_km: "5.0 km", avg_price_sqft: "₹5,600/sq.ft" },
+        { name: "Makarba", slug: "property-in-makarba", distance_km: "2.5 km", avg_price_sqft: "₹6,200/sq.ft" },
+        { name: "Vastrapur", slug: "property-in-vastrapur", distance_km: "4.0 km", avg_price_sqft: "₹7,800/sq.ft" },
+        { name: "Science City", slug: "property-in-science-city", distance_km: "8.0 km", avg_price_sqft: "₹7,200/sq.ft" }
+      );
     }
 
     // 14. Construct response payload
