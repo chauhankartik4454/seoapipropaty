@@ -93,6 +93,11 @@ export class SlugService implements ISlugService {
       matchedCity = matchedLocality.city;
     }
 
+    // Do not treat 'Gujarat' state as a city page
+    if (matchedCity && matchedCity.slug.toLowerCase() === 'gujarat') {
+      matchedCity = null;
+    }
+
     // 4. Validate existence requirements:
     // If slug implies a city or locality (contains names like '-ahmedabad' or '-bopal'), and it was not found, return null (invalid -> 404)
     // Check city mismatch
