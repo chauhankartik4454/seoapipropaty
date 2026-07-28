@@ -71,7 +71,7 @@ export async function GET(req: NextRequest) {
           });
         }
       } else {
-        // Query ALL distinct slugs (grouped BY SLUG, not by title) from both blogs AND keywords tables!
+        // Query ALL distinct slugs from both blogs AND keywords tables!
         const allSlugsRes = await client.query(
           `SELECT slug, MAX(updated_at) as updated_at FROM (
              SELECT slug, updated_at FROM blogs WHERE slug IS NOT NULL AND slug != ''
