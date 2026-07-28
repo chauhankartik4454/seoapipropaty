@@ -3,6 +3,7 @@ import { pool } from '@/lib/db';
 import { logger } from '@/lib/logger';
 
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function GET(req: NextRequest) {
   try {
@@ -45,7 +46,7 @@ export async function GET(req: NextRequest) {
         status: 200,
         headers: {
           'Content-Type': 'application/xml',
-          'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+          'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate',
         },
       });
     }
@@ -119,7 +120,7 @@ ${xmlUrls}
       status: 200,
       headers: {
         'Content-Type': 'application/xml',
-        'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+        'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate',
       },
     });
   } catch (error) {
