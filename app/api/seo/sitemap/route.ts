@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
       const proto = forwardedHost.includes('localhost') ? 'http' : 'https';
       domain = `${proto}://${forwardedHost}`;
     } else if (host.includes('localhost')) {
-      domain = 'http://localhost:8000'; // Default local Django testing domain
+      domain = 'http://localhost:8000';
     }
 
     // 1. If sitemap index is requested, return <sitemapindex> root XML
@@ -70,14 +70,18 @@ export async function GET(req: NextRequest) {
           });
         }
       } else {
-        const blogRes = await client.query(
-          `SELECT DISTINCT ON (title) title, slug, updated_at 
-           FROM blogs 
-           WHERE slug IS NOT NULL AND slug != '' 
-           ORDER BY title, LENGTH(slug) DESC, updated_at DESC`
+        // Query ALL distinct active slugs from both blogs AND keywords tables to ensure 100% URL coverage!
+        const allSlugsRes = await client.query(
+          `SELECT slug, MAX(updated_at) as updated_at FROM (
+             SELECT slug, updated_at FROM blogs WHERE slug IS NOT NULL AND slug != ''
+             UNION ALL
+             SELECT slug, updated_at FROM keywords WHERE slug IS NOT NULL AND slug != '' AND is_active = TRUE
+           ) combined
+           GROUP BY slug
+           ORDER BY slug ASC`
         );
 
-        for (const row of blogRes.rows) {
+        for (const row of allSlugsRes.rows) {
           urls.push({
             slug: row.slug,
             priority: '0.9',
