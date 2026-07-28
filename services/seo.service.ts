@@ -1805,6 +1805,159 @@ PropertysDeal simplifies discovering verified property in Prahlad Nagar with 100
 Buying property in Prahlad Nagar, Ahmedabad is an exceptional investment offering luxury living, corporate office convenience, and sustained asset growth. Exploring verified listings on PropertysDeal ensures buyers and investors secure ideal apartments, penthouses, villas, or office spaces with total confidence.`;
     }
 
+    // Explicit Deep Overrides for 'flat-for-sale-in-satellite-ahmedabad'
+    if (normSlugCheck === 'flat-for-sale-in-satellite-ahmedabad' || normSlugCheck === 'flats-in-satellite-ahmedabad' || normSlugCheck === 'property-in-satellite-ahmedabad') {
+      title = 'Flat for Sale in Satellite Ahmedabad | Verified Apartments & Luxury Flats';
+      meta_title = 'Flat for Sale in Satellite Ahmedabad | Buy Verified Apartments';
+      meta_description = 'Explore verified flats for sale in Satellite, Ahmedabad. Find 2 BHK, 3 BHK, 4 BHK, luxury apartments, ready-to-move homes, and new residential projects in one of Ahmedabad\'s premium localities.';
+      h1 = 'Flat for Sale in Satellite, Ahmedabad';
+      h2 = [
+        'Overview of Satellite Real Estate & Market Highlights',
+        'Why Buy a Flat in Satellite?',
+        'Ready-to-Move Flats & New Residential Projects',
+        'Luxury Apartments & Affordable Housing Options',
+        'Best Residential Areas Near Satellite',
+        'Lifestyle & Social Infrastructure',
+        'Modern Amenities & Gated Societies',
+        'Property Price Trends & Investment Growth',
+        'Home Loan Guide, Legal Verification & RERA',
+        'Buyer Checklist & NRI Buying Guide'
+      ];
+
+      content = `Searching for a flat for sale in Satellite, Ahmedabad? Satellite is one of Ahmedabad's most well-established, prestigious, and sought-after residential neighborhoods. Located in the vibrant western part of the city, Satellite offers an exceptional combination of premium urban lifestyle, modern social infrastructure, and seamless connectivity to SG Highway, Vastrapur, Prahlad Nagar, Bodakdev, and ISKCON Cross Road.
+
+Whether you are searching for a compact 2 BHK apartment, a spacious 3 BHK family home, a 4 BHK luxury penthouse, or a ready-to-move gated community flat, Satellite provides diverse housing options catering to various budgets and lifestyle aspirations.
+
+### Market Overview & Key Highlights
+- Over 4,900+ verified flats and 50+ new residential projects listed across Satellite.
+- Strong availability of ready-to-move and under-construction 2 BHK, 3 BHK, and 4 BHK apartments.
+- Average apartment prices commonly range around ₹7,800 to ₹10,500 per sq. ft.
+- Direct connectivity to SG Highway, Corporate Road, Vastrapur Lake, and Ahmedabad Metro corridors.
+- Proximity to top international schools, multi-specialty hospitals, shopping malls, and corporate hubs.
+- High corporate rental demand and strong long-term capital appreciation.
+
+## Why Buy a Flat in Satellite?
+Satellite continues to rank among Ahmedabad's top-tier residential micro-markets due to its mature civic infrastructure, high safety index, and Cosmopolitan community living.
+
+### Major Advantages
+- Prime Location: Western Ahmedabad's premier residential & commercial corridor.
+- SG Highway Access: Immediate connectivity to SG Highway, ISKCON Cross Road, and SP Ring Road.
+- Corporate Proximity: Close to Prahlad Nagar Corporate Road and Bodakdev IT business parks.
+- Educational & Healthcare Hub: Minutes from top schools, colleges, Zydus Hospital, and Shalby Hospital.
+- High Rental Yields: Strong demand from IT professionals, corporate executives, and business owners.
+
+## Ready-to-Move Flats & New Residential Projects
+Homebuyers can choose between immediate possession homes and upcoming gated developments:
+- Ready-to-Move Apartments: Eliminates construction delay risks, allows physical carpet area inspection, and enables immediate rental income for investors.
+- New Developer Projects: Feature contemporary architectural designs, smart home automation, energy-efficient building structures, flexible payment plans, and high capital growth upon possession.
+
+## Luxury Apartments & Affordable Housing Options
+Satellite caters to every buyer segment:
+- Luxury Apartments & Penthouses: Premium residences featuring Italian marble flooring, designer entrances, rooftop infinity pools, clubhouses, EV charging stations, and smart home security.
+- Mid-Segment & Affordable Flats: Functional 2 BHK floor plans with lifts, security, covered parking, and children's play areas suitable for first-time buyers.
+
+## Best Residential Areas Near Satellite
+Exploring surrounding premium neighborhoods provides additional options:
+- Bodakdev: Known for ultra-luxury apartments, fine dining, and upscale shopping plazas.
+- Vastrapur: Popular for Vastrapur Lake, top educational institutes, and green residential pockets.
+- Prahlad Nagar: Premier corporate business district with luxury residential high-rises.
+- Jodhpur & Ambli: Peaceful family-friendly communities and emerging luxury villa belts.
+
+## Property Price Trends & Investment Growth
+Apartment prices in Satellite average ₹8,000 – ₹10,500/sq.ft, while luxury projects command premium rates. Strong corporate employment along SG Highway ensures steady 8-12% annual capital appreciation and 4-5% rental yields.
+
+## Home Loan Guide, Legal Verification & RERA
+- Home Loans: Nationalized and private banks (SBI, HDFC, ICICI, Axis Bank) finance up to 80-90% of flat cost.
+- Legal Due Diligence: Verify Sale Deed, Title Search Certificate, AnyRoR 7/12 extracts, and AMC Building Use (BU) Permission.
+- GUJRERA Compliance: Ensure valid RERA registration for under-construction projects.
+
+## Buyer Checklist & NRI Buying Guide
+- Inspect physical carpet area, confirm Gujarat Stamp Duty (4.9% + 1% registration fee), and utilize professional property management for tenant screening. NRIs benefit from virtual property tours, POA assistance, and NRE/NRO banking support.
+
+### Why Choose PropertysDeal?
+PropertysDeal simplifies discovering verified flats for sale in Satellite, Ahmedabad with 100% verified property listings, direct builder contact, HD video tours, interactive map search, and zero-brokerage assistance.
+
+### Final Conclusion
+Buying a flat in Satellite, Ahmedabad is an outstanding investment offering luxury, convenience, and high long-term appreciation. Exploring verified listings on PropertysDeal ensures homebuyers select ideal 2 BHK, 3 BHK, or luxury apartments with complete confidence.`;
+    }
+
+    // Explicit Deep Overrides for 'plot-for-sale-in-thaltej'
+    if (normSlugCheck === 'plot-for-sale-in-thaltej' || normSlugCheck === 'plot-for-sale-in-thaltej-ahmedabad' || normSlugCheck === 'plots-in-thaltej' || normSlugCheck === 'residential-plot-in-thaltej') {
+      title = 'Plot for Sale in Thaltej Ahmedabad | Residential & Villa Plots';
+      meta_title = 'Plot for Sale in Thaltej Ahmedabad | Buy Residential Land';
+      meta_description = 'Find verified residential plots for sale in Thaltej, Ahmedabad. Explore villa plots, freehold land, corner plots, and gated community plots near SG Highway and Science City.';
+      h1 = 'Plot for Sale in Thaltej, Ahmedabad';
+      h2 = [
+        'Overview of Residential Plots in Thaltej Ahmedabad',
+        'Why Buy a Plot in Thaltej?',
+        'Premium Residential Plots & Gated Society Land',
+        'Corner Plots, Villa Plots & Freehold Land',
+        'Best Areas to Buy Plots Near Thaltej',
+        'Lifestyle & Social Infrastructure',
+        'Infrastructure & Connectivity',
+        'Plot Price Trends & Land Loan Guide',
+        'Legal Verification, Layout Approval & RERA Checklist',
+        'Buyer Checklist, NRI Guide & Smart Township Features'
+      ];
+
+      content = `Looking for a plot for sale in Thaltej, Ahmedabad? Thaltej is one of Ahmedabad's most established, prestigious, and high-value residential destinations. Located strategically along the iconic SG Highway corridor, Thaltej offers a wide selection of residential plots, luxury villa plots, gated community land, and freehold corner plots suitable for custom home construction and long-term land investment.
+
+Whether you are planning to build your dream custom bungalow, construct a multi-story family villa, or hold prime land for capital appreciation, Thaltej provides an ideal combination of prime location, high safety, and robust civic infrastructure.
+
+### Market Overview & Key Land Indicators
+- Average residential plot prices in Thaltej range from ₹1,15,000 to ₹1,85,000 per sq. yd., depending on road width, facing, and layout approvals.
+- High availability of AUDA/AMC approved freehold residential land and gated society plots.
+- Direct connectivity to SG Highway, Science City Road, Sindhu Bhavan Road, Sola Road, and SP Ring Road.
+- Proximity to top international schools, multi-specialty hospitals, retail malls, and corporate business parks.
+- Strong land supply scarcity ensuring continuous high appreciation and strong resale demand.
+
+## Why Buy a Plot in Thaltej?
+Buying land in Thaltej offers total architectural freedom that pre-built apartments cannot match. You can design your bungalow layout according to your family's exact needs, select custom luxury finishes, or retain the land asset as a high-growth investment.
+
+### Major Advantages
+- Prime Location: Flagship residential neighborhood in Western Ahmedabad.
+- Connectivity: Minutes from SG Highway, Science City Road, Bodakdev, and Satellite.
+- Custom Home Freedom: Construct private multi-level villas, home offices, private gardens, and swimming pools.
+- High Resale Value: Land in Thaltej maintains steady high liquidity and strong capital appreciation history.
+- Social Infrastructure: Close to top schools, Zydus Hospital, Shalby Hospital, and fine-dining plazas.
+
+## Premium Residential Plots & Gated Society Land
+Buyers can choose from multiple plot categories:
+- Villa Plots: High-value land parcels (300 to 1,500+ sq. yd.) ideal for private luxury bungalows with gardens and multi-car parking.
+- Gated Community Plots: Feature boundary walls, internal paved roads, 24x7 security gates, street lighting, and dedicated green parks.
+- Freehold Plots: Offer 100% clear ownership titles without leasehold restrictions.
+
+## Corner Plots, Villa Plots & Freehold Land
+Corner plots in Thaltej remain highly sought-after because they provide dual road frontage, superior ventilation, abundant natural lighting, flexible architectural entrance options, and higher future resale premiums.
+
+## Best Areas to Buy Plots Near Thaltej
+Exploring nearby high-growth corridors offers additional opportunities:
+- SG Highway Corridor: Ahmedabad's prime commercial & residential artery with top land values.
+- Science City Road: Rapidly expanding modern infrastructure zone with top educational and recreational hubs.
+- Hebatpur & Shilaj: Emerging luxury villa belts offering larger plot sizes, peaceful green surroundings, and high growth potential.
+- Bodakdev: Established ultra-luxury residential neighborhood adjacent to Thaltej.
+
+## Property Price Trends & Land Loan Guide
+- Land Pricing: Plot rates average ₹1,50,000 per sq. yd., with prime corner plots near Science City Road reaching up to ₹1,85,000/sq.yd.
+- Plot Loans: Major banks (SBI, HDFC, ICICI, Bank of Baroda) provide land loans for purchasing residential plots with flexible EMI options and construction loan top-ups.
+
+## Legal Verification, Layout Approval & RERA Checklist
+Before finalizing a plot purchase in Thaltej:
+1. Verify Registered Sale Deed, 30-Year Title Search Certificate, and AnyRoR 7/12 land extracts.
+2. Confirm NA (Non-Agricultural) clearance order and AUDA/AMC approved layout plan.
+3. Inspect boundary demarcations, water supply line access, electricity connections, and drainage infrastructure.
+4. Verify GUJRERA registration details for plotted development projects.
+
+## Buyer Checklist, NRI Guide & Smart Township Features
+- Inspect exact plot dimensions, calculate Gujarat Stamp Duty (4.9% + 1% registration fee), and verify society maintenance rules. NRIs benefit from virtual site visits, Power of Attorney (POA) documentation, and complete construction management services.
+
+### Why Choose PropertysDeal?
+PropertysDeal simplifies discovering verified plots for sale in Thaltej, Ahmedabad with 100% verified plot listings, direct owner/builder contacts, HD site videos, interactive map search, and expert legal land guidance.
+
+### Final Conclusion
+Investing in a plot for sale in Thaltej, Ahmedabad is an outstanding opportunity for buyers seeking a luxury residential address and solid capital appreciation. Exploring verified plot listings on PropertysDeal ensures buyers and investors secure prime residential land with complete peace of mind.`;
+    }
+
     // 5. Fetch context-specific FAQs (merge with blog FAQs)
     const contextFaqs = await this.faqService.getFaqsForContext(
       parsedDetails.category,
@@ -4896,6 +5049,156 @@ Buying property in Prahlad Nagar, Ahmedabad is an exceptional investment offerin
         { name: "Makarba", slug: "property-in-makarba", distance_km: "2.5 km", avg_price_sqft: "₹6,200/sq.ft" },
         { name: "Vastrapur", slug: "property-in-vastrapur", distance_km: "4.0 km", avg_price_sqft: "₹7,800/sq.ft" },
         { name: "Science City", slug: "property-in-science-city", distance_km: "8.0 km", avg_price_sqft: "₹7,200/sq.ft" }
+      );
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'flat-for-sale-in-satellite-ahmedabad'
+    if (slug.toLowerCase().trim() === 'flat-for-sale-in-satellite-ahmedabad' || slug.toLowerCase().trim() === 'flats-in-satellite-ahmedabad' || slug.toLowerCase().trim() === 'property-in-satellite-ahmedabad') {
+      ai_summary = "Searching for a flat for sale in Satellite, Ahmedabad? Satellite is one of the city's most sought-after residential neighborhoods, offering premium apartments, luxury flats, ready-to-move homes, and modern gated communities with excellent SG Highway connectivity and high rental yields.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Premium Western Ahmedabad residential neighborhood",
+        "4,900+ verified 2BHK, 3BHK & 4BHK apartments",
+        "Immediate possession ready-to-move & new project options",
+        "Direct SG Highway, Vastrapur Lake & ISKCON Cross Road connectivity",
+        "GUJRERA registered developer compliance",
+        "High corporate rental demand & strong capital appreciation",
+        "Bank home loan options up to 80-90%",
+        "NRI property management & virtual property tours"
+      );
+
+      pros_cons.pros = [
+        "Prime location in Western Ahmedabad near SG Highway and Corporate Road",
+        "Established social infrastructure with international schools, colleges, and hospitals",
+        "High rental demand from corporate executives and business owners",
+        "GUJRERA regulated project transparency and clear title safety",
+        "Wide selection of 2BHK, 3BHK, 4BHK flats, penthouses, and gated societies",
+        "Vibrant lifestyle near Vastrapur Lake, shopping malls, and fine-dining cafes",
+        "Strong resale liquidity and high long-term property valuation",
+        "Dedicated NRI buying support and property management"
+      ];
+      pros_cons.cons = [
+        "Higher property prices (₹7,800 – ₹10,500/sq.ft) compared to developing outskirts",
+        "High traffic density during peak office hours near major junctions",
+        "Limited availability of un-built plot parcels in core central sectors"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I find flats for sale in Satellite Ahmedabad?",
+        "What is the average price of 3 BHK flat in Satellite?",
+        "Are ready-to-move apartments available in Satellite Ahmedabad?",
+        "Which is the best society to buy a flat in Satellite?",
+        "Is Satellite a good area for property investment in Ahmedabad?",
+        "How far is Satellite from SG Highway?",
+        "What is the stamp duty rate for buying flat in Satellite?",
+        "Can NRIs buy residential apartments in Satellite?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is Satellite Ahmedabad a good area to buy a flat?", answer: "Yes, Satellite is one of Ahmedabad's most desirable and premium residential localities, offering excellent infrastructure, top schools, high safety, and strong property appreciation." },
+        { question: "What is the average price per sq ft in Satellite Ahmedabad?", answer: "Average flat prices range from ₹7,800 to ₹10,500 per sq. ft, depending on project age, luxury amenities, and location." },
+        { question: "Which nearby localities are similar to Satellite?", answer: "Bodakdev, Vastrapur, Prahlad Nagar, Jodhpur, and Ambli are premier neighboring localities offering similar luxury lifestyles." },
+        { question: "Are ready-to-move flats available in Satellite?", answer: "Yes, Satellite has a large selection of ready-to-move 2 BHK, 3 BHK, and 4 BHK resale and newly completed apartments." },
+        { question: "How much stamp duty is payable on flat purchase in Satellite?", answer: "Gujarat stamp duty is 4.9% plus a 1% registration fee (total 5.9%). Women buyers receive a 1% stamp duty concession." },
+        { question: "What home loan options are available for Satellite flats?", answer: "Major banks (SBI, HDFC, ICICI, Axis Bank) provide home loans up to 80-90% of property cost at competitive interest rates." },
+        { question: "Can NRIs invest in flats in Satellite Ahmedabad?", answer: "Yes, NRIs can freely buy residential apartments in Satellite under RBI and FEMA regulations." },
+        { question: "Why buy flats in Satellite through PropertysDeal?", answer: "PropertysDeal provides 100% verified listings, direct builder pricing, HD video tours, interactive map search, and zero-brokerage search filters." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/flat-for-sale-in-satellite-ahmedabad.webp",
+        alt: "Flat for Sale in Satellite Ahmedabad",
+        title: "Buy Verified Flat in Satellite",
+        caption: "Luxury 2BHK, 3BHK & 4BHK Apartments for Sale in Satellite Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Bodakdev", slug: "property-in-bodakdev", distance_km: "2.0 km", avg_price_sqft: "₹9,500/sq.ft" },
+        { name: "Vastrapur", slug: "property-in-vastrapur", distance_km: "1.5 km", avg_price_sqft: "₹7,800/sq.ft" },
+        { name: "Prahlad Nagar", slug: "property-in-prahlad-nagar", distance_km: "2.5 km", avg_price_sqft: "₹8,500/sq.ft" },
+        { name: "Jodhpur", slug: "property-in-jodhpur", distance_km: "2.0 km", avg_price_sqft: "₹7,200/sq.ft" },
+        { name: "Ambli", slug: "property-in-ambli", distance_km: "3.5 km", avg_price_sqft: "₹9,800/sq.ft" },
+        { name: "SG Highway", slug: "flat-for-sale-in-sg-highway", distance_km: "2.0 km", avg_price_sqft: "₹8,500/sq.ft" },
+        { name: "Thaltej", slug: "property-in-thaltej", distance_km: "4.0 km", avg_price_sqft: "₹8,900/sq.ft" }
+    }
+
+    // Explicit Part 3 & 4 metadata override for 'plot-for-sale-in-thaltej'
+    if (slug.toLowerCase().trim() === 'plot-for-sale-in-thaltej' || slug.toLowerCase().trim() === 'plot-for-sale-in-thaltej-ahmedabad' || slug.toLowerCase().trim() === 'plots-in-thaltej' || slug.toLowerCase().trim() === 'residential-plot-in-thaltej') {
+      ai_summary = "Searching for a plot for sale in Thaltej, Ahmedabad? Thaltej is one of the city's most prestigious land investment locations, offering residential plots, villa plots, freehold land, corner plots, and gated community land with excellent SG Highway and Science City Road connectivity.";
+
+      key_takeaways.length = 0;
+      key_takeaways.push(
+        "Premier Western Ahmedabad land investment destination",
+        "Freehold residential plots, villa land & corner plots",
+        "Average plot rates ₹1,15,000 to ₹1,85,000 per sq. yd.",
+        "Direct SG Highway, Science City Road & SP Ring Road access",
+        "AUDA/AMC approved layouts & clear title security",
+        "Architectural freedom for private custom luxury bungalows",
+        "Bank land loan options up to 80-90%",
+        "NRI plot management & Power of Attorney documentation support"
+      );
+
+      pros_cons.pros = [
+        "Prime location along SG Highway, Science City Road, and Bodakdev",
+        "Complete freedom to design and build custom private luxury bungalows",
+        "Established high-income residential neighborhood with top international schools and hospitals",
+        "AUDA/AMC approved land layout safety and transparent 30-year title history",
+        "High land supply scarcity ensuring sustained long-term capital appreciation",
+        "Options for gated society plots with 24x7 security and internal paved roads",
+        "Strong resale liquidity among high-net-worth buyers",
+        "Dedicated NRI land management and construction support"
+      ];
+      pros_cons.cons = [
+        "Higher land prices (₹1,50,000 – ₹1,85,000/sq.yd) compared to developing outskirts",
+        "Limited availability of large contiguous un-built plot parcels",
+        "Requires active land maintenance and boundary wall security"
+      ];
+
+      voice_search_questions.length = 0;
+      voice_search_questions.push(
+        "Where can I buy a residential plot in Thaltej Ahmedabad?",
+        "What is the average plot rate per sq yd in Thaltej?",
+        "Are gated society plots available in Thaltej?",
+        "Can I get a land loan to buy a plot in Thaltej?",
+        "Is Thaltej good for villa plot investment?",
+        "How far is Thaltej from Science City Road?",
+        "What documents are required to buy land in Thaltej?",
+        "Can NRIs buy residential plots in Thaltej Ahmedabad?"
+      );
+
+      people_also_ask.length = 0;
+      people_also_ask.push(
+        { question: "Is Thaltej a good area to buy a residential plot?", answer: "Yes, Thaltej is one of Ahmedabad's most valuable land markets offering high capital growth, clear title safety, and excellent infrastructure." },
+        { question: "What is the average price of plot in Thaltej Ahmedabad?", answer: "Residential plot prices average around ₹1,50,000 per sq. yd., with prime corner plots reaching up to ₹1,85,000/sq.yd." },
+        { question: "Which nearby areas offer residential plots near Thaltej?", answer: "Science City Road, Hebatpur, Shilaj, Bodakdev, and SG Highway are top nearby plotted investment belts." },
+        { question: "Can I get a bank loan for plot purchase in Thaltej?", answer: "Yes, major banks (SBI, HDFC, ICICI, Bank of Baroda) offer land loans up to 80-90% of plot valuation." },
+        { question: "What legal documents should I check before buying land in Thaltej?", answer: "Verify the Registered Sale Deed, 30-Year Title Search Certificate, AnyRoR 7/12 extracts, NA clearance order, and AUDA approved layout plan." },
+        { question: "What is the stamp duty for plot purchase in Gujarat?", answer: "Gujarat stamp duty is 4.9% plus a 1% registration fee (total 5.9%). Female buyers get a 1% stamp duty concession." },
+        { question: "Can NRIs buy residential land in Thaltej?", answer: "Yes, NRIs can freely purchase residential plots in Thaltej under RBI and FEMA regulations." },
+        { question: "Why buy plots in Thaltej through PropertysDeal?", answer: "PropertysDeal provides 100% verified plot listings, direct owner contacts, HD site videos, interactive map search, and expert land guidance." }
+      );
+
+      image_alt.length = 0;
+      image_alt.push({
+        url: "https://propertysdeal.in/assets/images/plot-for-sale-in-thaltej-ahmedabad.webp",
+        alt: "Plot for Sale in Thaltej Ahmedabad",
+        title: "Buy Verified Plot in Thaltej",
+        caption: "Residential Plots & Luxury Villa Land for Sale in Thaltej Ahmedabad"
+      });
+
+      nearby_locations.length = 0;
+      nearby_locations.push(
+        { name: "Science City", slug: "property-in-science-city", distance_km: "2.0 km", avg_price_sqft: "₹1,25,000/sq.yd" },
+        { name: "Hebatpur", slug: "property-in-hebatpur", distance_km: "2.5 km", avg_price_sqft: "₹1,35,000/sq.yd" },
+        { name: "Bodakdev", slug: "property-in-bodakdev", distance_km: "3.0 km", avg_price_sqft: "₹1,65,000/sq.yd" },
+        { name: "Shilaj", slug: "property-in-shilaj", distance_km: "3.5 km", avg_price_sqft: "₹95,000/sq.yd" },
+        { name: "SG Highway", slug: "flat-for-sale-in-sg-highway", distance_km: "1.5 km", avg_price_sqft: "₹1,55,000/sq.yd" },
+        { name: "Satellite", slug: "flat-for-sale-in-satellite-ahmedabad", distance_km: "4.0 km", avg_price_sqft: "₹1,45,000/sq.yd" }
       );
     }
 
