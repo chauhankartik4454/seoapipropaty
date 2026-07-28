@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
+import { pool } from '@/lib/db';
 import { LocationRepository } from '@/repositories/location.repository';
 import { KeywordRepository } from '@/repositories/keyword.repository';
 import { TemplateRepository } from '@/repositories/template.repository';
@@ -13,6 +14,7 @@ import { cache } from '@/lib/cache';
 import { logger } from '@/lib/logger';
 
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 // 1. Dependency Injection setup (singletons for the route module scope)
 const locationRepo = new LocationRepository();
@@ -89,7 +91,53 @@ export async function GET(
 
     // 3. Await Next.js 15 parameters
     const { slug } = await params;
-    console.log("!!! NEXTJS GET EXECUTED FOR SLUG:", slug);
+
+    // Direct interception for sitemap request if routed through [slug]
+    if (slug === 'sitemap' || slug === 'sitemap.xml') {
+      const client = await pool.connect();
+      const allSlugsRes = await client.query(
+        `SELECT slug, MAX(updated_at) as updated_at FROM (
+           SELECT slug, updated_at FROM blogs WHERE slug IS NOT NULL AND slug != ''
+           UNION ALL
+           SELECT slug, updated_at FROM keywords WHERE slug IS NOT NULL AND slug != '' AND is_active = TRUE
+         ) combined
+         GROUP BY slug
+         ORDER BY slug ASC`
+      );
+      client.release();
+
+      const domain = 'https://propertysdeal.in';
+      const xmlUrls = allSlugsRes.rows
+        .map(
+          (u) => `  <url>
+    <loc>${domain}/property-seo/${u.slug}/</loc>
+    <lastmod>${new Date(u.updated_at || Date.now()).toISOString()}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>`
+        )
+        .join('\n');
+
+      const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${domain}</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+${xmlUrls}
+</urlset>`;
+
+      return new NextResponse(xmlContent, {
+        status: 200,
+        headers: {
+          'Content-Type': 'application/xml',
+          'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate',
+          'X-Total-Slugs-Count': String(allSlugsRes.rows.length),
+        },
+      });
+    }
 
     // 4. Validate Slug Input
     const validationResult = slugSchema.safeParse(slug);
