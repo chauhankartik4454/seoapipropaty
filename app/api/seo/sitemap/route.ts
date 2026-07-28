@@ -57,10 +57,10 @@ export async function GET(req: NextRequest) {
     try {
       if (type === 'categories') {
         const categoryRes = await client.query(
-          `SELECT DISTINCT ON (LOWER(phrase)) phrase, slug, updated_at 
+          `SELECT DISTINCT ON (slug) slug, updated_at 
            FROM keywords 
            WHERE slug IS NOT NULL AND slug != '' AND category != 'BLOG' AND is_active = TRUE 
-           ORDER BY LOWER(phrase), LENGTH(slug) DESC, updated_at DESC`
+           ORDER BY slug, updated_at DESC`
         );
 
         for (const row of categoryRes.rows) {
@@ -71,7 +71,7 @@ export async function GET(req: NextRequest) {
           });
         }
       } else {
-        // Query ALL distinct active slugs from both blogs AND keywords tables to ensure 100% URL coverage!
+        // Query ALL distinct slugs (grouped BY SLUG, not by title) from both blogs AND keywords tables!
         const allSlugsRes = await client.query(
           `SELECT slug, MAX(updated_at) as updated_at FROM (
              SELECT slug, updated_at FROM blogs WHERE slug IS NOT NULL AND slug != ''
