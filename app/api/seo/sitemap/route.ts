@@ -76,7 +76,7 @@ export async function GET(req: NextRequest) {
           `SELECT slug, MAX(updated_at) as updated_at FROM (
              SELECT slug, updated_at FROM blogs WHERE slug IS NOT NULL AND slug != ''
              UNION ALL
-             SELECT slug, updated_at FROM keywords WHERE slug IS NOT NULL AND slug != '' AND is_active = TRUE
+             SELECT slug, updated_at FROM keywords WHERE slug IS NOT NULL AND slug != ''
            ) combined
            GROUP BY slug
            ORDER BY slug ASC`
@@ -121,6 +121,7 @@ ${xmlUrls}
       headers: {
         'Content-Type': 'application/xml',
         'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate',
+        'X-Total-Slugs-Count': String(urls.length),
       },
     });
   } catch (error) {
